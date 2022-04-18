@@ -7,10 +7,17 @@ class LabelStudio < Formula
   sha256 "d651c365fad7e971ca7129f3a74943979449893fbcd71fc4dde0932e4e45e787"
   license "Apache-2.0"
 
+  depends_on "pillow" => :build
+  depends_on "pkg-config" => :build
   depends_on "rust" => :build
-  depends_on "pillow"
+  depends_on "freetype"
+  depends_on "libimagequant"
+  depends_on "libraqm"
+  depends_on "libxcb"
+  depends_on "openjpeg"
   depends_on "postgresql"
   depends_on "python@3.8"
+  depends_on "webp"
 
   resource "appdirs" do
     url "https://files.pythonhosted.org/packages/d7/d8/05696357e0311f5b5c316d7b95f46c669dd9c15aaeecbb48c7d0aeb88c40/appdirs-1.4.4.tar.gz"
@@ -572,6 +579,6 @@ class LabelStudio < Formula
   end
 
   test do
-    system "false"
+    system "#{bin}/label-studio", "--help"
   end
 end
