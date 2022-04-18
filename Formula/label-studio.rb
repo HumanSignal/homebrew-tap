@@ -1,17 +1,16 @@
 class LabelStudio < Formula
   include Language::Python::Virtualenv
 
-  desc "Label Studio is a multi-type data labeling and annotation tool with standardized output format"
+  desc "Multi-type data labeling and annotation tool with standardized output format"
   homepage "https://labelstud.io"
   url "https://files.pythonhosted.org/packages/79/07/d4bee21e504c6e4ea738292144142ddf2ef1f612c14a6b213805bb5aefc9/label-studio-1.4.1.post1.tar.gz"
   sha256 "d651c365fad7e971ca7129f3a74943979449893fbcd71fc4dde0932e4e45e787"
   license "Apache-2.0"
 
-  depends_on "python@3.8"
-  depends_on "postgresql"
-  depends_on "pillow"
   depends_on "rust" => :build
-
+  depends_on "pillow"
+  depends_on "postgresql"
+  depends_on "python@3.8"
 
   resource "appdirs" do
     url "https://files.pythonhosted.org/packages/d7/d8/05696357e0311f5b5c316d7b95f46c669dd9c15aaeecbb48c7d0aeb88c40/appdirs-1.4.4.tar.gz"
@@ -304,13 +303,13 @@ class LabelStudio < Formula
   end
 
   resource "label-studio-converter" do
-    url "https://github.com/heartexlabs/label-studio-converter/tarball/temp-brew" # TODO: replace with pythonhosted after heartexlabs/label-studio-converter release
-    sha256 "9ec3b0b4abc5ff12e8acc25a483961e465431e6d275bcc986b427b93cc71e1a5"
+    url "https://github.com/heartexlabs/label-studio-converter/archive/refs/heads/temp-brew.tar.gz" # TODO: replace with pythonhosted after heartexlabs/label-studio-converter release
+    sha256 "e4ceb7a91a50c5cf23b3b2ab2747d746235b80cc20b8ec932b4ec1c4f1dfe308"
   end
 
   resource "label-studio-tools" do
-    url "https://github.com/heartexlabs/label-studio-tools/tarball/temp-brew" # TODO: replace with pythonhosted after heartexlabs/label-studio-tools release
-    sha256 "46d97454b579274259082482b478eb1aeb9e4ee314eba7694e0322792e175087"
+    url "https://github.com/heartexlabs/label-studio-tools/archive/refs/heads/temp-brew.tar.gz" # TODO: replace with pythonhosted after heartexlabs/label-studio-tools release
+    sha256 "720cee03909a8a34a1147ea86f8588012c71ed459f274a6ff1f56f90790a41ef"
   end
 
   resource "launchdarkly-server-sdk" do
