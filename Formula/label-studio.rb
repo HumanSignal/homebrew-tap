@@ -7,6 +7,13 @@ class LabelStudio < Formula
   sha256 "d651c365fad7e971ca7129f3a74943979449893fbcd71fc4dde0932e4e45e787"
   license "Apache-2.0"
 
+  bottle do
+    root_url "https://github.com/heartexlabs/homebrew-tap/releases/download/label-studio-1.4.1.post1"
+    rebuild 1
+    sha256 cellar: :any, big_sur:  "680645b57dfa181cd90c39e99180235ff275dbf5116cef44e78b6f3db919430d"
+    sha256 cellar: :any, catalina: "b94c9418fecc398387d94a73a69a7c4ffa829f95d8f29a609fddd39b7bda8acb"
+  end
+
   depends_on "pillow" => :build
   depends_on "pkg-config" => :build
   depends_on "rust" => :build
