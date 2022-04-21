@@ -14,6 +14,7 @@ class LabelStudio < Formula
     sha256 catalina: "1d09cadffd1c6ec931cdcb5ef7c6bb51458d9bffc4b9dc24c877ec2b4b2b6d25"
   end
 
+  depends_on "postgresql"
   depends_on "python@3.8"
 
   def install
