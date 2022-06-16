@@ -9,9 +9,9 @@ class LabelStudio < Formula
 
   bottle do
     root_url "https://github.com/heartexlabs/homebrew-tap/releases/download/label-studio-1.5.0"
+    sha256 arm64_monterey: "237294220da5701b48f25d02e7a4e6ca01635983c048f2ed43823d1d327e60c5"
     sha256 big_sur:  "bbf86391fc29449d004848343c26084f99e0edb27ad6a57c156385ed9502b521"
     sha256 catalina: "658cfaf945c74efc7bea9744bc038abaf2fcf6ac0be15caecff003fc678c3c2c"
-    sha256 arm64_monterey: "237294220da5701b48f25d02e7a4e6ca01635983c048f2ed43823d1d327e60c5"
   end
 
   depends_on "postgresql"
