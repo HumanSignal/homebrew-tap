@@ -44,8 +44,8 @@ jobs:
           echo "::set-output name=branch::${branch}"
           git checkout -b "${branch}"
 
-          sed -i "s/^\([ ]*\)url .*/\1url \"${{ github.event.client_payload.url }}\" /g" "${formula_file}"
-          sed -i "s/^\([ ]*\)sha256 .*/\1sha256 \"${{ github.event.client_payload.sha256 }}\" /g" "${formula_file}"
+          sed -i "s/^\([ ]*\)url .*/\1url \"${{ github.event.client_payload.url }}\"/g" "${formula_file}"
+          sed -i "s/^\([ ]*\)sha256 .*/\1sha256 \"${{ github.event.client_payload.sha256 }}\"/g" "${formula_file}"
 
           git add "${formula_file}"
           git commit --message "chore: Bump ${{ github.event.client_payload.formula }}"
