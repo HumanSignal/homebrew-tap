@@ -3,8 +3,8 @@ class LabelStudio < Formula
 
   desc "Multi-type data labeling and annotation tool with standardized output format"
   homepage "https://labelstud.io"
-  url "https://files.pythonhosted.org/packages/5a/a0/895a419ce4ce3dd1e5f4631380561ee57ace2a1073ae4dd94c1ff8f97cd0/label-studio-1.5.0.post0.tar.gz"
-  sha256 "a7fd5fa69d28cc39f032ea4ecbd0fa77adb519b365605f86ee6ff969f56856a9"
+  url "https://files.pythonhosted.org/packages/e7/f2/93e85461d95fc05caa5bf62bff93ff80430d91747a441f3b99d5f050de61/label-studio-1.6.0.tar.gz"
+  sha256 "ee7867147ce0f705242f93b363c22468925215ae11d3aa27f1d3a775a8305659"
   license "Apache-2.0"
 
   bottle do
@@ -14,7 +14,7 @@ class LabelStudio < Formula
     sha256 catalina:       "e28c9bfb5c0935809ec3e680f15253623633a577bf951942e10fb67032afbd84"
   end
 
-  depends_on "postgresql"
+  depends_on "postgresql@14"
   depends_on "python@3.8"
 
   def install
