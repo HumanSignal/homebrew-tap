@@ -8,10 +8,9 @@ class LabelStudio < Formula
   license "Apache-2.0"
 
   bottle do
-    root_url "https://github.com/heartexlabs/homebrew-tap/releases/download/label-studio-1.5.0.post0"
-    sha256 arm64_monterey: "844677ed1d75365d38e3224b20e9ed525326bcb93fe22611173a5b732dc53d44"
-    sha256 big_sur:        "03208f2a5caf5f549888cb2b8e9a884cb04aa5cd58ef6dd1fea70b2c339242a0"
-    sha256 catalina:       "e28c9bfb5c0935809ec3e680f15253623633a577bf951942e10fb67032afbd84"
+    root_url "https://github.com/heartexlabs/homebrew-tap/releases/download/label-studio-1.6.0"
+    sha256 big_sur:  "9aad0b7fec4a991e25ebac1119b5cc7b4514d73c1ca78e6f1fef5a53f0893c11"
+    sha256 catalina: "99dd1f1e7a751be292640bdb448bed37597db02e3bc9384f9e4107e1f061bf9b"
   end
 
   depends_on "postgresql@14"
