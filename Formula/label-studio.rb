@@ -3,8 +3,8 @@ class LabelStudio < Formula
 
   desc "Multi-type data labeling and annotation tool with standardized output format"
   homepage "https://labelstud.io"
-  url "https://files.pythonhosted.org/packages/64/ff/1a4555ffccd36833305317255b5bf20818dfdee2506a4f34f3426f45a3eb/label-studio-1.7.0.tar.gz"
-  sha256 "8cafd32ec93f7285047ef09c230c8a0a07a5f5422341d7f2cd5f66bac7ec14fc"
+  url "https://files.pythonhosted.org/packages/84/23/6041bae7256a421f6ce8f73f90d8fe68e308760c3dfc04f9875be293b028/label-studio-1.7.1.tar.gz"
+  sha256 "571064c0ef4596e5733ffe22373ce36c2f733ff5fb267398c4090d2353bb605e"
   license "Apache-2.0"
 
   bottle do
@@ -18,6 +18,7 @@ class LabelStudio < Formula
 
   def install
     venv = virtualenv_create(libexec, "python3", system_site_packages: true)
+    system libexec/"bin/pip", "install", "--verbose", "--upgrade", "pip==22.3.1"
     system libexec/"bin/pip", "install", "--verbose", "--ignore-installed", buildpath
     system libexec/"bin/pip", "uninstall", "-y", "label-studio"
     venv.pip_install_and_link buildpath
