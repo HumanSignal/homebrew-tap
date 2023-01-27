@@ -18,7 +18,7 @@ class LabelStudio < Formula
 
   def install
     venv = virtualenv_create(libexec, "python3", system_site_packages: true)
-    system libexec/"bin/pip", "install", "--verbose", "--ignore-installed", buildpath
+    system libexec/"bin/pip", "install", "--verbose", "--no-binary", ":all:", "--ignore-installed", buildpath
     system libexec/"bin/pip", "uninstall", "-y", "label-studio"
     venv.pip_install_and_link buildpath
   end
