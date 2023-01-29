@@ -17,8 +17,8 @@ class LabelStudio < Formula
   depends_on "python@3.8"
 
   def install
+    system libexec/"bin/pip", "install" "pip==22.3.1"
     venv = virtualenv_create(libexec, "python3", system_site_packages: true)
-    venv.pip_install "pip==22.3.1"
     system libexec/"bin/pip", "install", "--verbose", "--ignore-installed", buildpath
     system libexec/"bin/pip", "uninstall", "-y", "label-studio"
     venv.pip_install_and_link buildpath
