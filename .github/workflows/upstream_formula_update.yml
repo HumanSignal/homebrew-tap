@@ -3,7 +3,7 @@ name: Update Formula
 on:
   repository_dispatch:
     types:
-      - upstream_pip_dependency_update
+      - upstream_formula_update
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.event.client_payload.formula }}
