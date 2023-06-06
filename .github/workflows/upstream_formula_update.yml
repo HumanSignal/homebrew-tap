@@ -40,7 +40,7 @@ jobs:
 
           git checkout ${{ github.event.repository.default_branch }}
 
-          branch='bump-${{ github.event.client_payload.formula }}'
+          branch='bump-${{ github.event.client_payload.formula }}-${{ github.event.client_payload.version || "" }}'
           echo "branch=${branch}" >> $GITHUB_OUTPUT
           git checkout -b "${branch}"
 
@@ -67,7 +67,7 @@ jobs:
               head: '${{ steps.make-develop-commit.outputs.branch }}',
               base: '${{ github.event.repository.default_branch }}',
               body: [
-                'Hi @${{ github.actor }}!',
+                'Hi @${{ github.event.client_payload.actor || github.actor }}!',
                 '',
                 'This PR was created in response to a manual trigger of the release workflow here: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}.',
               ].join('\n')
@@ -76,6 +76,6 @@ jobs:
               owner,
               repo,
               pull_number: createPullResponse.data.number,
-               reviewers: [ '${{ github.actor }}' ]
+               reviewers: [ '${{ github.event.client_payload.actor || github.actor }}' ]
             });
             return createPullResponse
