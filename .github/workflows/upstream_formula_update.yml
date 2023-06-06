@@ -31,7 +31,7 @@ jobs:
           git config --global user.name 'robot-ci-heartex'
           git config --global user.email 'robot-ci-heartex@users.noreply.github.com'
 
-      - name: Commit version files to 'develop'
+      - name: Commit version files
         id: make-develop-commit
         run: |
           set -euo pipefail
@@ -53,7 +53,7 @@ jobs:
           echo "commit=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
           git push origin HEAD:refs/heads/${branch}
 
-      - name: Create PR to 'develop'
+      - name: Create PR
         uses: actions/github-script@v6
         id: create-pr
         with:
@@ -65,7 +65,7 @@ jobs:
               owner,
               repo,
               head: '${{ steps.make-develop-commit.outputs.branch }}',
-              base: 'develop',
+              base: '${{ github.event.repository.default_branch }}',
               body: [
                 'Hi @${{ github.actor }}!',
                 '',
