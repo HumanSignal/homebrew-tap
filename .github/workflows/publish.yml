@@ -5,6 +5,9 @@ on:
     types:
       - labeled
 
+env:
+  OVERRIDE_REPOSITORY: heartexlabs/homebrew-tap
+
 jobs:
   pr-pull:
     if: contains(github.event.pull_request.labels.*.name, 'pr-pull')
@@ -23,7 +26,8 @@ jobs:
           HOMEBREW_GITHUB_PACKAGES_USER: ${{ github.actor }}
           PULL_REQUEST: ${{ github.event.pull_request.number }}
           HOMEBREW_NO_INSTALL_FROM_API: 1
-        run: brew pr-pull --debug --tap=$GITHUB_REPOSITORY $PULL_REQUEST
+        run: brew pr-pull --debug --tap=${{ env.OVERRIDE_REPOSITORY }} $PULL_REQUEST
+#        run: brew pr-pull --debug --tap=$GITHUB_REPOSITORY $PULL_REQUEST
 
       - name: Push commits
         uses: Homebrew/actions/git-try-push@master
