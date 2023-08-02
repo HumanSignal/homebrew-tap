@@ -6,7 +6,7 @@ on:
       - labeled
 
 env:
-  OVERRIDE_REPOSITORY: heartexlabs/homebrew-tap
+  OVERRIDE_REPOSITORY: heartexlabs/tap
 
 jobs:
   pr-pull:
