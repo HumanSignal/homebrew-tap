@@ -14,11 +14,14 @@ class LabelStudio < Formula
     sha256 big_sur:  "328f96902ad937851634c60a1fa6a78c4b4cffc5b42ea0be6d6be2abf3a705f6"
   end
 
-  depends_on "python@3.10"
+  depends_on "python@3.10" # Apple's Python distribution does not include pip
   depends_on "postgresql@14"
 
   def install
-    virtualenv_install_with_resources
+    venv = virtualenv_create(libexec, "python3", system_site_packages: true, without_pip: false)
+    system libexec/"bin/pip", "install", "--verbose", "--ignore-installed", buildpath
+    system libexec/"bin/pip", "uninstall", "-y", "label-studio"
+    venv.pip_install_and_link buildpath
   end
 
   test do
