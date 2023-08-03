@@ -14,8 +14,8 @@ class LabelStudio < Formula
     sha256 big_sur:  "328f96902ad937851634c60a1fa6a78c4b4cffc5b42ea0be6d6be2abf3a705f6"
   end
 
-  depends_on "python@3.10" # Apple's Python distribution does not include pip
   depends_on "postgresql@14"
+  depends_on "python@3.10" # Apple's Pypthon distribution does not include pip
 
   def install
     venv = virtualenv_create(libexec, "python3", system_site_packages: true, without_pip: false)
