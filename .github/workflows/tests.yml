@@ -45,3 +45,11 @@ jobs:
         with:
           name: bottles
           path: '*.bottle.*'
+
+      - name: Upload Brew test logs
+        uses: actions/upload-artifact@v3
+        if: failure()
+        with:
+          name: Brew test logs
+          path: logs/label-studio/
+          retention-days: 5
