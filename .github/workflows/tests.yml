@@ -11,8 +11,8 @@ jobs:
     strategy:
       matrix:
         os:
-          - "macos-13"
-          - "macos-13-large"
+          - "macos-13"       # Intel x64
+          - "macos-13-large" # Apple M1
     runs-on: ${{ matrix.os }}
     steps:
       - name: Set up Homebrew
