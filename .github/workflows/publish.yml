@@ -32,7 +32,7 @@ jobs:
           branch: master
 
       - name: Delete branch
-        uses: actions/github-script@v6
+        uses: actions/github-script@v7
         if: github.event.pull_request.head.repo.fork == false
         with:
           github-token: ${{ secrets.GIT_PAT }}
