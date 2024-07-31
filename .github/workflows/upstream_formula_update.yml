@@ -41,7 +41,7 @@ jobs:
           git checkout ${{ github.event.repository.default_branch }}
 
           branch='bump-${{ github.event.client_payload.formula }}-${{ github.event.client_payload.version }}'
-          echo "branch=${branch}" >> $GITHUB_OUTPUT
+          echo "branch=${branch}" >> "${GITHUB_OUTPUT}"
           git checkout -b "${branch}"
 
           sed -i "0,/url /s#url .*#url \"${{ github.event.client_payload.url }}\"#" "${formula_file}"
@@ -50,8 +50,8 @@ jobs:
           git add "${formula_file}"
           git commit --message "chore: Bump ${{ github.event.client_payload.formula }}"
 
-          echo "commit=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
-          git push origin HEAD:refs/heads/${branch}
+          echo "commit=$(git rev-parse HEAD)" >> "${GITHUB_OUTPUT}"
+          git push origin "HEAD:refs/heads/${branch}"
 
       - name: Create PR
         uses: actions/github-script@v7
