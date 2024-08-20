@@ -3,8 +3,8 @@ class LabelStudio < Formula
 
   desc "Multi-type data labeling and annotation tool with standardized output format"
   homepage "https://labelstud.io"
-  url "https://files.pythonhosted.org/packages/9a/7f/bffdc4c2e8cf02ed14b789caf261d454a5ead38653b06155bb42c65d0ce2/label_studio-1.13.0.tar.gz"
-  sha256 "a80157940746d4ed187a2054fa38bffec743503d1acb7c274afed268f8f05d38"
+  url "https://files.pythonhosted.org/packages/46/fb/39551034def05ab5556eee372b26623043f5e94ae20791c7a116fe282939/label_studio-1.13.1.tar.gz"
+  sha256 "124b4e61a1c48f30de921b595b8c77c88532aa095233375691f0842690efc8e5"
   license "Apache-2.0"
 
   bottle do
