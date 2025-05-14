@@ -8,9 +8,9 @@ class LabelStudio < Formula
   license "Apache-2.0"
 
   bottle do
-    root_url "https://github.com/HumanSignal/homebrew-tap/releases/download/label-studio-1.17.0"
-    sha256 arm64_sonoma: "2ef01d96f13a0234e8b8defdc479aa09c1f959483658e4d32aa8b70d95fbef81"
-    sha256 ventura:      "d15e1fae805906c21dbe08ffe8dd0e096f77d2c5230eca2a302d4e41004ffe61"
+    root_url "https://github.com/HumanSignal/homebrew-tap/releases/download/label-studio-1.18.0"
+    sha256 arm64_sonoma: "eb1a2f67802ca2b1e362dda0694e3cec1bdc8b9b6268e8f024b00bc6cb328e68"
+    sha256 ventura:      "d9f1dad69c13ba203fd6a85be3f4531c90e947e743e412971d74da16eadbf905"
   end
 
   depends_on "postgresql@14"
