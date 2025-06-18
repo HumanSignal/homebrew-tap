@@ -13,6 +13,7 @@ jobs:
         os:
           - "macos-13" # Intel x64
           - "macos-14" # Apple M1
+          - "macos-15" # Apple M1
     runs-on: ${{ matrix.os }}
     steps:
       - name: Set up Homebrew
