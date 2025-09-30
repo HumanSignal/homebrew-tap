@@ -17,6 +17,10 @@ class LabelStudio < Formula
   depends_on "postgresql@14"
   depends_on "python@3.10" # Apple's Pypthon distribution does not include pip
 
+  # Skip dylib ID change for jiter and OpenCV libraries that have flat namespace issues
+  skip_clean "libexec/lib/python3.10/site-packages/cv2/.dylibs"
+  skip_clean "libexec/lib/python3.10/site-packages/jiter"
+
   def install
     python3 = "python3.10"
     venv = virtualenv_create(libexec, python3, system_site_packages: true, without_pip: false)
