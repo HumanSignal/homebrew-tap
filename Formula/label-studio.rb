@@ -7,6 +7,7 @@ class LabelStudio < Formula
   sha256 "1ae8c0c3430ee023b89ad0a4d994fe08ff6ff46de6b3566781a0dd54f521c5ba"
   license "Apache-2.0"
 
+  depends_on "cmake" => :build
   depends_on "rust" => :build
   depends_on "jpeg-turbo"
   depends_on "libyaml"
