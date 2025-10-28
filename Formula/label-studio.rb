@@ -8,11 +8,13 @@ class LabelStudio < Formula
   license "Apache-2.0"
 
   depends_on "rust" => :build
+  depends_on "jpeg-turbo"
   depends_on "libyaml"
   depends_on "postgresql@14"
   depends_on "python@3.13" # Apple's Python distribution doesn't include pip
   uses_from_macos "libxml2"
   uses_from_macos "libxslt"
+  uses_from_macos "zlib"
 
   resource "annotated-types" do
     url "https://files.pythonhosted.org/packages/ee/67/531ea369ba64dcff5ec9c3402f9f51bf748cec26dde048a2f973a4eea7f5/annotated_types-0.7.0.tar.gz"
