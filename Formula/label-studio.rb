@@ -9,6 +9,7 @@ class LabelStudio < Formula
 
   depends_on "cmake" => :build
   depends_on "rust" => :build
+  depends_on "apache-arrow"
   depends_on "jpeg-turbo"
   depends_on "libyaml"
   depends_on "postgresql@14"
