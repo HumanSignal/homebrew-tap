@@ -789,6 +789,9 @@ class LabelStudio < Formula
   end
 
   def install
+    # Set SOURCE_DATE_EPOCH to avoid "ZIP does not support timestamps before 1980" error
+    # This can happen when building packages with files that have very old timestamps
+    ENV["SOURCE_DATE_EPOCH"] = "315532800" # 1980-01-01 00:00:00 UTC
     virtualenv_install_with_resources
   end
 
