@@ -7,6 +7,7 @@ class LabelStudio < Formula
   sha256 "1ae8c0c3430ee023b89ad0a4d994fe08ff6ff46de6b3566781a0dd54f521c5ba"
   license "Apache-2.0"
 
+  depends_on "rust" => :build
   depends_on "libyaml"
   depends_on "postgresql@14"
   depends_on "python@3.13" # Apple's Python distribution doesn't include pip
@@ -109,8 +110,8 @@ class LabelStudio < Formula
   end
 
   resource "cryptography" do
-    url "https://files.pythonhosted.org/packages/c7/67/545c79fe50f7af51dbad56d16b23fe33f63ee6a5d956b3cb68ea110cbe64/cryptography-44.0.1.tar.gz"
-    sha256 "f51f5705ab27898afda1aaa430f34ad90dc117421057782022edf0600bec5f14"
+    url "https://files.pythonhosted.org/packages/9f/33/c00162f49c0e2fe8064a62cb92b93e50c74a72bc370ab92f86112b33ff62/cryptography-46.0.3.tar.gz"
+    sha256 "a8b17438104fed022ce745b362294d9ce35b4c2e45c1d958ad4a4b019285f4a1"
   end
 
   resource "datamodel-code-generator" do
