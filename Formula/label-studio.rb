@@ -9,6 +9,7 @@ class LabelStudio < Formula
 
   depends_on "cmake" => :build
   depends_on "rust" => :build
+  depends_on "apache-arrow"
   depends_on "jpeg-turbo"
   depends_on "libyaml"
   depends_on "postgresql@14"
@@ -529,8 +530,8 @@ class LabelStudio < Formula
   end
 
   resource "pyarrow" do
-    url "https://files.pythonhosted.org/packages/7f/09/a9046344212690f0632b9c709f9bf18506522feb333c894d0de81d62341a/pyarrow-19.0.1.tar.gz"
-    sha256 "3bf266b485df66a400f282ac0b6d1b500b9d2ae73314a153dbe97d6d5cc8a99e"
+    url "https://files.pythonhosted.org/packages/ef/c2/ea068b8f00905c06329a3dfcd40d0fcc2b7d0f2e355bdb25b65e0a0e4cd4/pyarrow-21.0.0.tar.gz"
+    sha256 "5051f2dccf0e283ff56335760cbc8622cf52264d67e359d5569541ac11b6d5bc"
   end
 
   resource "pyasn1" do
@@ -792,10 +793,6 @@ class LabelStudio < Formula
     # Set SOURCE_DATE_EPOCH to avoid "ZIP does not support timestamps before 1980" error
     # This can happen when building packages with files that have very old timestamps
     ENV["SOURCE_DATE_EPOCH"] = "315532800" # 1980-01-01 00:00:00 UTC
-
-    # Build pyarrow with bundled Arrow C++ libraries to avoid version conflicts
-    ENV["PYARROW_BUNDLE_ARROW_CPP"] = "1"
-
     virtualenv_install_with_resources
   end
 
