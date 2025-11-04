@@ -13,8 +13,9 @@ class LabelStudio < Formula
   depends_on "jpeg-turbo"
   depends_on "libyaml"
   depends_on "postgresql@14"
-  depends_on "python@3.13" # Apple's Python distribution doesn't include pip
   depends_on "yajl"
+  depends_on "opencv"
+  depends_on "python@3.13" # Apple's Python distribution doesn't include pip
   uses_from_macos "libxml2"
   uses_from_macos "libxslt"
   uses_from_macos "zlib"
@@ -472,11 +473,6 @@ class LabelStudio < Formula
   resource "openai" do
     url "https://files.pythonhosted.org/packages/c6/a1/a303104dc55fc546a3f6914c842d3da471c64eec92043aef8f652eb6c524/openai-1.109.1.tar.gz"
     sha256 "d173ed8dbca665892a6db099b4a2dfac624f94d20a93f46eb0b56aae940ed869"
-  end
-
-  resource "opencv-python" do
-    url "https://files.pythonhosted.org/packages/17/06/68c27a523103dad5837dc5b87e71285280c4f098c60e4fe8a8db6486ab09/opencv-python-4.11.0.86.tar.gz"
-    sha256 "03d60ccae62304860d232272e4a4fda93c39d595780cb40b161b310244b736a4"
   end
 
   resource "opentelemetry-api" do
