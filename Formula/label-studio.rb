@@ -12,8 +12,8 @@ class LabelStudio < Formula
   depends_on "apache-arrow"
   depends_on "jpeg-turbo"
   depends_on "libyaml"
-  depends_on "postgresql@14"
   depends_on "opencv"
+  depends_on "postgresql@14"
   depends_on "python@3.13" # Apple's Python distribution doesn't include pip
   depends_on "yajl"
   uses_from_macos "libxml2"
