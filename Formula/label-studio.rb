@@ -8,8 +8,8 @@ class LabelStudio < Formula
   license "Apache-2.0"
 
   depends_on "cmake" => :build
-  depends_on "rust" => :build
   depends_on "python-setuptools" => :build
+  depends_on "rust" => :build
   depends_on "apache-arrow"
   depends_on "jpeg-turbo"
   depends_on "libyaml"
