@@ -16,12 +16,13 @@ class LabelStudio < Formula
 
   depends_on "postgresql@14"
   depends_on "python@3.10" # Apple's Pypthon distribution does not include pip
+  depends_on "opencv"
 
   def install
     python3 = "python3.10"
     venv = virtualenv_create(libexec, python3, system_site_packages: true, without_pip: false)
     system libexec/"bin/pip", "install", "--verbose", "--upgrade", "pip==22.3.1"
-    system libexec/"bin/pip", "install", "--verbose", "--ignore-installed", buildpath
+    system libexec/"bin/pip", "install", "--verbose", "--no-binary=opencv-python-headless", "--ignore-installed", buildpath
     system libexec/"bin/pip", "uninstall", "-y", "label-studio"
     venv.pip_install_and_link buildpath
   end
