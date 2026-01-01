@@ -25,6 +25,9 @@ class LabelStudio < Formula
     # Exclude opencv-python packages - use Homebrew's opencv instead
     ENV["OPENCV_PYTHON_SKIP_INSTALL"] = "1"
     system libexec/"bin/pip", "install", "--verbose", "--ignore-installed", buildpath
+    # Remove jiter - its .so file lacks header space for bottle relocation
+    # Pydantic will fall back to pure Python JSON parsing
+    system "/bin/sh", "-c", "#{libexec}/bin/pip uninstall -y jiter || true"
     system libexec/"bin/pip", "uninstall", "-y", "label-studio"
     venv.pip_install_and_link buildpath
   end
