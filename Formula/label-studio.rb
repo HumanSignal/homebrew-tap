@@ -16,10 +16,10 @@ class LabelStudio < Formula
 
   depends_on "opencv"
   depends_on "postgresql@14"
-  depends_on "python@3.13" # Apple's Python distribution does not include pip
+  depends_on "python@3.12" # Apple's Python distribution does not include pip
 
   def install
-    python3 = "python3.13"
+    python3 = "python3.12"
     venv = virtualenv_create(libexec, python3, system_site_packages: true)
     system libexec/"bin/pip", "install", "--verbose", "--upgrade", "pip==25.3"
     system libexec/"bin/pip", "install", "--verbose", "--ignore-installed", buildpath
