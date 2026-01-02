@@ -21,9 +21,9 @@ class LabelStudio < Formula
   def install
     python3 = "python3.12"
     venv = virtualenv_create(libexec, python3, system_site_packages: true)
-    system libexec/"bin/pip", "install", "--verbose", "--upgrade", "pip==25.3"
-    system libexec/"bin/pip", "install", "--verbose", "--ignore-installed", buildpath
-    system libexec/"bin/pip", "uninstall", "-y", "label-studio"
+    system libexec/"bin/python3", "-m", "pip", "install", "--verbose", "--upgrade", "pip==25.3"
+    system libexec/"bin/python3", "-m", "pip", "install", "--verbose", "--ignore-installed", buildpath
+    system libexec/"bin/python3", "-m", "pip", "uninstall", "-y", "label-studio"
     venv.pip_install_and_link buildpath
   end
 
