@@ -16,18 +16,13 @@ class LabelStudio < Formula
 
   depends_on "opencv"
   depends_on "postgresql@14"
-  depends_on "python@3.10" # Apple's Pypthon distribution does not include pip
+  depends_on "python@3.13" # Apple's Python distribution does not include pip
 
   def install
-    python3 = "python3.10"
+    python3 = "python3.13"
     venv = virtualenv_create(libexec, python3, system_site_packages: true, without_pip: false)
     system libexec/"bin/pip", "install", "--verbose", "--upgrade", "pip==22.3.1"
-    # Exclude opencv-python packages - use Homebrew's opencv instead
-    ENV["OPENCV_PYTHON_SKIP_INSTALL"] = "1"
     system libexec/"bin/pip", "install", "--verbose", "--ignore-installed", buildpath
-    # Remove jiter - its .so file lacks header space for bottle relocation
-    # Pydantic will fall back to pure Python JSON parsing
-    system "/bin/sh", "-c", "#{libexec}/bin/pip uninstall -y jiter || true"
     system libexec/"bin/pip", "uninstall", "-y", "label-studio"
     venv.pip_install_and_link buildpath
   end
