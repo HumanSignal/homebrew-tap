@@ -15,7 +15,7 @@ class LabelStudio < Formula
   end
 
   depends_on "postgresql@14"
-  depends_on "python@3.10" # Apple's Pypthon distribution does not include pip
+  depends_on "python@3.10" # Apple's Python distribution does not include pip
 
   resource "annotated-types" do
     url "https://files.pythonhosted.org/packages/ee/67/531ea369ba64dcff5ec9c3402f9f51bf748cec26dde048a2f973a4eea7f5/annotated_types-0.7.0.tar.gz"
@@ -415,11 +415,6 @@ class LabelStudio < Formula
   resource "jsonschema-specifications" do
     url "https://files.pythonhosted.org/packages/19/74/a633ee74eb36c44aa6d1095e7cc5569bebf04342ee146178e2d36600708b/jsonschema_specifications-2025.9.1.tar.gz"
     sha256 "b540987f239e745613c7a9176f3edb72b832a4ac465cf02712288397832b5e8d"
-  end
-
-  resource "label-studio" do
-    url "https://files.pythonhosted.org/packages/ff/7e/78872e38957816016a29887c3507ca533d302f37777bf3f4e3f504d29a7a/label_studio-1.22.0.tar.gz"
-    sha256 "71fda47c474f51f27b84ce91ff9823e364c26e37132664a7ae03a4da2b3c48d6"
   end
 
   resource "label-studio-sdk" do
