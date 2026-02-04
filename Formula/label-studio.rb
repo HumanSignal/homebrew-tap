@@ -791,18 +791,7 @@ class LabelStudio < Formula
   end
 
   def install
-    venv = virtualenv_create(libexec, "python3.10")
-
-    resources.each do |resource|
-      resource.stage do
-        # Normalize mtimes to avoid ZIP pre-1980 errors in hatchling builds.
-        system "find", ".", "-exec", "touch", "-t", "202401010000", "{}", "+"
-        venv.pip_install Pathname.pwd
-      end
-    end
-
-    system "find", buildpath, "-exec", "touch", "-t", "202401010000", "{}", "+"
-    venv.pip_install_and_link buildpath
+    virtualenv_install_with_resources
   end
 
   test do
