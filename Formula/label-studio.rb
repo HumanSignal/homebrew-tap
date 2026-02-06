@@ -7,6 +7,7 @@ class LabelStudio < Formula
   sha256 "71fda47c474f51f27b84ce91ff9823e364c26e37132664a7ae03a4da2b3c48d6"
   license "Apache-2.0"
 
+  depends_on "cryptography"
   depends_on "postgresql@14"
   depends_on "python@3.10" # Apple's Pypthon distribution does not include pip
 
