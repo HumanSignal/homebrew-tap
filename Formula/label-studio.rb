@@ -8,6 +8,7 @@ class LabelStudio < Formula
   license "Apache-2.0"
 
   depends_on "cryptography"
+  depends_on "openssl@3"
   depends_on "postgresql@14"
   depends_on "python@3.10" # Apple's Pypthon distribution does not include pip
 
