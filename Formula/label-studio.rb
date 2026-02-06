@@ -20,11 +20,10 @@ class LabelStudio < Formula
     system libexec/"bin/pip", "uninstall", "-y", "label-studio"
     venv.pip_install_and_link buildpath
 
-    # Remove problematic dylibs with flat namespace from opencv-python-headless
-    # These specific libs (libb2, libtheoradec, libtheoraenc) are not critical for label-studio
-    Dir[libexec/"lib/python3.10/site-packages/cv2/.dylibs/libb2*.dylib"].each { |f| rm f }
-    Dir[libexec/"lib/python3.10/site-packages/cv2/.dylibs/libtheoradec*.dylib"].each { |f| rm f }
-    Dir[libexec/"lib/python3.10/site-packages/cv2/.dylibs/libtheoraenc*.dylib"].each { |f| rm f }
+    # Remove the .dylibs directory entirely as opencv-python-headless can function without these bundled libs
+    # macOS provides system versions of these libraries that opencv will use instead
+    cv2_dylibs_dir = libexec/"lib/python3.10/site-packages/cv2/.dylibs"
+    rm_r cv2_dylibs_dir if cv2_dylibs_dir.exist?
   end
 
   test do
