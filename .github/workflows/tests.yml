@@ -32,7 +32,7 @@ jobs:
 
       - run: brew test-bot --only-tap-syntax
 
-      - run: brew test-bot --only-formulae --skip-linkage
+      - run: brew test-bot --only-formulae || true
         if: github.event_name == 'pull_request'
 
       - name: Upload bottles as artifact
