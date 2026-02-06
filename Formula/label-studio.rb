@@ -14,6 +14,8 @@ class LabelStudio < Formula
     python3 = "python3.10"
     venv = virtualenv_create(libexec, python3, system_site_packages: true, without_pip: false)
     system libexec/"bin/pip", "install", "--verbose", "--upgrade", "pip==22.3.1"
+    # Install opencv-python-headless first to avoid problematic opencv-python dylibs with flat namespace
+    system libexec/"bin/pip", "install", "--verbose", "opencv-python-headless"
     system libexec/"bin/pip", "install", "--verbose", "--ignore-installed", buildpath
     system libexec/"bin/pip", "uninstall", "-y", "label-studio"
     venv.pip_install_and_link buildpath
