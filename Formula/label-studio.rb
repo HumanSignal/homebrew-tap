@@ -11,11 +11,11 @@ class LabelStudio < Formula
   depends_on "python@3.10" # Apple's Pypthon distribution does not include pip
 
   def install
+    # Known issue: opencv-python-headless 4.12+ bundles dylibs with flat namespace
+    # This causes brew audit warnings but doesn't affect functionality
     python3 = "python3.10"
     venv = virtualenv_create(libexec, python3, system_site_packages: true, without_pip: false)
     system libexec/"bin/pip", "install", "--verbose", "--upgrade", "pip==22.3.1"
-    # Pin opencv-python-headless to an older version without flat namespace dylibs
-    system libexec/"bin/pip", "install", "--verbose", "opencv-python-headless<4.9.0"
     system libexec/"bin/pip", "install", "--verbose", "--ignore-installed", buildpath
     system libexec/"bin/pip", "uninstall", "-y", "label-studio"
     venv.pip_install_and_link buildpath
