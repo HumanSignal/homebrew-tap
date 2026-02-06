@@ -19,6 +19,12 @@ class LabelStudio < Formula
     system libexec/"bin/pip", "install", "--verbose", "--ignore-installed", buildpath
     system libexec/"bin/pip", "uninstall", "-y", "label-studio"
     venv.pip_install_and_link buildpath
+
+    # Remove problematic dylibs with flat namespace from opencv-python-headless
+    # These specific libs (libb2, libtheoradec, libtheoraenc) are not critical for label-studio
+    rm_f Dir[libexec/"lib/python3.10/site-packages/cv2/.dylibs/libb2*.dylib"]
+    rm_f Dir[libexec/"lib/python3.10/site-packages/cv2/.dylibs/libtheoradec*.dylib"]
+    rm_f Dir[libexec/"lib/python3.10/site-packages/cv2/.dylibs/libtheoraenc*.dylib"]
   end
 
   test do
