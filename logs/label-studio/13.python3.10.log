@@ -1,0 +1,730 @@
+2026-02-05 07:11:26 +0000
+
+python3.10
+-m
+pip
+--python=/opt/homebrew/Cellar/label-studio/1.22.0/libexec/bin/python
+install
+--verbose
+--no-deps
+--no-binary=:all:
+--ignore-installed
+--no-compile
+/private/tmp/label-studio--boto3-20260205-63897-d295wl/boto3-1.42.23
+
+Using pip 26.0 from /opt/homebrew/lib/python3.10/site-packages/pip (python 3.10)
+Processing ./.
+  Installing build dependencies: started
+  Running command installing build dependencies
+  Using pip 26.0 from /opt/homebrew/lib/python3.10/site-packages/pip (python 3.10)
+  Collecting setuptools>=40.8.0
+    Using cached setuptools-80.10.2-py3-none-any.whl
+  Installing collected packages: setuptools
+  Successfully installed setuptools-80.10.2
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Running command Getting requirements to build wheel
+  running egg_info
+  writing boto3.egg-info/PKG-INFO
+  writing dependency_links to boto3.egg-info/dependency_links.txt
+  writing requirements to boto3.egg-info/requires.txt
+  writing top-level names to boto3.egg-info/top_level.txt
+  reading manifest file 'boto3.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE'
+  adding license file 'NOTICE'
+  writing manifest file 'boto3.egg-info/SOURCES.txt'
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  running dist_info
+  creating /private/tmp/pip-modern-metadata-bz5a5rzt/boto3.egg-info
+  writing /private/tmp/pip-modern-metadata-bz5a5rzt/boto3.egg-info/PKG-INFO
+  writing dependency_links to /private/tmp/pip-modern-metadata-bz5a5rzt/boto3.egg-info/dependency_links.txt
+  writing requirements to /private/tmp/pip-modern-metadata-bz5a5rzt/boto3.egg-info/requires.txt
+  writing top-level names to /private/tmp/pip-modern-metadata-bz5a5rzt/boto3.egg-info/top_level.txt
+  writing manifest file '/private/tmp/pip-modern-metadata-bz5a5rzt/boto3.egg-info/SOURCES.txt'
+  reading manifest file '/private/tmp/pip-modern-metadata-bz5a5rzt/boto3.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE'
+  adding license file 'NOTICE'
+  writing manifest file '/private/tmp/pip-modern-metadata-bz5a5rzt/boto3.egg-info/SOURCES.txt'
+  creating '/private/tmp/pip-modern-metadata-bz5a5rzt/boto3-1.42.23.dist-info'
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: boto3
+  Building wheel for boto3 (pyproject.toml): started
+  Running command Building wheel for boto3 (pyproject.toml)
+  running bdist_wheel
+  running build
+  running build_py
+  creating build/lib/boto3
+  copying boto3/compat.py -> build/lib/boto3
+  copying boto3/session.py -> build/lib/boto3
+  copying boto3/__init__.py -> build/lib/boto3
+  copying boto3/crt.py -> build/lib/boto3
+  copying boto3/utils.py -> build/lib/boto3
+  copying boto3/exceptions.py -> build/lib/boto3
+  creating build/lib/boto3/s3
+  copying boto3/s3/constants.py -> build/lib/boto3/s3
+  copying boto3/s3/__init__.py -> build/lib/boto3/s3
+  copying boto3/s3/transfer.py -> build/lib/boto3/s3
+  copying boto3/s3/inject.py -> build/lib/boto3/s3
+  creating build/lib/boto3/resources
+  copying boto3/resources/params.py -> build/lib/boto3/resources
+  copying boto3/resources/__init__.py -> build/lib/boto3/resources
+  copying boto3/resources/response.py -> build/lib/boto3/resources
+  copying boto3/resources/factory.py -> build/lib/boto3/resources
+  copying boto3/resources/action.py -> build/lib/boto3/resources
+  copying boto3/resources/model.py -> build/lib/boto3/resources
+  copying boto3/resources/collection.py -> build/lib/boto3/resources
+  copying boto3/resources/base.py -> build/lib/boto3/resources
+  creating build/lib/boto3/dynamodb
+  copying boto3/dynamodb/__init__.py -> build/lib/boto3/dynamodb
+  copying boto3/dynamodb/types.py -> build/lib/boto3/dynamodb
+  copying boto3/dynamodb/conditions.py -> build/lib/boto3/dynamodb
+  copying boto3/dynamodb/transform.py -> build/lib/boto3/dynamodb
+  copying boto3/dynamodb/table.py -> build/lib/boto3/dynamodb
+  creating build/lib/boto3/docs
+  copying boto3/docs/service.py -> build/lib/boto3/docs
+  copying boto3/docs/client.py -> build/lib/boto3/docs
+  copying boto3/docs/resource.py -> build/lib/boto3/docs
+  copying boto3/docs/__init__.py -> build/lib/boto3/docs
+  copying boto3/docs/waiter.py -> build/lib/boto3/docs
+  copying boto3/docs/action.py -> build/lib/boto3/docs
+  copying boto3/docs/docstring.py -> build/lib/boto3/docs
+  copying boto3/docs/utils.py -> build/lib/boto3/docs
+  copying boto3/docs/collection.py -> build/lib/boto3/docs
+  copying boto3/docs/method.py -> build/lib/boto3/docs
+  copying boto3/docs/attr.py -> build/lib/boto3/docs
+  copying boto3/docs/subresource.py -> build/lib/boto3/docs
+  copying boto3/docs/base.py -> build/lib/boto3/docs
+  creating build/lib/boto3/ec2
+  copying boto3/ec2/__init__.py -> build/lib/boto3/ec2
+  copying boto3/ec2/createtags.py -> build/lib/boto3/ec2
+  copying boto3/ec2/deletetags.py -> build/lib/boto3/ec2
+  running egg_info
+  writing boto3.egg-info/PKG-INFO
+  writing dependency_links to boto3.egg-info/dependency_links.txt
+  writing requirements to boto3.egg-info/requires.txt
+  writing top-level names to boto3.egg-info/top_level.txt
+  reading manifest file 'boto3.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE'
+  adding license file 'NOTICE'
+  writing manifest file 'boto3.egg-info/SOURCES.txt'
+  /private/tmp/pip-build-env-apad1g0v/overlay/lib/python3.10/site-packages/setuptools/command/build_py.py:215: _Warning: Package 'boto3.data.cloudformation' is absent from the `packages` configuration.
+  !!
+
+          ********************************************************************************
+          ############################
+          # Package would be ignored #
+          ############################
+          Python recognizes 'boto3.data.cloudformation' as an importable package[^1],
+          but it is absent from setuptools' `packages` configuration.
+
+          This leads to an ambiguous overall configuration. If you want to distribute this
+          package, please make sure that 'boto3.data.cloudformation' is explicitly added
+          to the `packages` configuration field.
+
+          Alternatively, you can also rely on setuptools' discovery methods
+          (for example by using `find_namespace_packages(...)`/`find_namespace:`
+          instead of `find_packages(...)`/`find:`).
+
+          You can read more about "package discovery" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+          If you don't want 'boto3.data.cloudformation' to be distributed and are
+          already explicitly excluding 'boto3.data.cloudformation' via
+          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+          you can try to use `exclude_package_data`, or `include-package-data=False` in
+          combination with a more fine grained `package-data` configuration.
+
+          You can read more about "package data files" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+          [^1]: For Python, any directory (with suitable naming) can be imported,
+                even if it does not contain any `.py` files.
+                On the other hand, currently there is no concept of package data
+                directory, all directories are treated like packages.
+          ********************************************************************************
+
+  !!
+    check.warn(importable)
+  /private/tmp/pip-build-env-apad1g0v/overlay/lib/python3.10/site-packages/setuptools/command/build_py.py:215: _Warning: Package 'boto3.data.cloudwatch' is absent from the `packages` configuration.
+  !!
+
+          ********************************************************************************
+          ############################
+          # Package would be ignored #
+          ############################
+          Python recognizes 'boto3.data.cloudwatch' as an importable package[^1],
+          but it is absent from setuptools' `packages` configuration.
+
+          This leads to an ambiguous overall configuration. If you want to distribute this
+          package, please make sure that 'boto3.data.cloudwatch' is explicitly added
+          to the `packages` configuration field.
+
+          Alternatively, you can also rely on setuptools' discovery methods
+          (for example by using `find_namespace_packages(...)`/`find_namespace:`
+          instead of `find_packages(...)`/`find:`).
+
+          You can read more about "package discovery" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+          If you don't want 'boto3.data.cloudwatch' to be distributed and are
+          already explicitly excluding 'boto3.data.cloudwatch' via
+          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+          you can try to use `exclude_package_data`, or `include-package-data=False` in
+          combination with a more fine grained `package-data` configuration.
+
+          You can read more about "package data files" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+          [^1]: For Python, any directory (with suitable naming) can be imported,
+                even if it does not contain any `.py` files.
+                On the other hand, currently there is no concept of package data
+                directory, all directories are treated like packages.
+          ********************************************************************************
+
+  !!
+    check.warn(importable)
+  /private/tmp/pip-build-env-apad1g0v/overlay/lib/python3.10/site-packages/setuptools/command/build_py.py:215: _Warning: Package 'boto3.data.dynamodb' is absent from the `packages` configuration.
+  !!
+
+          ********************************************************************************
+          ############################
+          # Package would be ignored #
+          ############################
+          Python recognizes 'boto3.data.dynamodb' as an importable package[^1],
+          but it is absent from setuptools' `packages` configuration.
+
+          This leads to an ambiguous overall configuration. If you want to distribute this
+          package, please make sure that 'boto3.data.dynamodb' is explicitly added
+          to the `packages` configuration field.
+
+          Alternatively, you can also rely on setuptools' discovery methods
+          (for example by using `find_namespace_packages(...)`/`find_namespace:`
+          instead of `find_packages(...)`/`find:`).
+
+          You can read more about "package discovery" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+          If you don't want 'boto3.data.dynamodb' to be distributed and are
+          already explicitly excluding 'boto3.data.dynamodb' via
+          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+          you can try to use `exclude_package_data`, or `include-package-data=False` in
+          combination with a more fine grained `package-data` configuration.
+
+          You can read more about "package data files" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+          [^1]: For Python, any directory (with suitable naming) can be imported,
+                even if it does not contain any `.py` files.
+                On the other hand, currently there is no concept of package data
+                directory, all directories are treated like packages.
+          ********************************************************************************
+
+  !!
+    check.warn(importable)
+  /private/tmp/pip-build-env-apad1g0v/overlay/lib/python3.10/site-packages/setuptools/command/build_py.py:215: _Warning: Package 'boto3.data.ec2' is absent from the `packages` configuration.
+  !!
+
+          ********************************************************************************
+          ############################
+          # Package would be ignored #
+          ############################
+          Python recognizes 'boto3.data.ec2' as an importable package[^1],
+          but it is absent from setuptools' `packages` configuration.
+
+          This leads to an ambiguous overall configuration. If you want to distribute this
+          package, please make sure that 'boto3.data.ec2' is explicitly added
+          to the `packages` configuration field.
+
+          Alternatively, you can also rely on setuptools' discovery methods
+          (for example by using `find_namespace_packages(...)`/`find_namespace:`
+          instead of `find_packages(...)`/`find:`).
+
+          You can read more about "package discovery" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+          If you don't want 'boto3.data.ec2' to be distributed and are
+          already explicitly excluding 'boto3.data.ec2' via
+          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+          you can try to use `exclude_package_data`, or `include-package-data=False` in
+          combination with a more fine grained `package-data` configuration.
+
+          You can read more about "package data files" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+          [^1]: For Python, any directory (with suitable naming) can be imported,
+                even if it does not contain any `.py` files.
+                On the other hand, currently there is no concept of package data
+                directory, all directories are treated like packages.
+          ********************************************************************************
+
+  !!
+    check.warn(importable)
+  /private/tmp/pip-build-env-apad1g0v/overlay/lib/python3.10/site-packages/setuptools/command/build_py.py:215: _Warning: Package 'boto3.data.glacier' is absent from the `packages` configuration.
+  !!
+
+          ********************************************************************************
+          ############################
+          # Package would be ignored #
+          ############################
+          Python recognizes 'boto3.data.glacier' as an importable package[^1],
+          but it is absent from setuptools' `packages` configuration.
+
+          This leads to an ambiguous overall configuration. If you want to distribute this
+          package, please make sure that 'boto3.data.glacier' is explicitly added
+          to the `packages` configuration field.
+
+          Alternatively, you can also rely on setuptools' discovery methods
+          (for example by using `find_namespace_packages(...)`/`find_namespace:`
+          instead of `find_packages(...)`/`find:`).
+
+          You can read more about "package discovery" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+          If you don't want 'boto3.data.glacier' to be distributed and are
+          already explicitly excluding 'boto3.data.glacier' via
+          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+          you can try to use `exclude_package_data`, or `include-package-data=False` in
+          combination with a more fine grained `package-data` configuration.
+
+          You can read more about "package data files" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+          [^1]: For Python, any directory (with suitable naming) can be imported,
+                even if it does not contain any `.py` files.
+                On the other hand, currently there is no concept of package data
+                directory, all directories are treated like packages.
+          ********************************************************************************
+
+  !!
+    check.warn(importable)
+  /private/tmp/pip-build-env-apad1g0v/overlay/lib/python3.10/site-packages/setuptools/command/build_py.py:215: _Warning: Package 'boto3.data.iam' is absent from the `packages` configuration.
+  !!
+
+          ********************************************************************************
+          ############################
+          # Package would be ignored #
+          ############################
+          Python recognizes 'boto3.data.iam' as an importable package[^1],
+          but it is absent from setuptools' `packages` configuration.
+
+          This leads to an ambiguous overall configuration. If you want to distribute this
+          package, please make sure that 'boto3.data.iam' is explicitly added
+          to the `packages` configuration field.
+
+          Alternatively, you can also rely on setuptools' discovery methods
+          (for example by using `find_namespace_packages(...)`/`find_namespace:`
+          instead of `find_packages(...)`/`find:`).
+
+          You can read more about "package discovery" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+          If you don't want 'boto3.data.iam' to be distributed and are
+          already explicitly excluding 'boto3.data.iam' via
+          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+          you can try to use `exclude_package_data`, or `include-package-data=False` in
+          combination with a more fine grained `package-data` configuration.
+
+          You can read more about "package data files" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+          [^1]: For Python, any directory (with suitable naming) can be imported,
+                even if it does not contain any `.py` files.
+                On the other hand, currently there is no concept of package data
+                directory, all directories are treated like packages.
+          ********************************************************************************
+
+  !!
+    check.warn(importable)
+  /private/tmp/pip-build-env-apad1g0v/overlay/lib/python3.10/site-packages/setuptools/command/build_py.py:215: _Warning: Package 'boto3.data.s3' is absent from the `packages` configuration.
+  !!
+
+          ********************************************************************************
+          ############################
+          # Package would be ignored #
+          ############################
+          Python recognizes 'boto3.data.s3' as an importable package[^1],
+          but it is absent from setuptools' `packages` configuration.
+
+          This leads to an ambiguous overall configuration. If you want to distribute this
+          package, please make sure that 'boto3.data.s3' is explicitly added
+          to the `packages` configuration field.
+
+          Alternatively, you can also rely on setuptools' discovery methods
+          (for example by using `find_namespace_packages(...)`/`find_namespace:`
+          instead of `find_packages(...)`/`find:`).
+
+          You can read more about "package discovery" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+          If you don't want 'boto3.data.s3' to be distributed and are
+          already explicitly excluding 'boto3.data.s3' via
+          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+          you can try to use `exclude_package_data`, or `include-package-data=False` in
+          combination with a more fine grained `package-data` configuration.
+
+          You can read more about "package data files" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+          [^1]: For Python, any directory (with suitable naming) can be imported,
+                even if it does not contain any `.py` files.
+                On the other hand, currently there is no concept of package data
+                directory, all directories are treated like packages.
+          ********************************************************************************
+
+  !!
+    check.warn(importable)
+  /private/tmp/pip-build-env-apad1g0v/overlay/lib/python3.10/site-packages/setuptools/command/build_py.py:215: _Warning: Package 'boto3.data.sns' is absent from the `packages` configuration.
+  !!
+
+          ********************************************************************************
+          ############################
+          # Package would be ignored #
+          ############################
+          Python recognizes 'boto3.data.sns' as an importable package[^1],
+          but it is absent from setuptools' `packages` configuration.
+
+          This leads to an ambiguous overall configuration. If you want to distribute this
+          package, please make sure that 'boto3.data.sns' is explicitly added
+          to the `packages` configuration field.
+
+          Alternatively, you can also rely on setuptools' discovery methods
+          (for example by using `find_namespace_packages(...)`/`find_namespace:`
+          instead of `find_packages(...)`/`find:`).
+
+          You can read more about "package discovery" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+          If you don't want 'boto3.data.sns' to be distributed and are
+          already explicitly excluding 'boto3.data.sns' via
+          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+          you can try to use `exclude_package_data`, or `include-package-data=False` in
+          combination with a more fine grained `package-data` configuration.
+
+          You can read more about "package data files" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+          [^1]: For Python, any directory (with suitable naming) can be imported,
+                even if it does not contain any `.py` files.
+                On the other hand, currently there is no concept of package data
+                directory, all directories are treated like packages.
+          ********************************************************************************
+
+  !!
+    check.warn(importable)
+  /private/tmp/pip-build-env-apad1g0v/overlay/lib/python3.10/site-packages/setuptools/command/build_py.py:215: _Warning: Package 'boto3.data.sqs' is absent from the `packages` configuration.
+  !!
+
+          ********************************************************************************
+          ############################
+          # Package would be ignored #
+          ############################
+          Python recognizes 'boto3.data.sqs' as an importable package[^1],
+          but it is absent from setuptools' `packages` configuration.
+
+          This leads to an ambiguous overall configuration. If you want to distribute this
+          package, please make sure that 'boto3.data.sqs' is explicitly added
+          to the `packages` configuration field.
+
+          Alternatively, you can also rely on setuptools' discovery methods
+          (for example by using `find_namespace_packages(...)`/`find_namespace:`
+          instead of `find_packages(...)`/`find:`).
+
+          You can read more about "package discovery" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+          If you don't want 'boto3.data.sqs' to be distributed and are
+          already explicitly excluding 'boto3.data.sqs' via
+          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+          you can try to use `exclude_package_data`, or `include-package-data=False` in
+          combination with a more fine grained `package-data` configuration.
+
+          You can read more about "package data files" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+          [^1]: For Python, any directory (with suitable naming) can be imported,
+                even if it does not contain any `.py` files.
+                On the other hand, currently there is no concept of package data
+                directory, all directories are treated like packages.
+          ********************************************************************************
+
+  !!
+    check.warn(importable)
+  /private/tmp/pip-build-env-apad1g0v/overlay/lib/python3.10/site-packages/setuptools/command/build_py.py:215: _Warning: Package 'boto3.examples' is absent from the `packages` configuration.
+  !!
+
+          ********************************************************************************
+          ############################
+          # Package would be ignored #
+          ############################
+          Python recognizes 'boto3.examples' as an importable package[^1],
+          but it is absent from setuptools' `packages` configuration.
+
+          This leads to an ambiguous overall configuration. If you want to distribute this
+          package, please make sure that 'boto3.examples' is explicitly added
+          to the `packages` configuration field.
+
+          Alternatively, you can also rely on setuptools' discovery methods
+          (for example by using `find_namespace_packages(...)`/`find_namespace:`
+          instead of `find_packages(...)`/`find:`).
+
+          You can read more about "package discovery" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+          If you don't want 'boto3.examples' to be distributed and are
+          already explicitly excluding 'boto3.examples' via
+          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+          you can try to use `exclude_package_data`, or `include-package-data=False` in
+          combination with a more fine grained `package-data` configuration.
+
+          You can read more about "package data files" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+          [^1]: For Python, any directory (with suitable naming) can be imported,
+                even if it does not contain any `.py` files.
+                On the other hand, currently there is no concept of package data
+                directory, all directories are treated like packages.
+          ********************************************************************************
+
+  !!
+    check.warn(importable)
+  creating build/lib/boto3/data/cloudformation/2010-05-15
+  copying boto3/data/cloudformation/2010-05-15/resources-1.json -> build/lib/boto3/data/cloudformation/2010-05-15
+  creating build/lib/boto3/data/cloudwatch/2010-08-01
+  copying boto3/data/cloudwatch/2010-08-01/resources-1.json -> build/lib/boto3/data/cloudwatch/2010-08-01
+  creating build/lib/boto3/data/dynamodb/2012-08-10
+  copying boto3/data/dynamodb/2012-08-10/resources-1.json -> build/lib/boto3/data/dynamodb/2012-08-10
+  creating build/lib/boto3/data/ec2/2014-10-01
+  copying boto3/data/ec2/2014-10-01/resources-1.json -> build/lib/boto3/data/ec2/2014-10-01
+  creating build/lib/boto3/data/ec2/2015-03-01
+  copying boto3/data/ec2/2015-03-01/resources-1.json -> build/lib/boto3/data/ec2/2015-03-01
+  creating build/lib/boto3/data/ec2/2015-04-15
+  copying boto3/data/ec2/2015-04-15/resources-1.json -> build/lib/boto3/data/ec2/2015-04-15
+  creating build/lib/boto3/data/ec2/2015-10-01
+  copying boto3/data/ec2/2015-10-01/resources-1.json -> build/lib/boto3/data/ec2/2015-10-01
+  creating build/lib/boto3/data/ec2/2016-04-01
+  copying boto3/data/ec2/2016-04-01/resources-1.json -> build/lib/boto3/data/ec2/2016-04-01
+  creating build/lib/boto3/data/ec2/2016-09-15
+  copying boto3/data/ec2/2016-09-15/resources-1.json -> build/lib/boto3/data/ec2/2016-09-15
+  creating build/lib/boto3/data/ec2/2016-11-15
+  copying boto3/data/ec2/2016-11-15/resources-1.json -> build/lib/boto3/data/ec2/2016-11-15
+  creating build/lib/boto3/data/glacier/2012-06-01
+  copying boto3/data/glacier/2012-06-01/resources-1.json -> build/lib/boto3/data/glacier/2012-06-01
+  creating build/lib/boto3/data/iam/2010-05-08
+  copying boto3/data/iam/2010-05-08/resources-1.json -> build/lib/boto3/data/iam/2010-05-08
+  creating build/lib/boto3/data/s3/2006-03-01
+  copying boto3/data/s3/2006-03-01/resources-1.json -> build/lib/boto3/data/s3/2006-03-01
+  creating build/lib/boto3/data/sns/2010-03-31
+  copying boto3/data/sns/2010-03-31/resources-1.json -> build/lib/boto3/data/sns/2010-03-31
+  creating build/lib/boto3/data/sqs/2012-11-05
+  copying boto3/data/sqs/2012-11-05/resources-1.json -> build/lib/boto3/data/sqs/2012-11-05
+  creating build/lib/boto3/examples
+  copying boto3/examples/cloudfront.rst -> build/lib/boto3/examples
+  copying boto3/examples/s3.rst -> build/lib/boto3/examples
+  warning: build_py: byte-compiling is disabled, skipping.
+
+  installing to build/bdist.macosx-26-arm64/wheel
+  running install
+  running install_lib
+  creating build/bdist.macosx-26-arm64/wheel
+  creating build/bdist.macosx-26-arm64/wheel/boto3
+  creating build/bdist.macosx-26-arm64/wheel/boto3/s3
+  copying build/lib/boto3/s3/constants.py -> build/bdist.macosx-26-arm64/wheel/./boto3/s3
+  copying build/lib/boto3/s3/__init__.py -> build/bdist.macosx-26-arm64/wheel/./boto3/s3
+  copying build/lib/boto3/s3/transfer.py -> build/bdist.macosx-26-arm64/wheel/./boto3/s3
+  copying build/lib/boto3/s3/inject.py -> build/bdist.macosx-26-arm64/wheel/./boto3/s3
+  copying build/lib/boto3/compat.py -> build/bdist.macosx-26-arm64/wheel/./boto3
+  creating build/bdist.macosx-26-arm64/wheel/boto3/resources
+  copying build/lib/boto3/resources/params.py -> build/bdist.macosx-26-arm64/wheel/./boto3/resources
+  copying build/lib/boto3/resources/__init__.py -> build/bdist.macosx-26-arm64/wheel/./boto3/resources
+  copying build/lib/boto3/resources/response.py -> build/bdist.macosx-26-arm64/wheel/./boto3/resources
+  copying build/lib/boto3/resources/factory.py -> build/bdist.macosx-26-arm64/wheel/./boto3/resources
+  copying build/lib/boto3/resources/action.py -> build/bdist.macosx-26-arm64/wheel/./boto3/resources
+  copying build/lib/boto3/resources/model.py -> build/bdist.macosx-26-arm64/wheel/./boto3/resources
+  copying build/lib/boto3/resources/collection.py -> build/bdist.macosx-26-arm64/wheel/./boto3/resources
+  copying build/lib/boto3/resources/base.py -> build/bdist.macosx-26-arm64/wheel/./boto3/resources
+  copying build/lib/boto3/session.py -> build/bdist.macosx-26-arm64/wheel/./boto3
+  copying build/lib/boto3/__init__.py -> build/bdist.macosx-26-arm64/wheel/./boto3
+  creating build/bdist.macosx-26-arm64/wheel/boto3/dynamodb
+  copying build/lib/boto3/dynamodb/__init__.py -> build/bdist.macosx-26-arm64/wheel/./boto3/dynamodb
+  copying build/lib/boto3/dynamodb/types.py -> build/bdist.macosx-26-arm64/wheel/./boto3/dynamodb
+  copying build/lib/boto3/dynamodb/conditions.py -> build/bdist.macosx-26-arm64/wheel/./boto3/dynamodb
+  copying build/lib/boto3/dynamodb/transform.py -> build/bdist.macosx-26-arm64/wheel/./boto3/dynamodb
+  copying build/lib/boto3/dynamodb/table.py -> build/bdist.macosx-26-arm64/wheel/./boto3/dynamodb
+  creating build/bdist.macosx-26-arm64/wheel/boto3/docs
+  copying build/lib/boto3/docs/service.py -> build/bdist.macosx-26-arm64/wheel/./boto3/docs
+  copying build/lib/boto3/docs/client.py -> build/bdist.macosx-26-arm64/wheel/./boto3/docs
+  copying build/lib/boto3/docs/resource.py -> build/bdist.macosx-26-arm64/wheel/./boto3/docs
+  copying build/lib/boto3/docs/__init__.py -> build/bdist.macosx-26-arm64/wheel/./boto3/docs
+  copying build/lib/boto3/docs/waiter.py -> build/bdist.macosx-26-arm64/wheel/./boto3/docs
+  copying build/lib/boto3/docs/action.py -> build/bdist.macosx-26-arm64/wheel/./boto3/docs
+  copying build/lib/boto3/docs/docstring.py -> build/bdist.macosx-26-arm64/wheel/./boto3/docs
+  copying build/lib/boto3/docs/utils.py -> build/bdist.macosx-26-arm64/wheel/./boto3/docs
+  copying build/lib/boto3/docs/collection.py -> build/bdist.macosx-26-arm64/wheel/./boto3/docs
+  copying build/lib/boto3/docs/method.py -> build/bdist.macosx-26-arm64/wheel/./boto3/docs
+  copying build/lib/boto3/docs/attr.py -> build/bdist.macosx-26-arm64/wheel/./boto3/docs
+  copying build/lib/boto3/docs/subresource.py -> build/bdist.macosx-26-arm64/wheel/./boto3/docs
+  copying build/lib/boto3/docs/base.py -> build/bdist.macosx-26-arm64/wheel/./boto3/docs
+  copying build/lib/boto3/crt.py -> build/bdist.macosx-26-arm64/wheel/./boto3
+  copying build/lib/boto3/utils.py -> build/bdist.macosx-26-arm64/wheel/./boto3
+  creating build/bdist.macosx-26-arm64/wheel/boto3/examples
+  copying build/lib/boto3/examples/s3.rst -> build/bdist.macosx-26-arm64/wheel/./boto3/examples
+  copying build/lib/boto3/examples/cloudfront.rst -> build/bdist.macosx-26-arm64/wheel/./boto3/examples
+  copying build/lib/boto3/exceptions.py -> build/bdist.macosx-26-arm64/wheel/./boto3
+  creating build/bdist.macosx-26-arm64/wheel/boto3/data
+  creating build/bdist.macosx-26-arm64/wheel/boto3/data/cloudwatch
+  creating build/bdist.macosx-26-arm64/wheel/boto3/data/cloudwatch/2010-08-01
+  copying build/lib/boto3/data/cloudwatch/2010-08-01/resources-1.json -> build/bdist.macosx-26-arm64/wheel/./boto3/data/cloudwatch/2010-08-01
+  creating build/bdist.macosx-26-arm64/wheel/boto3/data/s3
+  creating build/bdist.macosx-26-arm64/wheel/boto3/data/s3/2006-03-01
+  copying build/lib/boto3/data/s3/2006-03-01/resources-1.json -> build/bdist.macosx-26-arm64/wheel/./boto3/data/s3/2006-03-01
+  creating build/bdist.macosx-26-arm64/wheel/boto3/data/sns
+  creating build/bdist.macosx-26-arm64/wheel/boto3/data/sns/2010-03-31
+  copying build/lib/boto3/data/sns/2010-03-31/resources-1.json -> build/bdist.macosx-26-arm64/wheel/./boto3/data/sns/2010-03-31
+  creating build/bdist.macosx-26-arm64/wheel/boto3/data/glacier
+  creating build/bdist.macosx-26-arm64/wheel/boto3/data/glacier/2012-06-01
+  copying build/lib/boto3/data/glacier/2012-06-01/resources-1.json -> build/bdist.macosx-26-arm64/wheel/./boto3/data/glacier/2012-06-01
+  creating build/bdist.macosx-26-arm64/wheel/boto3/data/dynamodb
+  creating build/bdist.macosx-26-arm64/wheel/boto3/data/dynamodb/2012-08-10
+  copying build/lib/boto3/data/dynamodb/2012-08-10/resources-1.json -> build/bdist.macosx-26-arm64/wheel/./boto3/data/dynamodb/2012-08-10
+  creating build/bdist.macosx-26-arm64/wheel/boto3/data/sqs
+  creating build/bdist.macosx-26-arm64/wheel/boto3/data/sqs/2012-11-05
+  copying build/lib/boto3/data/sqs/2012-11-05/resources-1.json -> build/bdist.macosx-26-arm64/wheel/./boto3/data/sqs/2012-11-05
+  creating build/bdist.macosx-26-arm64/wheel/boto3/data/iam
+  creating build/bdist.macosx-26-arm64/wheel/boto3/data/iam/2010-05-08
+  copying build/lib/boto3/data/iam/2010-05-08/resources-1.json -> build/bdist.macosx-26-arm64/wheel/./boto3/data/iam/2010-05-08
+  creating build/bdist.macosx-26-arm64/wheel/boto3/data/cloudformation
+  creating build/bdist.macosx-26-arm64/wheel/boto3/data/cloudformation/2010-05-15
+  copying build/lib/boto3/data/cloudformation/2010-05-15/resources-1.json -> build/bdist.macosx-26-arm64/wheel/./boto3/data/cloudformation/2010-05-15
+  creating build/bdist.macosx-26-arm64/wheel/boto3/data/ec2
+  creating build/bdist.macosx-26-arm64/wheel/boto3/data/ec2/2015-10-01
+  copying build/lib/boto3/data/ec2/2015-10-01/resources-1.json -> build/bdist.macosx-26-arm64/wheel/./boto3/data/ec2/2015-10-01
+  creating build/bdist.macosx-26-arm64/wheel/boto3/data/ec2/2016-11-15
+  copying build/lib/boto3/data/ec2/2016-11-15/resources-1.json -> build/bdist.macosx-26-arm64/wheel/./boto3/data/ec2/2016-11-15
+  creating build/bdist.macosx-26-arm64/wheel/boto3/data/ec2/2015-04-15
+  copying build/lib/boto3/data/ec2/2015-04-15/resources-1.json -> build/bdist.macosx-26-arm64/wheel/./boto3/data/ec2/2015-04-15
+  creating build/bdist.macosx-26-arm64/wheel/boto3/data/ec2/2016-04-01
+  copying build/lib/boto3/data/ec2/2016-04-01/resources-1.json -> build/bdist.macosx-26-arm64/wheel/./boto3/data/ec2/2016-04-01
+  creating build/bdist.macosx-26-arm64/wheel/boto3/data/ec2/2014-10-01
+  copying build/lib/boto3/data/ec2/2014-10-01/resources-1.json -> build/bdist.macosx-26-arm64/wheel/./boto3/data/ec2/2014-10-01
+  creating build/bdist.macosx-26-arm64/wheel/boto3/data/ec2/2016-09-15
+  copying build/lib/boto3/data/ec2/2016-09-15/resources-1.json -> build/bdist.macosx-26-arm64/wheel/./boto3/data/ec2/2016-09-15
+  creating build/bdist.macosx-26-arm64/wheel/boto3/data/ec2/2015-03-01
+  copying build/lib/boto3/data/ec2/2015-03-01/resources-1.json -> build/bdist.macosx-26-arm64/wheel/./boto3/data/ec2/2015-03-01
+  creating build/bdist.macosx-26-arm64/wheel/boto3/ec2
+  copying build/lib/boto3/ec2/__init__.py -> build/bdist.macosx-26-arm64/wheel/./boto3/ec2
+  copying build/lib/boto3/ec2/createtags.py -> build/bdist.macosx-26-arm64/wheel/./boto3/ec2
+  copying build/lib/boto3/ec2/deletetags.py -> build/bdist.macosx-26-arm64/wheel/./boto3/ec2
+  warning: install_lib: byte-compiling is disabled, skipping.
+
+  running install_egg_info
+  Copying boto3.egg-info to build/bdist.macosx-26-arm64/wheel/./boto3-1.42.23-py3.10.egg-info
+  running install_scripts
+  creating build/bdist.macosx-26-arm64/wheel/boto3-1.42.23.dist-info/WHEEL
+  creating '/Users/nikitabelonogov/Library/Caches/Homebrew/pip_cache/wheels/82/12/99/50f943c44d80f3f884a4c3db52a8890af312d2597b870fe0c4/tmp4pciqfbn/.tmp-f2ilcy5d/boto3-1.42.23-py3-none-any.whl' and adding 'build/bdist.macosx-26-arm64/wheel' to it
+  adding 'boto3/__init__.py'
+  adding 'boto3/compat.py'
+  adding 'boto3/crt.py'
+  adding 'boto3/exceptions.py'
+  adding 'boto3/session.py'
+  adding 'boto3/utils.py'
+  adding 'boto3/data/cloudformation/2010-05-15/resources-1.json'
+  adding 'boto3/data/cloudwatch/2010-08-01/resources-1.json'
+  adding 'boto3/data/dynamodb/2012-08-10/resources-1.json'
+  adding 'boto3/data/ec2/2014-10-01/resources-1.json'
+  adding 'boto3/data/ec2/2015-03-01/resources-1.json'
+  adding 'boto3/data/ec2/2015-04-15/resources-1.json'
+  adding 'boto3/data/ec2/2015-10-01/resources-1.json'
+  adding 'boto3/data/ec2/2016-04-01/resources-1.json'
+  adding 'boto3/data/ec2/2016-09-15/resources-1.json'
+  adding 'boto3/data/ec2/2016-11-15/resources-1.json'
+  adding 'boto3/data/glacier/2012-06-01/resources-1.json'
+  adding 'boto3/data/iam/2010-05-08/resources-1.json'
+  adding 'boto3/data/s3/2006-03-01/resources-1.json'
+  adding 'boto3/data/sns/2010-03-31/resources-1.json'
+  adding 'boto3/data/sqs/2012-11-05/resources-1.json'
+  adding 'boto3/docs/__init__.py'
+  adding 'boto3/docs/action.py'
+  adding 'boto3/docs/attr.py'
+  adding 'boto3/docs/base.py'
+  adding 'boto3/docs/client.py'
+  adding 'boto3/docs/collection.py'
+  adding 'boto3/docs/docstring.py'
+  adding 'boto3/docs/method.py'
+  adding 'boto3/docs/resource.py'
+  adding 'boto3/docs/service.py'
+  adding 'boto3/docs/subresource.py'
+  adding 'boto3/docs/utils.py'
+  adding 'boto3/docs/waiter.py'
+  adding 'boto3/dynamodb/__init__.py'
+  adding 'boto3/dynamodb/conditions.py'
+  adding 'boto3/dynamodb/table.py'
+  adding 'boto3/dynamodb/transform.py'
+  adding 'boto3/dynamodb/types.py'
+  adding 'boto3/ec2/__init__.py'
+  adding 'boto3/ec2/createtags.py'
+  adding 'boto3/ec2/deletetags.py'
+  adding 'boto3/examples/cloudfront.rst'
+  adding 'boto3/examples/s3.rst'
+  adding 'boto3/resources/__init__.py'
+  adding 'boto3/resources/action.py'
+  adding 'boto3/resources/base.py'
+  adding 'boto3/resources/collection.py'
+  adding 'boto3/resources/factory.py'
+  adding 'boto3/resources/model.py'
+  adding 'boto3/resources/params.py'
+  adding 'boto3/resources/response.py'
+  adding 'boto3/s3/__init__.py'
+  adding 'boto3/s3/constants.py'
+  adding 'boto3/s3/inject.py'
+  adding 'boto3/s3/transfer.py'
+  adding 'boto3-1.42.23.dist-info/licenses/LICENSE'
+  adding 'boto3-1.42.23.dist-info/licenses/NOTICE'
+  adding 'boto3-1.42.23.dist-info/METADATA'
+  adding 'boto3-1.42.23.dist-info/WHEEL'
+  adding 'boto3-1.42.23.dist-info/top_level.txt'
+  adding 'boto3-1.42.23.dist-info/RECORD'
+  removing build/bdist.macosx-26-arm64/wheel
+  Building wheel for boto3 (pyproject.toml): finished with status 'done'
+  Created wheel for boto3: filename=boto3-1.42.23-py3-none-any.whl size=140669 sha256=7506a6337b3d8df8fd9d8bc5df44d0bace93f6f452173a913ad200e9408cbcaf
+  Stored in directory: /Users/nikitabelonogov/Library/Caches/Homebrew/pip_cache/wheels/82/12/99/50f943c44d80f3f884a4c3db52a8890af312d2597b870fe0c4
+Successfully built boto3
+Installing collected packages: boto3
+Successfully installed boto3-1.42.23
+
+[notice] A new release of pip is available: 26.0 -> 26.0.1
+[notice] To update, run: /opt/homebrew/Cellar/label-studio/1.22.0/libexec/bin/python -m pip install --upgrade pip

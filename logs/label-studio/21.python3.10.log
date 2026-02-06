@@ -1,0 +1,225 @@
+2026-02-05 07:11:53 +0000
+
+python3.10
+-m
+pip
+--python=/opt/homebrew/Cellar/label-studio/1.22.0/libexec/bin/python
+install
+--verbose
+--no-deps
+--no-binary=:all:
+--ignore-installed
+--no-compile
+/private/tmp/label-studio--croniter-20260205-63897-hwz56p/croniter-6.0.0
+
+Using pip 26.0 from /opt/homebrew/lib/python3.10/site-packages/pip (python 3.10)
+Processing ./.
+  Installing build dependencies: started
+  Running command installing build dependencies
+  Using pip 26.0 from /opt/homebrew/lib/python3.10/site-packages/pip (python 3.10)
+  Collecting setuptools>=40.8.0
+    Using cached setuptools-80.10.2-py3-none-any.whl
+  Installing collected packages: setuptools
+  Successfully installed setuptools-80.10.2
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Running command Getting requirements to build wheel
+  /private/tmp/pip-build-env-p7iqsr0e/overlay/lib/python3.10/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+  !!
+
+          ********************************************************************************
+          Please consider removing the following classifiers in favor of a SPDX license expression:
+
+          License :: OSI Approved :: MIT License
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    self._finalize_license_expression()
+  running egg_info
+  writing src/croniter.egg-info/PKG-INFO
+  writing dependency_links to src/croniter.egg-info/dependency_links.txt
+  writing requirements to src/croniter.egg-info/requires.txt
+  writing top-level names to src/croniter.egg-info/top_level.txt
+  file src/croniter.py (for module croniter) not found
+  reading manifest file 'src/croniter.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  warning: no files found matching '*' under directory 'docs'
+  warning: no previously-included files matching '*pyc' found anywhere in distribution
+  adding license file 'LICENSE'
+  writing manifest file 'src/croniter.egg-info/SOURCES.txt'
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  /private/tmp/pip-build-env-p7iqsr0e/overlay/lib/python3.10/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+  !!
+
+          ********************************************************************************
+          Please consider removing the following classifiers in favor of a SPDX license expression:
+
+          License :: OSI Approved :: MIT License
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    self._finalize_license_expression()
+  running dist_info
+  creating /private/tmp/pip-modern-metadata-6pll4ca4/croniter.egg-info
+  writing /private/tmp/pip-modern-metadata-6pll4ca4/croniter.egg-info/PKG-INFO
+  writing dependency_links to /private/tmp/pip-modern-metadata-6pll4ca4/croniter.egg-info/dependency_links.txt
+  writing requirements to /private/tmp/pip-modern-metadata-6pll4ca4/croniter.egg-info/requires.txt
+  writing top-level names to /private/tmp/pip-modern-metadata-6pll4ca4/croniter.egg-info/top_level.txt
+  writing manifest file '/private/tmp/pip-modern-metadata-6pll4ca4/croniter.egg-info/SOURCES.txt'
+  file src/croniter.py (for module croniter) not found
+  reading manifest file '/private/tmp/pip-modern-metadata-6pll4ca4/croniter.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  warning: no files found matching '*' under directory 'docs'
+  warning: no previously-included files matching '*pyc' found anywhere in distribution
+  adding license file 'LICENSE'
+  writing manifest file '/private/tmp/pip-modern-metadata-6pll4ca4/croniter.egg-info/SOURCES.txt'
+  creating '/private/tmp/pip-modern-metadata-6pll4ca4/croniter-6.0.0.dist-info'
+  /private/tmp/pip-build-env-p7iqsr0e/overlay/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:135: SetuptoolsDeprecationWarning: bdist_wheel.universal is deprecated
+  !!
+
+          ********************************************************************************
+          With Python 2.7 end-of-life, support for building universal wheels
+          (i.e., wheels that support both Python 2 and Python 3)
+          is being obviated.
+          Please discontinue using this option, or if you still need it,
+          file an issue with pypa/setuptools describing your use case.
+
+          This deprecation is overdue, please update your project and remove deprecated
+          calls to avoid build errors in the future.
+          ********************************************************************************
+
+  !!
+    self.finalize_options()
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: croniter
+  Building wheel for croniter (pyproject.toml): started
+  Running command Building wheel for croniter (pyproject.toml)
+  /private/tmp/pip-build-env-p7iqsr0e/overlay/lib/python3.10/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+  !!
+
+          ********************************************************************************
+          Please consider removing the following classifiers in favor of a SPDX license expression:
+
+          License :: OSI Approved :: MIT License
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    self._finalize_license_expression()
+  running bdist_wheel
+  /private/tmp/pip-build-env-p7iqsr0e/overlay/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:135: SetuptoolsDeprecationWarning: bdist_wheel.universal is deprecated
+  !!
+
+          ********************************************************************************
+          With Python 2.7 end-of-life, support for building universal wheels
+          (i.e., wheels that support both Python 2 and Python 3)
+          is being obviated.
+          Please discontinue using this option, or if you still need it,
+          file an issue with pypa/setuptools describing your use case.
+
+          This deprecation is overdue, please update your project and remove deprecated
+          calls to avoid build errors in the future.
+          ********************************************************************************
+
+  !!
+    self.finalize_options()
+  running build
+  running build_py
+  file src/croniter.py (for module croniter) not found
+  creating build/lib/croniter
+  copying src/croniter/__init__.py -> build/lib/croniter
+  copying src/croniter/croniter.py -> build/lib/croniter
+  running egg_info
+  writing src/croniter.egg-info/PKG-INFO
+  writing dependency_links to src/croniter.egg-info/dependency_links.txt
+  writing requirements to src/croniter.egg-info/requires.txt
+  writing top-level names to src/croniter.egg-info/top_level.txt
+  file src/croniter.py (for module croniter) not found
+  reading manifest file 'src/croniter.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  warning: no files found matching '*' under directory 'docs'
+  warning: no previously-included files matching '*pyc' found anywhere in distribution
+  adding license file 'LICENSE'
+  writing manifest file 'src/croniter.egg-info/SOURCES.txt'
+  /private/tmp/pip-build-env-p7iqsr0e/overlay/lib/python3.10/site-packages/setuptools/command/build_py.py:215: _Warning: Package 'croniter.tests' is absent from the `packages` configuration.
+  !!
+
+          ********************************************************************************
+          ############################
+          # Package would be ignored #
+          ############################
+          Python recognizes 'croniter.tests' as an importable package[^1],
+          but it is absent from setuptools' `packages` configuration.
+
+          This leads to an ambiguous overall configuration. If you want to distribute this
+          package, please make sure that 'croniter.tests' is explicitly added
+          to the `packages` configuration field.
+
+          Alternatively, you can also rely on setuptools' discovery methods
+          (for example by using `find_namespace_packages(...)`/`find_namespace:`
+          instead of `find_packages(...)`/`find:`).
+
+          You can read more about "package discovery" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/package_discovery.html
+
+          If you don't want 'croniter.tests' to be distributed and are
+          already explicitly excluding 'croniter.tests' via
+          `find_namespace_packages(...)/find_namespace` or `find_packages(...)/find`,
+          you can try to use `exclude_package_data`, or `include-package-data=False` in
+          combination with a more fine grained `package-data` configuration.
+
+          You can read more about "package data files" on setuptools documentation page:
+
+          - https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+
+
+          [^1]: For Python, any directory (with suitable naming) can be imported,
+                even if it does not contain any `.py` files.
+                On the other hand, currently there is no concept of package data
+                directory, all directories are treated like packages.
+          ********************************************************************************
+
+  !!
+    check.warn(importable)
+  file src/croniter.py (for module croniter) not found
+  warning: build_py: byte-compiling is disabled, skipping.
+
+  installing to build/bdist.macosx-26-arm64/wheel
+  running install
+  running install_lib
+  creating build/bdist.macosx-26-arm64/wheel
+  creating build/bdist.macosx-26-arm64/wheel/croniter
+  copying build/lib/croniter/__init__.py -> build/bdist.macosx-26-arm64/wheel/./croniter
+  copying build/lib/croniter/croniter.py -> build/bdist.macosx-26-arm64/wheel/./croniter
+  warning: install_lib: byte-compiling is disabled, skipping.
+
+  running install_egg_info
+  Copying src/croniter.egg-info to build/bdist.macosx-26-arm64/wheel/./croniter-6.0.0-py3.10.egg-info
+  running install_scripts
+  creating build/bdist.macosx-26-arm64/wheel/croniter-6.0.0.dist-info/WHEEL
+  creating '/Users/nikitabelonogov/Library/Caches/Homebrew/pip_cache/wheels/23/05/2b/2c149b8081f1d30967be3d484e1c4743956ff3fd642da1a792/tmp0hir30p7/.tmp-qhbo_4v0/croniter-6.0.0-py2.py3-none-any.whl' and adding 'build/bdist.macosx-26-arm64/wheel' to it
+  adding 'croniter/__init__.py'
+  adding 'croniter/croniter.py'
+  adding 'croniter-6.0.0.dist-info/licenses/LICENSE'
+  adding 'croniter-6.0.0.dist-info/METADATA'
+  adding 'croniter-6.0.0.dist-info/WHEEL'
+  adding 'croniter-6.0.0.dist-info/top_level.txt'
+  adding 'croniter-6.0.0.dist-info/RECORD'
+  removing build/bdist.macosx-26-arm64/wheel
+  Building wheel for croniter (pyproject.toml): finished with status 'done'
+  Created wheel for croniter: filename=croniter-6.0.0-py2.py3-none-any.whl size=25551 sha256=a0288c549f7553f85d0c5ae2583f7965ab671899babe312629933c89ec102476
+  Stored in directory: /Users/nikitabelonogov/Library/Caches/Homebrew/pip_cache/wheels/23/05/2b/2c149b8081f1d30967be3d484e1c4743956ff3fd642da1a792
+Successfully built croniter
+Installing collected packages: croniter
+Successfully installed croniter-6.0.0
+
+[notice] A new release of pip is available: 26.0 -> 26.0.1
+[notice] To update, run: /opt/homebrew/Cellar/label-studio/1.22.0/libexec/bin/python -m pip install --upgrade pip

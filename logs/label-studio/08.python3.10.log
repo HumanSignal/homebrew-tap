@@ -1,0 +1,73 @@
+2026-02-05 07:11:13 +0000
+
+python3.10
+-m
+pip
+--python=/opt/homebrew/Cellar/label-studio/1.22.0/libexec/bin/python
+install
+--verbose
+--no-deps
+--no-binary=:all:
+--ignore-installed
+--no-compile
+/private/tmp/label-studio--attrs-20260205-63897-9e94z2/attrs-25.4.0
+
+Using pip 26.0 from /opt/homebrew/lib/python3.10/site-packages/pip (python 3.10)
+Processing ./.
+  Installing build dependencies: started
+  Running command installing build dependencies
+  Using pip 26.0 from /opt/homebrew/lib/python3.10/site-packages/pip (python 3.10)
+  Collecting hatchling
+    Using cached hatchling-1.28.0-py3-none-any.whl
+  Collecting hatch-vcs
+    Using cached hatch_vcs-0.5.0-py3-none-any.whl
+  Collecting hatch-fancy-pypi-readme>=23.2.0
+    Using cached hatch_fancy_pypi_readme-25.1.0-py3-none-any.whl
+  Collecting packaging>=24.2 (from hatchling)
+    Using cached packaging-26.0-py3-none-any.whl
+  Collecting pathspec>=0.10.1 (from hatchling)
+    Using cached pathspec-1.0.4-py3-none-any.whl
+  Collecting pluggy>=1.0.0 (from hatchling)
+    Using cached pluggy-1.6.0-py3-none-any.whl
+  Collecting tomli>=1.2.2 (from hatchling)
+    Using cached tomli-2.4.0-py3-none-any.whl
+  Collecting trove-classifiers (from hatchling)
+    Using cached trove_classifiers-2026.1.14.14-py3-none-any.whl
+  Collecting setuptools-scm>=8.2.0 (from hatch-vcs)
+    Using cached setuptools_scm-9.2.2-py3-none-any.whl
+  Collecting setuptools (from setuptools-scm>=8.2.0->hatch-vcs)
+    Using cached setuptools-80.10.2-py3-none-any.whl
+  Installing collected packages: trove-classifiers, tomli, setuptools, pluggy, pathspec, packaging, setuptools-scm, hatchling, hatch-vcs, hatch-fancy-pypi-readme
+    Creating /private/tmp/pip-build-env-qygrsllh/overlay/bin
+    changing mode of /private/tmp/pip-build-env-qygrsllh/overlay/bin/trove-classifiers to 755
+    changing mode of /private/tmp/pip-build-env-qygrsllh/overlay/bin/setuptools-scm to 755
+    changing mode of /private/tmp/pip-build-env-qygrsllh/overlay/bin/hatchling to 755
+    changing mode of /private/tmp/pip-build-env-qygrsllh/overlay/bin/hatch-fancy-pypi-readme to 755
+
+  ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+  devpi-server 6.17.0 requires attrs>=22.2.0, which is not installed.
+  devpi-server 6.17.0 requires defusedxml, which is not installed.
+  devpi-web 5.0.1 requires attrs>=22.2.0, which is not installed.
+  devpi-web 5.0.1 requires beautifulsoup4!=4.12.1,>=4.3.2, which is not installed.
+  devpi-web 5.0.1 requires defusedxml, which is not installed.
+  twisted 25.5.0 requires attrs>=22.2.0, which is not installed.
+  Successfully installed hatch-fancy-pypi-readme-25.1.0 hatch-vcs-0.5.0 hatchling-1.28.0 packaging-26.0 pathspec-1.0.4 pluggy-1.6.0 setuptools-80.10.2 setuptools-scm-9.2.2 tomli-2.4.0 trove-classifiers-2026.1.14.14
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Running command Getting requirements to build wheel
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: attrs
+  Building wheel for attrs (pyproject.toml): started
+  Running command Building wheel for attrs (pyproject.toml)
+  Building wheel for attrs (pyproject.toml): finished with status 'done'
+  Created wheel for attrs: filename=attrs-25.4.0-py3-none-any.whl size=67614 sha256=27ce50bf814b04cf966a90437fec94d99fb9fe70e7fb4bff94f32ba0e901edb0
+  Stored in directory: /Users/nikitabelonogov/Library/Caches/Homebrew/pip_cache/wheels/34/6d/eb/d08ad52d08251c31e933a85ac146522e04bfb6605d75554c60
+Successfully built attrs
+Installing collected packages: attrs
+Successfully installed attrs-25.4.0
+
+[notice] A new release of pip is available: 26.0 -> 26.0.1
+[notice] To update, run: /opt/homebrew/Cellar/label-studio/1.22.0/libexec/bin/python -m pip install --upgrade pip

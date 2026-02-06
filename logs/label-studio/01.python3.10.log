@@ -1,0 +1,9 @@
+2026-02-05 07:10:57 +0000
+
+python3.10
+-m
+venv
+--system-site-packages
+--without-pip
+/opt/homebrew/Cellar/label-studio/1.22.0/libexec
+

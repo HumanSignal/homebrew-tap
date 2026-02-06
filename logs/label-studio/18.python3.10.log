@@ -1,0 +1,193 @@
+2026-02-05 07:11:47 +0000
+
+python3.10
+-m
+pip
+--python=/opt/homebrew/Cellar/label-studio/1.22.0/libexec/bin/python
+install
+--verbose
+--no-deps
+--no-binary=:all:
+--ignore-installed
+--no-compile
+/private/tmp/label-studio--charset-normalizer-20260205-63897-5cv9l7/charset_normalizer-3.4.4
+
+Using pip 26.0 from /opt/homebrew/lib/python3.10/site-packages/pip (python 3.10)
+Processing ./.
+  Installing build dependencies: started
+  Running command installing build dependencies
+  Using pip 26.0 from /opt/homebrew/lib/python3.10/site-packages/pip (python 3.10)
+  Collecting setuptools<=81,>=68
+    Using cached setuptools-80.10.2-py3-none-any.whl
+  Installing collected packages: setuptools
+  Successfully installed setuptools-80.10.2
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Running command Getting requirements to build wheel
+  /private/tmp/pip-build-env-ft0z_rrs/overlay/lib/python3.10/site-packages/setuptools/config/_apply_pyprojecttoml.py:82: SetuptoolsDeprecationWarning: `project.license` as a TOML table is deprecated
+  !!
+
+          ********************************************************************************
+          Please use a simple string containing a SPDX expression for `project.license`. You can also use `project.license-files`. (Both options available on setuptools>=77.0.0).
+
+          By 2027-Feb-18, you need to update your project and remove deprecated calls
+          or your builds will no longer be supported.
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    corresp(dist, value, root_dir)
+  running egg_info
+  writing src/charset_normalizer.egg-info/PKG-INFO
+  writing dependency_links to src/charset_normalizer.egg-info/dependency_links.txt
+  writing entry points to src/charset_normalizer.egg-info/entry_points.txt
+  writing requirements to src/charset_normalizer.egg-info/requires.txt
+  writing top-level names to src/charset_normalizer.egg-info/top_level.txt
+  reading manifest file 'src/charset_normalizer.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  warning: no previously-included files matching '*' found under directory '.github'
+  warning: no previously-included files matching '*' found under directory '__pycache__'
+  warning: no previously-included files matching '*.pyc' found anywhere in distribution
+  adding license file 'LICENSE'
+  writing manifest file 'src/charset_normalizer.egg-info/SOURCES.txt'
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  /private/tmp/pip-build-env-ft0z_rrs/overlay/lib/python3.10/site-packages/setuptools/config/_apply_pyprojecttoml.py:82: SetuptoolsDeprecationWarning: `project.license` as a TOML table is deprecated
+  !!
+
+          ********************************************************************************
+          Please use a simple string containing a SPDX expression for `project.license`. You can also use `project.license-files`. (Both options available on setuptools>=77.0.0).
+
+          By 2027-Feb-18, you need to update your project and remove deprecated calls
+          or your builds will no longer be supported.
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    corresp(dist, value, root_dir)
+  running dist_info
+  creating /private/tmp/pip-modern-metadata-i9lo4hk7/charset_normalizer.egg-info
+  writing /private/tmp/pip-modern-metadata-i9lo4hk7/charset_normalizer.egg-info/PKG-INFO
+  writing dependency_links to /private/tmp/pip-modern-metadata-i9lo4hk7/charset_normalizer.egg-info/dependency_links.txt
+  writing entry points to /private/tmp/pip-modern-metadata-i9lo4hk7/charset_normalizer.egg-info/entry_points.txt
+  writing requirements to /private/tmp/pip-modern-metadata-i9lo4hk7/charset_normalizer.egg-info/requires.txt
+  writing top-level names to /private/tmp/pip-modern-metadata-i9lo4hk7/charset_normalizer.egg-info/top_level.txt
+  writing manifest file '/private/tmp/pip-modern-metadata-i9lo4hk7/charset_normalizer.egg-info/SOURCES.txt'
+  reading manifest file '/private/tmp/pip-modern-metadata-i9lo4hk7/charset_normalizer.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  warning: no previously-included files matching '*' found under directory '.github'
+  warning: no previously-included files matching '*' found under directory '__pycache__'
+  warning: no previously-included files matching '*.pyc' found anywhere in distribution
+  adding license file 'LICENSE'
+  writing manifest file '/private/tmp/pip-modern-metadata-i9lo4hk7/charset_normalizer.egg-info/SOURCES.txt'
+  creating '/private/tmp/pip-modern-metadata-i9lo4hk7/charset_normalizer-3.4.4.dist-info'
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: charset-normalizer
+  Building wheel for charset-normalizer (pyproject.toml): started
+  Running command Building wheel for charset-normalizer (pyproject.toml)
+  /private/tmp/pip-build-env-ft0z_rrs/overlay/lib/python3.10/site-packages/setuptools/config/_apply_pyprojecttoml.py:82: SetuptoolsDeprecationWarning: `project.license` as a TOML table is deprecated
+  !!
+
+          ********************************************************************************
+          Please use a simple string containing a SPDX expression for `project.license`. You can also use `project.license-files`. (Both options available on setuptools>=77.0.0).
+
+          By 2027-Feb-18, you need to update your project and remove deprecated calls
+          or your builds will no longer be supported.
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    corresp(dist, value, root_dir)
+  running bdist_wheel
+  running build
+  running build_py
+  creating build/lib/charset_normalizer
+  copying src/charset_normalizer/md.py -> build/lib/charset_normalizer
+  copying src/charset_normalizer/version.py -> build/lib/charset_normalizer
+  copying src/charset_normalizer/legacy.py -> build/lib/charset_normalizer
+  copying src/charset_normalizer/models.py -> build/lib/charset_normalizer
+  copying src/charset_normalizer/__init__.py -> build/lib/charset_normalizer
+  copying src/charset_normalizer/api.py -> build/lib/charset_normalizer
+  copying src/charset_normalizer/utils.py -> build/lib/charset_normalizer
+  copying src/charset_normalizer/constant.py -> build/lib/charset_normalizer
+  copying src/charset_normalizer/__main__.py -> build/lib/charset_normalizer
+  copying src/charset_normalizer/cd.py -> build/lib/charset_normalizer
+  creating build/lib/charset_normalizer/cli
+  copying src/charset_normalizer/cli/__init__.py -> build/lib/charset_normalizer/cli
+  copying src/charset_normalizer/cli/__main__.py -> build/lib/charset_normalizer/cli
+  running egg_info
+  writing src/charset_normalizer.egg-info/PKG-INFO
+  writing dependency_links to src/charset_normalizer.egg-info/dependency_links.txt
+  writing entry points to src/charset_normalizer.egg-info/entry_points.txt
+  writing requirements to src/charset_normalizer.egg-info/requires.txt
+  writing top-level names to src/charset_normalizer.egg-info/top_level.txt
+  reading manifest file 'src/charset_normalizer.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  warning: no previously-included files matching '*' found under directory '.github'
+  warning: no previously-included files matching '*' found under directory '__pycache__'
+  warning: no previously-included files matching '*.pyc' found anywhere in distribution
+  adding license file 'LICENSE'
+  writing manifest file 'src/charset_normalizer.egg-info/SOURCES.txt'
+  copying src/charset_normalizer/py.typed -> build/lib/charset_normalizer
+  warning: build_py: byte-compiling is disabled, skipping.
+
+  installing to build/bdist.macosx-26-arm64/wheel
+  running install
+  running install_lib
+  creating build/bdist.macosx-26-arm64/wheel
+  creating build/bdist.macosx-26-arm64/wheel/charset_normalizer
+  copying build/lib/charset_normalizer/md.py -> build/bdist.macosx-26-arm64/wheel/./charset_normalizer
+  copying build/lib/charset_normalizer/version.py -> build/bdist.macosx-26-arm64/wheel/./charset_normalizer
+  copying build/lib/charset_normalizer/legacy.py -> build/bdist.macosx-26-arm64/wheel/./charset_normalizer
+  copying build/lib/charset_normalizer/models.py -> build/bdist.macosx-26-arm64/wheel/./charset_normalizer
+  copying build/lib/charset_normalizer/__init__.py -> build/bdist.macosx-26-arm64/wheel/./charset_normalizer
+  creating build/bdist.macosx-26-arm64/wheel/charset_normalizer/cli
+  copying build/lib/charset_normalizer/cli/__init__.py -> build/bdist.macosx-26-arm64/wheel/./charset_normalizer/cli
+  copying build/lib/charset_normalizer/cli/__main__.py -> build/bdist.macosx-26-arm64/wheel/./charset_normalizer/cli
+  copying build/lib/charset_normalizer/api.py -> build/bdist.macosx-26-arm64/wheel/./charset_normalizer
+  copying build/lib/charset_normalizer/utils.py -> build/bdist.macosx-26-arm64/wheel/./charset_normalizer
+  copying build/lib/charset_normalizer/py.typed -> build/bdist.macosx-26-arm64/wheel/./charset_normalizer
+  copying build/lib/charset_normalizer/constant.py -> build/bdist.macosx-26-arm64/wheel/./charset_normalizer
+  copying build/lib/charset_normalizer/__main__.py -> build/bdist.macosx-26-arm64/wheel/./charset_normalizer
+  copying build/lib/charset_normalizer/cd.py -> build/bdist.macosx-26-arm64/wheel/./charset_normalizer
+  warning: install_lib: byte-compiling is disabled, skipping.
+
+  running install_egg_info
+  Copying src/charset_normalizer.egg-info to build/bdist.macosx-26-arm64/wheel/./charset_normalizer-3.4.4-py3.10.egg-info
+  running install_scripts
+  creating build/bdist.macosx-26-arm64/wheel/charset_normalizer-3.4.4.dist-info/WHEEL
+  creating '/Users/nikitabelonogov/Library/Caches/Homebrew/pip_cache/wheels/16/28/d9/d0d55e1431e41cb43f4c6c1d7b296f792c6aa75ce6d41a7f90/tmp3qzlg_wn/.tmp-xkbggxpk/charset_normalizer-3.4.4-py3-none-any.whl' and adding 'build/bdist.macosx-26-arm64/wheel' to it
+  adding 'charset_normalizer/__init__.py'
+  adding 'charset_normalizer/__main__.py'
+  adding 'charset_normalizer/api.py'
+  adding 'charset_normalizer/cd.py'
+  adding 'charset_normalizer/constant.py'
+  adding 'charset_normalizer/legacy.py'
+  adding 'charset_normalizer/md.py'
+  adding 'charset_normalizer/models.py'
+  adding 'charset_normalizer/py.typed'
+  adding 'charset_normalizer/utils.py'
+  adding 'charset_normalizer/version.py'
+  adding 'charset_normalizer/cli/__init__.py'
+  adding 'charset_normalizer/cli/__main__.py'
+  adding 'charset_normalizer-3.4.4.dist-info/licenses/LICENSE'
+  adding 'charset_normalizer-3.4.4.dist-info/METADATA'
+  adding 'charset_normalizer-3.4.4.dist-info/WHEEL'
+  adding 'charset_normalizer-3.4.4.dist-info/entry_points.txt'
+  adding 'charset_normalizer-3.4.4.dist-info/top_level.txt'
+  adding 'charset_normalizer-3.4.4.dist-info/RECORD'
+  removing build/bdist.macosx-26-arm64/wheel
+  Building wheel for charset-normalizer (pyproject.toml): finished with status 'done'
+  Created wheel for charset-normalizer: filename=charset_normalizer-3.4.4-py3-none-any.whl size=53401 sha256=346b8e8e322207015cb19bcbf0df5685b6d109eb49b65306fd024e4f675fb4ad
+  Stored in directory: /Users/nikitabelonogov/Library/Caches/Homebrew/pip_cache/wheels/16/28/d9/d0d55e1431e41cb43f4c6c1d7b296f792c6aa75ce6d41a7f90
+Successfully built charset-normalizer
+Installing collected packages: charset-normalizer
+  changing mode of /opt/homebrew/Cellar/label-studio/1.22.0/libexec/bin/normalizer to 755
+Successfully installed charset-normalizer-3.4.4
+
+[notice] A new release of pip is available: 26.0 -> 26.0.1
+[notice] To update, run: /opt/homebrew/Cellar/label-studio/1.22.0/libexec/bin/python -m pip install --upgrade pip

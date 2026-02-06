@@ -1,0 +1,251 @@
+2026-02-05 07:11:00 +0000
+
+python3.10
+-m
+pip
+--python=/opt/homebrew/Cellar/label-studio/1.22.0/libexec/bin/python
+install
+--verbose
+--no-deps
+--no-binary=:all:
+--ignore-installed
+--no-compile
+/private/tmp/label-studio--anyio-20260205-63897-fnd5qp/anyio-4.12.1
+
+Using pip 26.0 from /opt/homebrew/lib/python3.10/site-packages/pip (python 3.10)
+Processing ./.
+  Installing build dependencies: started
+  Running command installing build dependencies
+  Using pip 26.0 from /opt/homebrew/lib/python3.10/site-packages/pip (python 3.10)
+  Collecting setuptools>=77
+    Using cached setuptools-80.10.2-py3-none-any.whl
+  Collecting setuptools_scm>=6.4
+    Using cached setuptools_scm-9.2.2-py3-none-any.whl
+  Collecting packaging>=20 (from setuptools_scm>=6.4)
+    Using cached packaging-26.0-py3-none-any.whl
+  Collecting tomli>=1 (from setuptools_scm>=6.4)
+    Using cached tomli-2.4.0-py3-none-any.whl
+  Installing collected packages: tomli, setuptools, packaging, setuptools_scm
+    Creating /private/tmp/pip-build-env-qi1t5hd2/overlay/bin
+    changing mode of /private/tmp/pip-build-env-qi1t5hd2/overlay/bin/setuptools-scm to 755
+
+  ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+  devpi-web 5.0.1 requires attrs>=22.2.0, which is not installed.
+  devpi-web 5.0.1 requires beautifulsoup4!=4.12.1,>=4.3.2, which is not installed.
+  devpi-web 5.0.1 requires defusedxml, which is not installed.
+  twisted 25.5.0 requires attrs>=22.2.0, which is not installed.
+  Successfully installed packaging-26.0 setuptools-80.10.2 setuptools_scm-9.2.2 tomli-2.4.0
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Running command Getting requirements to build wheel
+  running egg_info
+  writing src/anyio.egg-info/PKG-INFO
+  writing dependency_links to src/anyio.egg-info/dependency_links.txt
+  writing entry points to src/anyio.egg-info/entry_points.txt
+  writing requirements to src/anyio.egg-info/requires.txt
+  writing top-level names to src/anyio.egg-info/top_level.txt
+  listing git files failed - pretending there aren't any
+  reading manifest file 'src/anyio.egg-info/SOURCES.txt'
+  adding license file 'LICENSE'
+  writing manifest file 'src/anyio.egg-info/SOURCES.txt'
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  running dist_info
+  creating /private/tmp/pip-modern-metadata-zc9qsqkk/anyio.egg-info
+  writing /private/tmp/pip-modern-metadata-zc9qsqkk/anyio.egg-info/PKG-INFO
+  writing dependency_links to /private/tmp/pip-modern-metadata-zc9qsqkk/anyio.egg-info/dependency_links.txt
+  writing entry points to /private/tmp/pip-modern-metadata-zc9qsqkk/anyio.egg-info/entry_points.txt
+  writing requirements to /private/tmp/pip-modern-metadata-zc9qsqkk/anyio.egg-info/requires.txt
+  writing top-level names to /private/tmp/pip-modern-metadata-zc9qsqkk/anyio.egg-info/top_level.txt
+  writing manifest file '/private/tmp/pip-modern-metadata-zc9qsqkk/anyio.egg-info/SOURCES.txt'
+  listing git files failed - pretending there aren't any
+  reading manifest file '/private/tmp/pip-modern-metadata-zc9qsqkk/anyio.egg-info/SOURCES.txt'
+  adding license file 'LICENSE'
+  writing manifest file '/private/tmp/pip-modern-metadata-zc9qsqkk/anyio.egg-info/SOURCES.txt'
+  creating '/private/tmp/pip-modern-metadata-zc9qsqkk/anyio-4.12.1.dist-info'
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: anyio
+  Building wheel for anyio (pyproject.toml): started
+  Running command Building wheel for anyio (pyproject.toml)
+  running bdist_wheel
+  running build
+  running build_py
+  creating build/lib/anyio
+  copying src/anyio/to_process.py -> build/lib/anyio
+  copying src/anyio/functools.py -> build/lib/anyio
+  copying src/anyio/to_thread.py -> build/lib/anyio
+  copying src/anyio/__init__.py -> build/lib/anyio
+  copying src/anyio/from_thread.py -> build/lib/anyio
+  copying src/anyio/lowlevel.py -> build/lib/anyio
+  copying src/anyio/to_interpreter.py -> build/lib/anyio
+  copying src/anyio/pytest_plugin.py -> build/lib/anyio
+  creating build/lib/anyio/abc
+  copying src/anyio/abc/_streams.py -> build/lib/anyio/abc
+  copying src/anyio/abc/_eventloop.py -> build/lib/anyio/abc
+  copying src/anyio/abc/_tasks.py -> build/lib/anyio/abc
+  copying src/anyio/abc/__init__.py -> build/lib/anyio/abc
+  copying src/anyio/abc/_testing.py -> build/lib/anyio/abc
+  copying src/anyio/abc/_sockets.py -> build/lib/anyio/abc
+  copying src/anyio/abc/_resources.py -> build/lib/anyio/abc
+  copying src/anyio/abc/_subprocesses.py -> build/lib/anyio/abc
+  creating build/lib/anyio/_backends
+  copying src/anyio/_backends/_trio.py -> build/lib/anyio/_backends
+  copying src/anyio/_backends/_asyncio.py -> build/lib/anyio/_backends
+  copying src/anyio/_backends/__init__.py -> build/lib/anyio/_backends
+  creating build/lib/anyio/_core
+  copying src/anyio/_core/_signals.py -> build/lib/anyio/_core
+  copying src/anyio/_core/_fileio.py -> build/lib/anyio/_core
+  copying src/anyio/_core/_contextmanagers.py -> build/lib/anyio/_core
+  copying src/anyio/_core/_synchronization.py -> build/lib/anyio/_core
+  copying src/anyio/_core/_streams.py -> build/lib/anyio/_core
+  copying src/anyio/_core/_tempfile.py -> build/lib/anyio/_core
+  copying src/anyio/_core/_eventloop.py -> build/lib/anyio/_core
+  copying src/anyio/_core/_tasks.py -> build/lib/anyio/_core
+  copying src/anyio/_core/__init__.py -> build/lib/anyio/_core
+  copying src/anyio/_core/_typedattr.py -> build/lib/anyio/_core
+  copying src/anyio/_core/_asyncio_selector_thread.py -> build/lib/anyio/_core
+  copying src/anyio/_core/_testing.py -> build/lib/anyio/_core
+  copying src/anyio/_core/_sockets.py -> build/lib/anyio/_core
+  copying src/anyio/_core/_exceptions.py -> build/lib/anyio/_core
+  copying src/anyio/_core/_resources.py -> build/lib/anyio/_core
+  copying src/anyio/_core/_subprocesses.py -> build/lib/anyio/_core
+  creating build/lib/anyio/streams
+  copying src/anyio/streams/buffered.py -> build/lib/anyio/streams
+  copying src/anyio/streams/memory.py -> build/lib/anyio/streams
+  copying src/anyio/streams/__init__.py -> build/lib/anyio/streams
+  copying src/anyio/streams/stapled.py -> build/lib/anyio/streams
+  copying src/anyio/streams/tls.py -> build/lib/anyio/streams
+  copying src/anyio/streams/file.py -> build/lib/anyio/streams
+  copying src/anyio/streams/text.py -> build/lib/anyio/streams
+  running egg_info
+  writing src/anyio.egg-info/PKG-INFO
+  writing dependency_links to src/anyio.egg-info/dependency_links.txt
+  writing entry points to src/anyio.egg-info/entry_points.txt
+  writing requirements to src/anyio.egg-info/requires.txt
+  writing top-level names to src/anyio.egg-info/top_level.txt
+  listing git files failed - pretending there aren't any
+  reading manifest file 'src/anyio.egg-info/SOURCES.txt'
+  adding license file 'LICENSE'
+  writing manifest file 'src/anyio.egg-info/SOURCES.txt'
+  copying src/anyio/py.typed -> build/lib/anyio
+  warning: build_py: byte-compiling is disabled, skipping.
+
+  installing to build/bdist.macosx-26-arm64/wheel
+  running install
+  running install_lib
+  creating build/bdist.macosx-26-arm64/wheel
+  creating build/bdist.macosx-26-arm64/wheel/anyio
+  creating build/bdist.macosx-26-arm64/wheel/anyio/abc
+  copying build/lib/anyio/abc/_streams.py -> build/bdist.macosx-26-arm64/wheel/./anyio/abc
+  copying build/lib/anyio/abc/_eventloop.py -> build/bdist.macosx-26-arm64/wheel/./anyio/abc
+  copying build/lib/anyio/abc/_tasks.py -> build/bdist.macosx-26-arm64/wheel/./anyio/abc
+  copying build/lib/anyio/abc/__init__.py -> build/bdist.macosx-26-arm64/wheel/./anyio/abc
+  copying build/lib/anyio/abc/_testing.py -> build/bdist.macosx-26-arm64/wheel/./anyio/abc
+  copying build/lib/anyio/abc/_sockets.py -> build/bdist.macosx-26-arm64/wheel/./anyio/abc
+  copying build/lib/anyio/abc/_resources.py -> build/bdist.macosx-26-arm64/wheel/./anyio/abc
+  copying build/lib/anyio/abc/_subprocesses.py -> build/bdist.macosx-26-arm64/wheel/./anyio/abc
+  copying build/lib/anyio/to_process.py -> build/bdist.macosx-26-arm64/wheel/./anyio
+  creating build/bdist.macosx-26-arm64/wheel/anyio/_backends
+  copying build/lib/anyio/_backends/_trio.py -> build/bdist.macosx-26-arm64/wheel/./anyio/_backends
+  copying build/lib/anyio/_backends/_asyncio.py -> build/bdist.macosx-26-arm64/wheel/./anyio/_backends
+  copying build/lib/anyio/_backends/__init__.py -> build/bdist.macosx-26-arm64/wheel/./anyio/_backends
+  creating build/bdist.macosx-26-arm64/wheel/anyio/_core
+  copying build/lib/anyio/_core/_signals.py -> build/bdist.macosx-26-arm64/wheel/./anyio/_core
+  copying build/lib/anyio/_core/_fileio.py -> build/bdist.macosx-26-arm64/wheel/./anyio/_core
+  copying build/lib/anyio/_core/_contextmanagers.py -> build/bdist.macosx-26-arm64/wheel/./anyio/_core
+  copying build/lib/anyio/_core/_synchronization.py -> build/bdist.macosx-26-arm64/wheel/./anyio/_core
+  copying build/lib/anyio/_core/_streams.py -> build/bdist.macosx-26-arm64/wheel/./anyio/_core
+  copying build/lib/anyio/_core/_tempfile.py -> build/bdist.macosx-26-arm64/wheel/./anyio/_core
+  copying build/lib/anyio/_core/_eventloop.py -> build/bdist.macosx-26-arm64/wheel/./anyio/_core
+  copying build/lib/anyio/_core/_tasks.py -> build/bdist.macosx-26-arm64/wheel/./anyio/_core
+  copying build/lib/anyio/_core/__init__.py -> build/bdist.macosx-26-arm64/wheel/./anyio/_core
+  copying build/lib/anyio/_core/_typedattr.py -> build/bdist.macosx-26-arm64/wheel/./anyio/_core
+  copying build/lib/anyio/_core/_asyncio_selector_thread.py -> build/bdist.macosx-26-arm64/wheel/./anyio/_core
+  copying build/lib/anyio/_core/_testing.py -> build/bdist.macosx-26-arm64/wheel/./anyio/_core
+  copying build/lib/anyio/_core/_sockets.py -> build/bdist.macosx-26-arm64/wheel/./anyio/_core
+  copying build/lib/anyio/_core/_exceptions.py -> build/bdist.macosx-26-arm64/wheel/./anyio/_core
+  copying build/lib/anyio/_core/_resources.py -> build/bdist.macosx-26-arm64/wheel/./anyio/_core
+  copying build/lib/anyio/_core/_subprocesses.py -> build/bdist.macosx-26-arm64/wheel/./anyio/_core
+  copying build/lib/anyio/functools.py -> build/bdist.macosx-26-arm64/wheel/./anyio
+  creating build/bdist.macosx-26-arm64/wheel/anyio/streams
+  copying build/lib/anyio/streams/buffered.py -> build/bdist.macosx-26-arm64/wheel/./anyio/streams
+  copying build/lib/anyio/streams/memory.py -> build/bdist.macosx-26-arm64/wheel/./anyio/streams
+  copying build/lib/anyio/streams/__init__.py -> build/bdist.macosx-26-arm64/wheel/./anyio/streams
+  copying build/lib/anyio/streams/stapled.py -> build/bdist.macosx-26-arm64/wheel/./anyio/streams
+  copying build/lib/anyio/streams/tls.py -> build/bdist.macosx-26-arm64/wheel/./anyio/streams
+  copying build/lib/anyio/streams/file.py -> build/bdist.macosx-26-arm64/wheel/./anyio/streams
+  copying build/lib/anyio/streams/text.py -> build/bdist.macosx-26-arm64/wheel/./anyio/streams
+  copying build/lib/anyio/to_thread.py -> build/bdist.macosx-26-arm64/wheel/./anyio
+  copying build/lib/anyio/__init__.py -> build/bdist.macosx-26-arm64/wheel/./anyio
+  copying build/lib/anyio/from_thread.py -> build/bdist.macosx-26-arm64/wheel/./anyio
+  copying build/lib/anyio/lowlevel.py -> build/bdist.macosx-26-arm64/wheel/./anyio
+  copying build/lib/anyio/py.typed -> build/bdist.macosx-26-arm64/wheel/./anyio
+  copying build/lib/anyio/to_interpreter.py -> build/bdist.macosx-26-arm64/wheel/./anyio
+  copying build/lib/anyio/pytest_plugin.py -> build/bdist.macosx-26-arm64/wheel/./anyio
+  warning: install_lib: byte-compiling is disabled, skipping.
+
+  running install_egg_info
+  Copying src/anyio.egg-info to build/bdist.macosx-26-arm64/wheel/./anyio-4.12.1-py3.10.egg-info
+  running install_scripts
+  creating build/bdist.macosx-26-arm64/wheel/anyio-4.12.1.dist-info/WHEEL
+  creating '/Users/nikitabelonogov/Library/Caches/Homebrew/pip_cache/wheels/c3/98/2f/1b6491af02d7a4273e813f234cb7be04a185c3121be9a93376/tmpe5tna03e/.tmp-y07nkag_/anyio-4.12.1-py3-none-any.whl' and adding 'build/bdist.macosx-26-arm64/wheel' to it
+  adding 'anyio/__init__.py'
+  adding 'anyio/from_thread.py'
+  adding 'anyio/functools.py'
+  adding 'anyio/lowlevel.py'
+  adding 'anyio/py.typed'
+  adding 'anyio/pytest_plugin.py'
+  adding 'anyio/to_interpreter.py'
+  adding 'anyio/to_process.py'
+  adding 'anyio/to_thread.py'
+  adding 'anyio/_backends/__init__.py'
+  adding 'anyio/_backends/_asyncio.py'
+  adding 'anyio/_backends/_trio.py'
+  adding 'anyio/_core/__init__.py'
+  adding 'anyio/_core/_asyncio_selector_thread.py'
+  adding 'anyio/_core/_contextmanagers.py'
+  adding 'anyio/_core/_eventloop.py'
+  adding 'anyio/_core/_exceptions.py'
+  adding 'anyio/_core/_fileio.py'
+  adding 'anyio/_core/_resources.py'
+  adding 'anyio/_core/_signals.py'
+  adding 'anyio/_core/_sockets.py'
+  adding 'anyio/_core/_streams.py'
+  adding 'anyio/_core/_subprocesses.py'
+  adding 'anyio/_core/_synchronization.py'
+  adding 'anyio/_core/_tasks.py'
+  adding 'anyio/_core/_tempfile.py'
+  adding 'anyio/_core/_testing.py'
+  adding 'anyio/_core/_typedattr.py'
+  adding 'anyio/abc/__init__.py'
+  adding 'anyio/abc/_eventloop.py'
+  adding 'anyio/abc/_resources.py'
+  adding 'anyio/abc/_sockets.py'
+  adding 'anyio/abc/_streams.py'
+  adding 'anyio/abc/_subprocesses.py'
+  adding 'anyio/abc/_tasks.py'
+  adding 'anyio/abc/_testing.py'
+  adding 'anyio/streams/__init__.py'
+  adding 'anyio/streams/buffered.py'
+  adding 'anyio/streams/file.py'
+  adding 'anyio/streams/memory.py'
+  adding 'anyio/streams/stapled.py'
+  adding 'anyio/streams/text.py'
+  adding 'anyio/streams/tls.py'
+  adding 'anyio-4.12.1.dist-info/licenses/LICENSE'
+  adding 'anyio-4.12.1.dist-info/METADATA'
+  adding 'anyio-4.12.1.dist-info/WHEEL'
+  adding 'anyio-4.12.1.dist-info/entry_points.txt'
+  adding 'anyio-4.12.1.dist-info/top_level.txt'
+  adding 'anyio-4.12.1.dist-info/RECORD'
+  removing build/bdist.macosx-26-arm64/wheel
+  Building wheel for anyio (pyproject.toml): finished with status 'done'
+  Created wheel for anyio: filename=anyio-4.12.1-py3-none-any.whl size=113592 sha256=aa97c81211f20c70581b615e549a28106d51da65bf776661e2c846b2200d5b2a
+  Stored in directory: /Users/nikitabelonogov/Library/Caches/Homebrew/pip_cache/wheels/c3/98/2f/1b6491af02d7a4273e813f234cb7be04a185c3121be9a93376
+Successfully built anyio
+Installing collected packages: anyio
+Successfully installed anyio-4.12.1
+
+[notice] A new release of pip is available: 26.0 -> 26.0.1
+[notice] To update, run: /opt/homebrew/Cellar/label-studio/1.22.0/libexec/bin/python -m pip install --upgrade pip

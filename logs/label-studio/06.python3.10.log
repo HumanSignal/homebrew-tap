@@ -1,0 +1,170 @@
+2026-02-05 07:11:06 +0000
+
+python3.10
+-m
+pip
+--python=/opt/homebrew/Cellar/label-studio/1.22.0/libexec/bin/python
+install
+--verbose
+--no-deps
+--no-binary=:all:
+--ignore-installed
+--no-compile
+/private/tmp/label-studio--asgiref-20260205-63897-lz0zoz/asgiref-3.11.0
+
+Using pip 26.0 from /opt/homebrew/lib/python3.10/site-packages/pip (python 3.10)
+Processing ./.
+  Installing build dependencies: started
+  Running command installing build dependencies
+  Using pip 26.0 from /opt/homebrew/lib/python3.10/site-packages/pip (python 3.10)
+  Collecting setuptools>=40.8.0
+    Using cached setuptools-80.10.2-py3-none-any.whl
+  Installing collected packages: setuptools
+  ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+  twisted 25.5.0 requires attrs>=22.2.0, which is not installed.
+  Successfully installed setuptools-80.10.2
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Running command Getting requirements to build wheel
+  /private/tmp/pip-build-env-2humweyg/overlay/lib/python3.10/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+  !!
+
+          ********************************************************************************
+          Please consider removing the following classifiers in favor of a SPDX license expression:
+
+          License :: OSI Approved :: BSD License
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    self._finalize_license_expression()
+  running egg_info
+  writing asgiref.egg-info/PKG-INFO
+  writing dependency_links to asgiref.egg-info/dependency_links.txt
+  writing requirements to asgiref.egg-info/requires.txt
+  writing top-level names to asgiref.egg-info/top_level.txt
+  reading manifest file 'asgiref.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE'
+  writing manifest file 'asgiref.egg-info/SOURCES.txt'
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  /private/tmp/pip-build-env-2humweyg/overlay/lib/python3.10/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+  !!
+
+          ********************************************************************************
+          Please consider removing the following classifiers in favor of a SPDX license expression:
+
+          License :: OSI Approved :: BSD License
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    self._finalize_license_expression()
+  running dist_info
+  creating /private/tmp/pip-modern-metadata-8bds_k2t/asgiref.egg-info
+  writing /private/tmp/pip-modern-metadata-8bds_k2t/asgiref.egg-info/PKG-INFO
+  writing dependency_links to /private/tmp/pip-modern-metadata-8bds_k2t/asgiref.egg-info/dependency_links.txt
+  writing requirements to /private/tmp/pip-modern-metadata-8bds_k2t/asgiref.egg-info/requires.txt
+  writing top-level names to /private/tmp/pip-modern-metadata-8bds_k2t/asgiref.egg-info/top_level.txt
+  writing manifest file '/private/tmp/pip-modern-metadata-8bds_k2t/asgiref.egg-info/SOURCES.txt'
+  reading manifest file '/private/tmp/pip-modern-metadata-8bds_k2t/asgiref.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE'
+  writing manifest file '/private/tmp/pip-modern-metadata-8bds_k2t/asgiref.egg-info/SOURCES.txt'
+  creating '/private/tmp/pip-modern-metadata-8bds_k2t/asgiref-3.11.0.dist-info'
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: asgiref
+  Building wheel for asgiref (pyproject.toml): started
+  Running command Building wheel for asgiref (pyproject.toml)
+  /private/tmp/pip-build-env-2humweyg/overlay/lib/python3.10/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+  !!
+
+          ********************************************************************************
+          Please consider removing the following classifiers in favor of a SPDX license expression:
+
+          License :: OSI Approved :: BSD License
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    self._finalize_license_expression()
+  running bdist_wheel
+  running build
+  running build_py
+  creating build/lib/asgiref
+  copying asgiref/sync.py -> build/lib/asgiref
+  copying asgiref/compatibility.py -> build/lib/asgiref
+  copying asgiref/server.py -> build/lib/asgiref
+  copying asgiref/local.py -> build/lib/asgiref
+  copying asgiref/current_thread_executor.py -> build/lib/asgiref
+  copying asgiref/timeout.py -> build/lib/asgiref
+  copying asgiref/__init__.py -> build/lib/asgiref
+  copying asgiref/typing.py -> build/lib/asgiref
+  copying asgiref/testing.py -> build/lib/asgiref
+  copying asgiref/wsgi.py -> build/lib/asgiref
+  running egg_info
+  writing asgiref.egg-info/PKG-INFO
+  writing dependency_links to asgiref.egg-info/dependency_links.txt
+  writing requirements to asgiref.egg-info/requires.txt
+  writing top-level names to asgiref.egg-info/top_level.txt
+  reading manifest file 'asgiref.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE'
+  writing manifest file 'asgiref.egg-info/SOURCES.txt'
+  copying asgiref/py.typed -> build/lib/asgiref
+  warning: build_py: byte-compiling is disabled, skipping.
+
+  installing to build/bdist.macosx-26-arm64/wheel
+  running install
+  running install_lib
+  creating build/bdist.macosx-26-arm64/wheel
+  creating build/bdist.macosx-26-arm64/wheel/asgiref
+  copying build/lib/asgiref/sync.py -> build/bdist.macosx-26-arm64/wheel/./asgiref
+  copying build/lib/asgiref/compatibility.py -> build/bdist.macosx-26-arm64/wheel/./asgiref
+  copying build/lib/asgiref/server.py -> build/bdist.macosx-26-arm64/wheel/./asgiref
+  copying build/lib/asgiref/local.py -> build/bdist.macosx-26-arm64/wheel/./asgiref
+  copying build/lib/asgiref/current_thread_executor.py -> build/bdist.macosx-26-arm64/wheel/./asgiref
+  copying build/lib/asgiref/timeout.py -> build/bdist.macosx-26-arm64/wheel/./asgiref
+  copying build/lib/asgiref/__init__.py -> build/bdist.macosx-26-arm64/wheel/./asgiref
+  copying build/lib/asgiref/py.typed -> build/bdist.macosx-26-arm64/wheel/./asgiref
+  copying build/lib/asgiref/typing.py -> build/bdist.macosx-26-arm64/wheel/./asgiref
+  copying build/lib/asgiref/testing.py -> build/bdist.macosx-26-arm64/wheel/./asgiref
+  copying build/lib/asgiref/wsgi.py -> build/bdist.macosx-26-arm64/wheel/./asgiref
+  warning: install_lib: byte-compiling is disabled, skipping.
+
+  running install_egg_info
+  Copying asgiref.egg-info to build/bdist.macosx-26-arm64/wheel/./asgiref-3.11.0-py3.10.egg-info
+  running install_scripts
+  creating build/bdist.macosx-26-arm64/wheel/asgiref-3.11.0.dist-info/WHEEL
+  creating '/Users/nikitabelonogov/Library/Caches/Homebrew/pip_cache/wheels/c1/9d/f8/b880b7c685bf6edcef39306e86994bd6f28cb8c472091f8b0b/tmpf560vg_n/.tmp-b6b226wu/asgiref-3.11.0-py3-none-any.whl' and adding 'build/bdist.macosx-26-arm64/wheel' to it
+  adding 'asgiref/__init__.py'
+  adding 'asgiref/compatibility.py'
+  adding 'asgiref/current_thread_executor.py'
+  adding 'asgiref/local.py'
+  adding 'asgiref/py.typed'
+  adding 'asgiref/server.py'
+  adding 'asgiref/sync.py'
+  adding 'asgiref/testing.py'
+  adding 'asgiref/timeout.py'
+  adding 'asgiref/typing.py'
+  adding 'asgiref/wsgi.py'
+  adding 'asgiref-3.11.0.dist-info/licenses/LICENSE'
+  adding 'asgiref-3.11.0.dist-info/METADATA'
+  adding 'asgiref-3.11.0.dist-info/WHEEL'
+  adding 'asgiref-3.11.0.dist-info/top_level.txt'
+  adding 'asgiref-3.11.0.dist-info/RECORD'
+  removing build/bdist.macosx-26-arm64/wheel
+  Building wheel for asgiref (pyproject.toml): finished with status 'done'
+  Created wheel for asgiref: filename=asgiref-3.11.0-py3-none-any.whl size=24095 sha256=2c8e61fdb3f25b935cacfbe6a6006e0c5817bbf5da58176f25053ccedaba5892
+  Stored in directory: /Users/nikitabelonogov/Library/Caches/Homebrew/pip_cache/wheels/c1/9d/f8/b880b7c685bf6edcef39306e86994bd6f28cb8c472091f8b0b
+Successfully built asgiref
+Installing collected packages: asgiref
+Successfully installed asgiref-3.11.0
+
+[notice] A new release of pip is available: 26.0 -> 26.0.1
+[notice] To update, run: /opt/homebrew/Cellar/label-studio/1.22.0/libexec/bin/python -m pip install --upgrade pip

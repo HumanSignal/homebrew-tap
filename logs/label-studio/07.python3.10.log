@@ -1,0 +1,132 @@
+2026-02-05 07:11:09 +0000
+
+python3.10
+-m
+pip
+--python=/opt/homebrew/Cellar/label-studio/1.22.0/libexec/bin/python
+install
+--verbose
+--no-deps
+--no-binary=:all:
+--ignore-installed
+--no-compile
+/private/tmp/label-studio--attr-20260205-63897-vhauae/attr-0.3.1
+
+Using pip 26.0 from /opt/homebrew/lib/python3.10/site-packages/pip (python 3.10)
+Processing ./.
+  Installing build dependencies: started
+  Running command installing build dependencies
+  Using pip 26.0 from /opt/homebrew/lib/python3.10/site-packages/pip (python 3.10)
+  Collecting setuptools>=40.8.0
+    Using cached setuptools-80.10.2-py3-none-any.whl
+  Installing collected packages: setuptools
+  ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+  twisted 25.5.0 requires attrs>=22.2.0, which is not installed.
+  Successfully installed setuptools-80.10.2
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Running command Getting requirements to build wheel
+  /private/tmp/pip-build-env-x9w7jr5b/overlay/lib/python3.10/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+  !!
+
+          ********************************************************************************
+          Please consider removing the following classifiers in favor of a SPDX license expression:
+
+          License :: OSI Approved :: MIT License
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    self._finalize_license_expression()
+  running egg_info
+  writing attr.egg-info/PKG-INFO
+  writing dependency_links to attr.egg-info/dependency_links.txt
+  writing top-level names to attr.egg-info/top_level.txt
+  reading manifest file 'attr.egg-info/SOURCES.txt'
+  writing manifest file 'attr.egg-info/SOURCES.txt'
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  /private/tmp/pip-build-env-x9w7jr5b/overlay/lib/python3.10/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+  !!
+
+          ********************************************************************************
+          Please consider removing the following classifiers in favor of a SPDX license expression:
+
+          License :: OSI Approved :: MIT License
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    self._finalize_license_expression()
+  running dist_info
+  creating /private/tmp/pip-modern-metadata-1zk9vkv8/attr.egg-info
+  writing /private/tmp/pip-modern-metadata-1zk9vkv8/attr.egg-info/PKG-INFO
+  writing dependency_links to /private/tmp/pip-modern-metadata-1zk9vkv8/attr.egg-info/dependency_links.txt
+  writing top-level names to /private/tmp/pip-modern-metadata-1zk9vkv8/attr.egg-info/top_level.txt
+  writing manifest file '/private/tmp/pip-modern-metadata-1zk9vkv8/attr.egg-info/SOURCES.txt'
+  reading manifest file '/private/tmp/pip-modern-metadata-1zk9vkv8/attr.egg-info/SOURCES.txt'
+  writing manifest file '/private/tmp/pip-modern-metadata-1zk9vkv8/attr.egg-info/SOURCES.txt'
+  creating '/private/tmp/pip-modern-metadata-1zk9vkv8/attr-0.3.1.dist-info'
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: attr
+  Building wheel for attr (pyproject.toml): started
+  Running command Building wheel for attr (pyproject.toml)
+  /private/tmp/pip-build-env-x9w7jr5b/overlay/lib/python3.10/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+  !!
+
+          ********************************************************************************
+          Please consider removing the following classifiers in favor of a SPDX license expression:
+
+          License :: OSI Approved :: MIT License
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    self._finalize_license_expression()
+  running bdist_wheel
+  running build
+  running build_py
+  creating build/lib
+  copying attr.py -> build/lib
+  copying dry_attr.py -> build/lib
+  warning: build_py: byte-compiling is disabled, skipping.
+
+  installing to build/bdist.macosx-26-arm64/wheel
+  running install
+  running install_lib
+  creating build/bdist.macosx-26-arm64/wheel
+  copying build/lib/attr.py -> build/bdist.macosx-26-arm64/wheel/.
+  copying build/lib/dry_attr.py -> build/bdist.macosx-26-arm64/wheel/.
+  warning: install_lib: byte-compiling is disabled, skipping.
+
+  running install_egg_info
+  running egg_info
+  writing attr.egg-info/PKG-INFO
+  writing dependency_links to attr.egg-info/dependency_links.txt
+  writing top-level names to attr.egg-info/top_level.txt
+  reading manifest file 'attr.egg-info/SOURCES.txt'
+  writing manifest file 'attr.egg-info/SOURCES.txt'
+  Copying attr.egg-info to build/bdist.macosx-26-arm64/wheel/./attr-0.3.1-py3.10.egg-info
+  running install_scripts
+  creating build/bdist.macosx-26-arm64/wheel/attr-0.3.1.dist-info/WHEEL
+  creating '/Users/nikitabelonogov/Library/Caches/Homebrew/pip_cache/wheels/ae/32/70/391567e962dd0a6433678f8ad139ea0d580fb1e7da1c2b44ff/tmpocknadm8/.tmp-grndhzn0/attr-0.3.1-py3-none-any.whl' and adding 'build/bdist.macosx-26-arm64/wheel' to it
+  adding 'attr.py'
+  adding 'dry_attr.py'
+  adding 'attr-0.3.1.dist-info/METADATA'
+  adding 'attr-0.3.1.dist-info/WHEEL'
+  adding 'attr-0.3.1.dist-info/top_level.txt'
+  adding 'attr-0.3.1.dist-info/RECORD'
+  removing build/bdist.macosx-26-arm64/wheel
+  Building wheel for attr (pyproject.toml): finished with status 'done'
+  Created wheel for attr: filename=attr-0.3.1-py3-none-any.whl size=2478 sha256=6de4eaeacc52ead908a5e658b8390b0cedf444a6b63ac66973c77537f88c6010
+  Stored in directory: /Users/nikitabelonogov/Library/Caches/Homebrew/pip_cache/wheels/ae/32/70/391567e962dd0a6433678f8ad139ea0d580fb1e7da1c2b44ff
+Successfully built attr
+Installing collected packages: attr
+Successfully installed attr-0.3.1
+
+[notice] A new release of pip is available: 26.0 -> 26.0.1
+[notice] To update, run: /opt/homebrew/Cellar/label-studio/1.22.0/libexec/bin/python -m pip install --upgrade pip

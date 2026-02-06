@@ -1,0 +1,124 @@
+2026-02-05 07:11:38 +0000
+
+python3.10
+-m
+pip
+--python=/opt/homebrew/Cellar/label-studio/1.22.0/libexec/bin/python
+install
+--verbose
+--no-deps
+--no-binary=:all:
+--ignore-installed
+--no-compile
+/private/tmp/label-studio--cachetools-20260205-63897-571t8c/cachetools-6.2.4
+
+Using pip 26.0 from /opt/homebrew/lib/python3.10/site-packages/pip (python 3.10)
+Processing ./.
+  Installing build dependencies: started
+  Running command installing build dependencies
+  Using pip 26.0 from /opt/homebrew/lib/python3.10/site-packages/pip (python 3.10)
+  Collecting setuptools>=61.0.0
+    Using cached setuptools-80.10.2-py3-none-any.whl
+  Collecting wheel
+    Using cached wheel-0.46.3-py3-none-any.whl
+  Collecting packaging>=24.0 (from wheel)
+    Using cached packaging-26.0-py3-none-any.whl
+  Installing collected packages: setuptools, packaging, wheel
+    Creating /private/tmp/pip-build-env-j9p8ow34/overlay/bin
+    changing mode of /private/tmp/pip-build-env-j9p8ow34/overlay/bin/wheel to 755
+
+  ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+  black 26.1a1 requires pytokens>=0.3.0, which is not installed.
+  blue 0.9.1 requires black==22.1.0, but you have black 26.1a1 which is incompatible.
+  Successfully installed packaging-26.0 setuptools-80.10.2 wheel-0.46.3
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Running command Getting requirements to build wheel
+  running egg_info
+  writing src/cachetools.egg-info/PKG-INFO
+  writing dependency_links to src/cachetools.egg-info/dependency_links.txt
+  writing top-level names to src/cachetools.egg-info/top_level.txt
+  reading manifest file 'src/cachetools.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  warning: no previously-included files found matching '.readthedocs.yaml'
+  no previously-included directories found matching 'docs/_build'
+  adding license file 'LICENSE'
+  writing manifest file 'src/cachetools.egg-info/SOURCES.txt'
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  running dist_info
+  creating /private/tmp/pip-modern-metadata-692tbtvl/cachetools.egg-info
+  writing /private/tmp/pip-modern-metadata-692tbtvl/cachetools.egg-info/PKG-INFO
+  writing dependency_links to /private/tmp/pip-modern-metadata-692tbtvl/cachetools.egg-info/dependency_links.txt
+  writing top-level names to /private/tmp/pip-modern-metadata-692tbtvl/cachetools.egg-info/top_level.txt
+  writing manifest file '/private/tmp/pip-modern-metadata-692tbtvl/cachetools.egg-info/SOURCES.txt'
+  reading manifest file '/private/tmp/pip-modern-metadata-692tbtvl/cachetools.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  warning: no previously-included files found matching '.readthedocs.yaml'
+  no previously-included directories found matching 'docs/_build'
+  adding license file 'LICENSE'
+  writing manifest file '/private/tmp/pip-modern-metadata-692tbtvl/cachetools.egg-info/SOURCES.txt'
+  creating '/private/tmp/pip-modern-metadata-692tbtvl/cachetools-6.2.4.dist-info'
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: cachetools
+  Building wheel for cachetools (pyproject.toml): started
+  Running command Building wheel for cachetools (pyproject.toml)
+  running bdist_wheel
+  running build
+  running build_py
+  creating build/lib/cachetools
+  copying src/cachetools/_cachedmethod.py -> build/lib/cachetools
+  copying src/cachetools/__init__.py -> build/lib/cachetools
+  copying src/cachetools/keys.py -> build/lib/cachetools
+  copying src/cachetools/_cached.py -> build/lib/cachetools
+  copying src/cachetools/func.py -> build/lib/cachetools
+  running egg_info
+  writing src/cachetools.egg-info/PKG-INFO
+  writing dependency_links to src/cachetools.egg-info/dependency_links.txt
+  writing top-level names to src/cachetools.egg-info/top_level.txt
+  reading manifest file 'src/cachetools.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  warning: no previously-included files found matching '.readthedocs.yaml'
+  no previously-included directories found matching 'docs/_build'
+  adding license file 'LICENSE'
+  writing manifest file 'src/cachetools.egg-info/SOURCES.txt'
+  warning: build_py: byte-compiling is disabled, skipping.
+
+  installing to build/bdist.macosx-26-arm64/wheel
+  running install
+  running install_lib
+  creating build/bdist.macosx-26-arm64/wheel
+  creating build/bdist.macosx-26-arm64/wheel/cachetools
+  copying build/lib/cachetools/_cachedmethod.py -> build/bdist.macosx-26-arm64/wheel/./cachetools
+  copying build/lib/cachetools/__init__.py -> build/bdist.macosx-26-arm64/wheel/./cachetools
+  copying build/lib/cachetools/keys.py -> build/bdist.macosx-26-arm64/wheel/./cachetools
+  copying build/lib/cachetools/_cached.py -> build/bdist.macosx-26-arm64/wheel/./cachetools
+  copying build/lib/cachetools/func.py -> build/bdist.macosx-26-arm64/wheel/./cachetools
+  warning: install_lib: byte-compiling is disabled, skipping.
+
+  running install_egg_info
+  Copying src/cachetools.egg-info to build/bdist.macosx-26-arm64/wheel/./cachetools-6.2.4-py3.10.egg-info
+  running install_scripts
+  creating build/bdist.macosx-26-arm64/wheel/cachetools-6.2.4.dist-info/WHEEL
+  creating '/Users/nikitabelonogov/Library/Caches/Homebrew/pip_cache/wheels/24/49/23/7a0f92ad9632497a4b7715dee8b6900a9e75f7c0384fe60272/tmpi5rtk9ui/.tmp-6vq555n8/cachetools-6.2.4-py3-none-any.whl' and adding 'build/bdist.macosx-26-arm64/wheel' to it
+  adding 'cachetools/__init__.py'
+  adding 'cachetools/_cached.py'
+  adding 'cachetools/_cachedmethod.py'
+  adding 'cachetools/func.py'
+  adding 'cachetools/keys.py'
+  adding 'cachetools-6.2.4.dist-info/licenses/LICENSE'
+  adding 'cachetools-6.2.4.dist-info/METADATA'
+  adding 'cachetools-6.2.4.dist-info/WHEEL'
+  adding 'cachetools-6.2.4.dist-info/top_level.txt'
+  adding 'cachetools-6.2.4.dist-info/RECORD'
+  removing build/bdist.macosx-26-arm64/wheel
+  Building wheel for cachetools (pyproject.toml): finished with status 'done'
+  Created wheel for cachetools: filename=cachetools-6.2.4-py3-none-any.whl size=11552 sha256=76a779e3ae2df13f70cc0898f406de72b66dcd419d05b7c8e3191fe3d5938a72
+  Stored in directory: /Users/nikitabelonogov/Library/Caches/Homebrew/pip_cache/wheels/24/49/23/7a0f92ad9632497a4b7715dee8b6900a9e75f7c0384fe60272
+Successfully built cachetools
+Installing collected packages: cachetools
+Successfully installed cachetools-6.2.4
+
+[notice] A new release of pip is available: 26.0 -> 26.0.1
+[notice] To update, run: /opt/homebrew/Cellar/label-studio/1.22.0/libexec/bin/python -m pip install --upgrade pip

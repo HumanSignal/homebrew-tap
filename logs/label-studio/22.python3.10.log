@@ -1,0 +1,193 @@
+2026-02-05 07:11:56 +0000
+
+python3.10
+-m
+pip
+--python=/opt/homebrew/Cellar/label-studio/1.22.0/libexec/bin/python
+install
+--verbose
+--no-deps
+--no-binary=:all:
+--ignore-installed
+--no-compile
+/private/tmp/label-studio--cryptography-20260205-63897-xc81xs/cryptography-46.0.3
+
+Using pip 26.0 from /opt/homebrew/lib/python3.10/site-packages/pip (python 3.10)
+Processing ./.
+  Installing build dependencies: started
+  Running command installing build dependencies
+  Using pip 26.0 from /opt/homebrew/lib/python3.10/site-packages/pip (python 3.10)
+  Ignoring cffi: markers 'platform_python_implementation != "PyPy" and python_version == "3.8"' don't match your environment
+  Collecting maturin<2,>=1.9.4
+    Using cached maturin-1.11.5.tar.gz (226 kB)
+    Installing build dependencies: started
+    Running command installing build dependencies for maturin
+    Using pip 26.0 from /opt/homebrew/lib/python3.10/site-packages/pip (python 3.10)
+    Collecting setuptools>=77.0.0
+      Using cached setuptools-80.10.2-py3-none-any.whl
+    Collecting tomli>=1.1.0
+      Using cached tomli-2.4.0-py3-none-any.whl
+    Collecting setuptools-rust>=1.11.0
+      Using cached setuptools_rust-1.12.0-py3-none-any.whl
+    Collecting semantic_version<3,>=2.8.2 (from setuptools-rust>=1.11.0)
+      Using cached semantic_version-2.10.0-py2.py3-none-any.whl
+    Installing collected packages: tomli, setuptools, semantic_version, setuptools-rust
+
+    ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+    black 26.1a1 requires pytokens>=0.3.0, which is not installed.
+    devpi-web 5.0.1 requires beautifulsoup4!=4.12.1,>=4.3.2, which is not installed.
+    devpi-web 5.0.1 requires defusedxml, which is not installed.
+    blue 0.9.1 requires black==22.1.0, but you have black 26.1a1 which is incompatible.
+    Successfully installed semantic_version-2.10.0 setuptools-80.10.2 setuptools-rust-1.12.0 tomli-2.4.0
+    Installing build dependencies: finished with status 'done'
+    Getting requirements to build wheel: started
+    Running command Getting requirements to build wheel
+    Getting requirements to build wheel: finished with status 'done'
+    Preparing metadata (pyproject.toml): started
+    Running command Preparing metadata (pyproject.toml)
+    /private/tmp/pip-build-env-k0_n_bxb/overlay/lib/python3.10/site-packages/setuptools/_vendor/wheel/bdist_wheel.py:4: FutureWarning: The 'wheel' package is no longer the canonical location of the 'bdist_wheel' command, and will be removed in a future release. Please update to setuptools v70.1 or later which contains an integrated version of this command.
+      warn(
+    running dist_info
+    creating /private/tmp/pip-modern-metadata-iqpza5pp/maturin.egg-info
+    writing /private/tmp/pip-modern-metadata-iqpza5pp/maturin.egg-info/PKG-INFO
+    writing dependency_links to /private/tmp/pip-modern-metadata-iqpza5pp/maturin.egg-info/dependency_links.txt
+    writing requirements to /private/tmp/pip-modern-metadata-iqpza5pp/maturin.egg-info/requires.txt
+    writing top-level names to /private/tmp/pip-modern-metadata-iqpza5pp/maturin.egg-info/top_level.txt
+    writing manifest file '/private/tmp/pip-modern-metadata-iqpza5pp/maturin.egg-info/SOURCES.txt'
+    reading manifest file '/private/tmp/pip-modern-metadata-iqpza5pp/maturin.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    warning: no files found matching '*.json' under directory 'src/python_interpreter'
+    adding license file 'license-mit'
+    adding license file 'license-apache'
+    writing manifest file '/private/tmp/pip-modern-metadata-iqpza5pp/maturin.egg-info/SOURCES.txt'
+    creating '/private/tmp/pip-modern-metadata-iqpza5pp/maturin-1.11.5.dist-info'
+    Preparing metadata (pyproject.toml): finished with status 'done'
+  Collecting cffi>=2.0.0
+    Using cached cffi-2.0.0-cp310-cp310-macosx_26_0_arm64.whl
+  Collecting setuptools!=74.0.0,!=74.1.0,!=74.1.1,!=74.1.2
+    Using cached setuptools-80.10.2-py3-none-any.whl
+  Collecting tomli>=1.1.0 (from maturin<2,>=1.9.4)
+    Using cached tomli-2.4.0-py3-none-any.whl
+  Collecting pycparser (from cffi>=2.0.0)
+    Using cached pycparser-3.0-py3-none-any.whl
+  Building wheels for collected packages: maturin
+    Building wheel for maturin (pyproject.toml): started
+    Running command Building wheel for maturin (pyproject.toml)
+    /private/tmp/pip-build-env-k0_n_bxb/overlay/lib/python3.10/site-packages/setuptools/_vendor/wheel/bdist_wheel.py:4: FutureWarning: The 'wheel' package is no longer the canonical location of the 'bdist_wheel' command, and will be removed in a future release. Please update to setuptools v70.1 or later which contains an integrated version of this command.
+      warn(
+    running bdist_wheel
+    running build
+    running build_py
+    creating build/lib.macosx-26-arm64-cpython-310/maturin
+    copying maturin/bootstrap.py -> build/lib.macosx-26-arm64-cpython-310/maturin
+    copying maturin/__init__.py -> build/lib.macosx-26-arm64-cpython-310/maturin
+    copying maturin/__main__.py -> build/lib.macosx-26-arm64-cpython-310/maturin
+    running egg_info
+    creating maturin.egg-info
+    writing maturin.egg-info/PKG-INFO
+    writing dependency_links to maturin.egg-info/dependency_links.txt
+    writing requirements to maturin.egg-info/requires.txt
+    writing top-level names to maturin.egg-info/top_level.txt
+    writing manifest file 'maturin.egg-info/SOURCES.txt'
+    reading manifest file 'maturin.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    warning: no files found matching '*.json' under directory 'src/python_interpreter'
+    adding license file 'license-mit'
+    adding license file 'license-apache'
+    writing manifest file 'maturin.egg-info/SOURCES.txt'
+    warning: build_py: byte-compiling is disabled, skipping.
+
+    running build_ext
+    running build_rust
+    error: can't find Rust compiler
+
+    If you are using an outdated pip version, it is possible a prebuilt wheel is available for this package but pip is not able to install from it. Installing from the wheel would avoid the need for a Rust compiler.
+
+    To update pip, run:
+
+        pip install --upgrade pip
+
+    and then retry package installation.
+
+    If you did intend to build this package from source, try installing a Rust compiler from your system package manager and ensure it is on the PATH during installation. Alternatively, rustup (available at https://rustup.rs) is the recommended way to download and update the Rust compiler toolchain.
+    error: subprocess-exited-with-error
+
+    × Building wheel for maturin (pyproject.toml) did not run successfully.
+    │ exit code: 1
+    ╰─> No available output.
+
+    note: This error originates from a subprocess, and is likely not a problem with pip.
+    full command: /opt/homebrew/Cellar/label-studio/1.22.0/libexec/bin/python /opt/homebrew/lib/python3.10/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py build_wheel /private/tmp/tmpee89qwtc
+    cwd: /private/tmp/pip-install-exkmp24c/maturin_610111e4e6aa4834b74d436c302e217a
+    Building wheel for maturin (pyproject.toml): finished with status 'error'
+    ERROR: Failed building wheel for maturin
+  Failed to build maturin
+  error: failed-wheel-build-for-install
+
+  × Failed to build installable wheels for some pyproject.toml based projects
+  ╰─> maturin
+  error: subprocess-exited-with-error
+  
+  × installing build dependencies did not run successfully.
+  │ exit code: 1
+  ╰─> No available output.
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  full command: /opt/homebrew/Cellar/label-studio/1.22.0/libexec/bin/python /opt/homebrew/lib/python3.10/site-packages/pip/__pip-runner__.py install --ignore-installed --no-user --prefix /private/tmp/pip-build-env-i0v3baw_/overlay --no-warn-script-location --disable-pip-version-check --no-compile --target '' -v --no-binary :all: --only-binary :none: -i https://pypi.org/simple -- 'maturin>=1.9.4,<2' 'cffi>=1.14; platform_python_implementation != '"'"'PyPy'"'"' and python_version == '"'"'3.8'"'"'' 'cffi>=2.0.0; platform_python_implementation != '"'"'PyPy'"'"' and python_version >= '"'"'3.9'"'"'' 'setuptools!=74.0.0,!=74.1.0,!=74.1.1,!=74.1.2'
+  cwd: [inherit]
+  Installing build dependencies: finished with status 'error'
+
+[notice] A new release of pip is available: 26.0 -> 26.0.1
+[notice] To update, run: /opt/homebrew/Cellar/label-studio/1.22.0/libexec/bin/python -m pip install --upgrade pip
+ERROR: Failed to build 'file:///private/tmp/label-studio--cryptography-20260205-63897-xc81xs/cryptography-46.0.3' when installing build dependencies
+
+HOMEBREW_VERSION: 5.0.13-32-g6203165
+ORIGIN: https://github.com/Homebrew/brew
+HEAD: 62031658135fe7a2fe929bbc0c1b48bef1828782
+Last commit: 33 hours ago
+Branch: main
+Core tap HEAD: 6b56018dfaf2bfa32e143fae6a4dcc2ed42a49ea
+Core tap last commit: 25 hours ago
+Core tap JSON: 04 Feb 07:04 UTC
+Core cask tap JSON: 04 Feb 07:04 UTC
+HOMEBREW_PREFIX: /opt/homebrew
+HOMEBREW_CACHE: /Users/nikitabelonogov/Library/Caches/Homebrew
+HOMEBREW_CASK_OPTS: []
+HOMEBREW_CURL_PATH: /usr/bin/curl
+HOMEBREW_DOWNLOAD_CONCURRENCY: 16
+HOMEBREW_FAIL_LOG_LINES: 150
+HOMEBREW_GIT_EMAIL: 1589480+BrewTestBot@users.noreply.github.com
+HOMEBREW_GIT_NAME: BrewTestBot
+HOMEBREW_GIT_PATH: /usr/bin/git
+HOMEBREW_LOGS: /opt/homebrew/Library/Taps/humansignal/homebrew-tap/logs
+HOMEBREW_MAKE_JOBS: 8
+HOMEBREW_NO_AUTO_UPDATE: set
+HOMEBREW_NO_BOOTSNAP: set
+HOMEBREW_NO_EMOJI: set
+HOMEBREW_NO_ENV_HINTS: set
+HOMEBREW_NO_INSTALLED_DEPENDENTS_CHECK: set
+HOMEBREW_SORBET_RUNTIME: set
+Homebrew Ruby: 3.4.8 => /opt/homebrew/Library/Homebrew/vendor/portable-ruby/3.4.8/bin/ruby
+CPU: octa-core 64-bit arm_firestorm_icestorm
+Clang: 17.0.0 build 1700
+Git: 2.50.1 => /usr/bin/git
+Curl: 8.7.1 => /usr/bin/curl
+macOS: 26.2-arm64
+CLT: 26.2.0.0.1.1764812424
+Xcode: N/A
+Rosetta 2: false
+
+HOMEBREW_CC: clang
+HOMEBREW_CXX: clang++
+MAKEFLAGS: -j8
+CMAKE_PREFIX_PATH: /opt/homebrew/opt/icu4c@78:/opt/homebrew/opt/krb5:/opt/homebrew/opt/readline:/opt/homebrew/opt/sqlite:/opt/homebrew
+CMAKE_INCLUDE_PATH: /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks/OpenGL.framework/Versions/Current/Headers
+CMAKE_LIBRARY_PATH: /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/System/Library/Frameworks/OpenGL.framework/Versions/Current/Libraries
+CMAKE_FRAMEWORK_PATH: /opt/homebrew/opt/python@3.10/Frameworks
+PKG_CONFIG_PATH: /opt/homebrew/opt/icu4c@78/lib/pkgconfig:/opt/homebrew/opt/openssl@3/lib/pkgconfig:/opt/homebrew/opt/krb5/lib/pkgconfig:/opt/homebrew/opt/lz4/lib/pkgconfig:/opt/homebrew/opt/readline/lib/pkgconfig:/opt/homebrew/opt/mpdecimal/lib/pkgconfig:/opt/homebrew/opt/sqlite/lib/pkgconfig:/opt/homebrew/opt/xz/lib/pkgconfig:/opt/homebrew/opt/python@3.10/lib/pkgconfig
+PKG_CONFIG_LIBDIR: /usr/lib/pkgconfig:/opt/homebrew/Library/Homebrew/os/mac/pkgconfig/26
+HOMEBREW_MAKE_JOBS: 8
+HOMEBREW_GIT: /usr/bin/git
+HOMEBREW_SDKROOT: /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk
+ACLOCAL_PATH: /opt/homebrew/share/aclocal
+PATH: /opt/homebrew/Library/Homebrew/shims/mac/super:/opt/homebrew/opt/icu4c@78/bin:/opt/homebrew/opt/openssl@3/bin:/opt/homebrew/opt/krb5/bin:/opt/homebrew/opt/lz4/bin:/opt/homebrew/opt/postgresql@14/bin:/opt/homebrew/opt/gdbm/bin:/opt/homebrew/opt/sqlite/bin:/opt/homebrew/opt/xz/bin:/opt/homebrew/opt/python@3.10/bin:/opt/homebrew/opt/python@3.10/libexec/bin:/usr/bin:/bin:/usr/sbin:/sbin

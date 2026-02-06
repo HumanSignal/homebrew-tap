@@ -791,6 +791,8 @@ class LabelStudio < Formula
   end
 
   def install
+    # Some Python sdists have mtimes before 1980; zipfile rejects those during wheel build.
+    ENV["SOURCE_DATE_EPOCH"] = "315532800"
     virtualenv_install_with_resources
   end
 

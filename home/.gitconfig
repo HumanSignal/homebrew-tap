@@ -1,0 +1,51 @@
+# This is Git's per-user configuration file.
+[core]
+	editor = /opt/homebrew/bin/nvim
+	excludesfile = ~/.gitignore_global
+	autocrlf = input
+	ignorecase = false
+
+[pager]
+    diff = delta
+    log = delta
+    reflog = delta
+    show = delta
+
+[delta]
+    plus-style = "syntax #012800"
+    minus-style = "syntax #340001"
+    syntax-theme = Monokai Extended
+    navigate = true
+
+[interactive]
+    diffFilter = delta --color-only
+
+[push]
+    default = current
+
+[color]
+    ui = true
+
+[pull]
+    rebase = true
+
+[commit]
+    gpgsign = true
+
+# Default Git User
+[user]
+    name = Nikita Belonogov
+    email = waksaone@gmail.com
+    signingkey = waksaone@gmail.com
+
+# Git user overrides depending on path
+[includeIf "gitdir/i:~/Documents/HumanSignal/**"]
+    path=~/.gitconfig-HumanSignal
+[maintenance]
+	repo = /Users/nikitabelonogov/Documents/HumanSignal/label-studio-terraform-private
+	repo = /Users/nikitabelonogov/Documents/HumanSignal/label-studio
+	repo = /Users/nikitabelonogov/Documents/HumanSignal/label-studio-enterprise
+	repo = /Users/nikitabelonogov/Documents/HumanSignal/infra
+	repo = /Users/nikitabelonogov/Documents/HumanSignal/k8s-secrets
+[rerere]
+	enabled = false

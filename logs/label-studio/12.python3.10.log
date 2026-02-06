@@ -1,0 +1,316 @@
+2026-02-05 07:11:23 +0000
+
+python3.10
+-m
+pip
+--python=/opt/homebrew/Cellar/label-studio/1.22.0/libexec/bin/python
+install
+--verbose
+--no-deps
+--no-binary=:all:
+--ignore-installed
+--no-compile
+/private/tmp/label-studio--bleach-20260205-63897-dp6mkx/bleach-5.0.1
+
+Using pip 26.0 from /opt/homebrew/lib/python3.10/site-packages/pip (python 3.10)
+Processing ./.
+  Installing build dependencies: started
+  Running command installing build dependencies
+  Using pip 26.0 from /opt/homebrew/lib/python3.10/site-packages/pip (python 3.10)
+  Collecting setuptools>=40.8.0
+    Using cached setuptools-80.10.2-py3-none-any.whl
+  Installing collected packages: setuptools
+  Successfully installed setuptools-80.10.2
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Running command Getting requirements to build wheel
+  /private/tmp/pip-build-env-_w98qa66/overlay/lib/python3.10/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+  !!
+
+          ********************************************************************************
+          Please consider removing the following classifiers in favor of a SPDX license expression:
+
+          License :: OSI Approved :: Apache Software License
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    self._finalize_license_expression()
+  running egg_info
+  writing bleach.egg-info/PKG-INFO
+  writing dependency_links to bleach.egg-info/dependency_links.txt
+  writing requirements to bleach.egg-info/requires.txt
+  writing top-level names to bleach.egg-info/top_level.txt
+  reading manifest file 'bleach.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  warning: no files found matching '*.json' under directory 'bleach'
+  adding license file 'LICENSE'
+  writing manifest file 'bleach.egg-info/SOURCES.txt'
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  /private/tmp/pip-build-env-_w98qa66/overlay/lib/python3.10/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+  !!
+
+          ********************************************************************************
+          Please consider removing the following classifiers in favor of a SPDX license expression:
+
+          License :: OSI Approved :: Apache Software License
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    self._finalize_license_expression()
+  running dist_info
+  creating /private/tmp/pip-modern-metadata-e45sr4fr/bleach.egg-info
+  writing /private/tmp/pip-modern-metadata-e45sr4fr/bleach.egg-info/PKG-INFO
+  writing dependency_links to /private/tmp/pip-modern-metadata-e45sr4fr/bleach.egg-info/dependency_links.txt
+  writing requirements to /private/tmp/pip-modern-metadata-e45sr4fr/bleach.egg-info/requires.txt
+  writing top-level names to /private/tmp/pip-modern-metadata-e45sr4fr/bleach.egg-info/top_level.txt
+  writing manifest file '/private/tmp/pip-modern-metadata-e45sr4fr/bleach.egg-info/SOURCES.txt'
+  reading manifest file '/private/tmp/pip-modern-metadata-e45sr4fr/bleach.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  warning: no files found matching '*.json' under directory 'bleach'
+  adding license file 'LICENSE'
+  writing manifest file '/private/tmp/pip-modern-metadata-e45sr4fr/bleach.egg-info/SOURCES.txt'
+  creating '/private/tmp/pip-modern-metadata-e45sr4fr/bleach-5.0.1.dist-info'
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: bleach
+  Building wheel for bleach (pyproject.toml): started
+  Running command Building wheel for bleach (pyproject.toml)
+  /private/tmp/pip-build-env-_w98qa66/overlay/lib/python3.10/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+  !!
+
+          ********************************************************************************
+          Please consider removing the following classifiers in favor of a SPDX license expression:
+
+          License :: OSI Approved :: Apache Software License
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    self._finalize_license_expression()
+  running bdist_wheel
+  running build
+  running build_py
+  creating build/lib/bleach
+  copying bleach/linkifier.py -> build/lib/bleach
+  copying bleach/html5lib_shim.py -> build/lib/bleach
+  copying bleach/sanitizer.py -> build/lib/bleach
+  copying bleach/__init__.py -> build/lib/bleach
+  copying bleach/callbacks.py -> build/lib/bleach
+  copying bleach/css_sanitizer.py -> build/lib/bleach
+  copying bleach/parse_shim.py -> build/lib/bleach
+  creating build/lib/bleach/_vendor
+  copying bleach/_vendor/__init__.py -> build/lib/bleach/_vendor
+  copying bleach/_vendor/parse.py -> build/lib/bleach/_vendor
+  creating build/lib/bleach/_vendor/html5lib
+  copying bleach/_vendor/html5lib/_inputstream.py -> build/lib/bleach/_vendor/html5lib
+  copying bleach/_vendor/html5lib/_ihatexml.py -> build/lib/bleach/_vendor/html5lib
+  copying bleach/_vendor/html5lib/constants.py -> build/lib/bleach/_vendor/html5lib
+  copying bleach/_vendor/html5lib/html5parser.py -> build/lib/bleach/_vendor/html5lib
+  copying bleach/_vendor/html5lib/__init__.py -> build/lib/bleach/_vendor/html5lib
+  copying bleach/_vendor/html5lib/serializer.py -> build/lib/bleach/_vendor/html5lib
+  copying bleach/_vendor/html5lib/_tokenizer.py -> build/lib/bleach/_vendor/html5lib
+  copying bleach/_vendor/html5lib/_utils.py -> build/lib/bleach/_vendor/html5lib
+  creating build/lib/bleach/_vendor/html5lib/filters
+  copying bleach/_vendor/html5lib/filters/sanitizer.py -> build/lib/bleach/_vendor/html5lib/filters
+  copying bleach/_vendor/html5lib/filters/inject_meta_charset.py -> build/lib/bleach/_vendor/html5lib/filters
+  copying bleach/_vendor/html5lib/filters/__init__.py -> build/lib/bleach/_vendor/html5lib/filters
+  copying bleach/_vendor/html5lib/filters/base.py -> build/lib/bleach/_vendor/html5lib/filters
+  copying bleach/_vendor/html5lib/filters/alphabeticalattributes.py -> build/lib/bleach/_vendor/html5lib/filters
+  copying bleach/_vendor/html5lib/filters/optionaltags.py -> build/lib/bleach/_vendor/html5lib/filters
+  copying bleach/_vendor/html5lib/filters/lint.py -> build/lib/bleach/_vendor/html5lib/filters
+  copying bleach/_vendor/html5lib/filters/whitespace.py -> build/lib/bleach/_vendor/html5lib/filters
+  creating build/lib/bleach/_vendor/html5lib/treewalkers
+  copying bleach/_vendor/html5lib/treewalkers/etree_lxml.py -> build/lib/bleach/_vendor/html5lib/treewalkers
+  copying bleach/_vendor/html5lib/treewalkers/__init__.py -> build/lib/bleach/_vendor/html5lib/treewalkers
+  copying bleach/_vendor/html5lib/treewalkers/etree.py -> build/lib/bleach/_vendor/html5lib/treewalkers
+  copying bleach/_vendor/html5lib/treewalkers/genshi.py -> build/lib/bleach/_vendor/html5lib/treewalkers
+  copying bleach/_vendor/html5lib/treewalkers/base.py -> build/lib/bleach/_vendor/html5lib/treewalkers
+  copying bleach/_vendor/html5lib/treewalkers/dom.py -> build/lib/bleach/_vendor/html5lib/treewalkers
+  creating build/lib/bleach/_vendor/html5lib/treebuilders
+  copying bleach/_vendor/html5lib/treebuilders/etree_lxml.py -> build/lib/bleach/_vendor/html5lib/treebuilders
+  copying bleach/_vendor/html5lib/treebuilders/__init__.py -> build/lib/bleach/_vendor/html5lib/treebuilders
+  copying bleach/_vendor/html5lib/treebuilders/etree.py -> build/lib/bleach/_vendor/html5lib/treebuilders
+  copying bleach/_vendor/html5lib/treebuilders/base.py -> build/lib/bleach/_vendor/html5lib/treebuilders
+  copying bleach/_vendor/html5lib/treebuilders/dom.py -> build/lib/bleach/_vendor/html5lib/treebuilders
+  creating build/lib/bleach/_vendor/html5lib/_trie
+  copying bleach/_vendor/html5lib/_trie/_base.py -> build/lib/bleach/_vendor/html5lib/_trie
+  copying bleach/_vendor/html5lib/_trie/__init__.py -> build/lib/bleach/_vendor/html5lib/_trie
+  copying bleach/_vendor/html5lib/_trie/py.py -> build/lib/bleach/_vendor/html5lib/_trie
+  creating build/lib/bleach/_vendor/html5lib/treeadapters
+  copying bleach/_vendor/html5lib/treeadapters/sax.py -> build/lib/bleach/_vendor/html5lib/treeadapters
+  copying bleach/_vendor/html5lib/treeadapters/__init__.py -> build/lib/bleach/_vendor/html5lib/treeadapters
+  copying bleach/_vendor/html5lib/treeadapters/genshi.py -> build/lib/bleach/_vendor/html5lib/treeadapters
+  running egg_info
+  writing bleach.egg-info/PKG-INFO
+  writing dependency_links to bleach.egg-info/dependency_links.txt
+  writing requirements to bleach.egg-info/requires.txt
+  writing top-level names to bleach.egg-info/top_level.txt
+  reading manifest file 'bleach.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  warning: no files found matching '*.json' under directory 'bleach'
+  adding license file 'LICENSE'
+  writing manifest file 'bleach.egg-info/SOURCES.txt'
+  copying bleach/_vendor/README.rst -> build/lib/bleach/_vendor
+  copying bleach/_vendor/parse.py.SHA256SUM -> build/lib/bleach/_vendor
+  copying bleach/_vendor/vendor.txt -> build/lib/bleach/_vendor
+  copying bleach/_vendor/vendor_install.sh -> build/lib/bleach/_vendor
+  creating build/lib/bleach/_vendor/html5lib-1.1.dist-info
+  copying bleach/_vendor/html5lib-1.1.dist-info/AUTHORS.rst -> build/lib/bleach/_vendor/html5lib-1.1.dist-info
+  copying bleach/_vendor/html5lib-1.1.dist-info/INSTALLER -> build/lib/bleach/_vendor/html5lib-1.1.dist-info
+  copying bleach/_vendor/html5lib-1.1.dist-info/LICENSE -> build/lib/bleach/_vendor/html5lib-1.1.dist-info
+  copying bleach/_vendor/html5lib-1.1.dist-info/METADATA -> build/lib/bleach/_vendor/html5lib-1.1.dist-info
+  copying bleach/_vendor/html5lib-1.1.dist-info/RECORD -> build/lib/bleach/_vendor/html5lib-1.1.dist-info
+  copying bleach/_vendor/html5lib-1.1.dist-info/REQUESTED -> build/lib/bleach/_vendor/html5lib-1.1.dist-info
+  copying bleach/_vendor/html5lib-1.1.dist-info/WHEEL -> build/lib/bleach/_vendor/html5lib-1.1.dist-info
+  copying bleach/_vendor/html5lib-1.1.dist-info/top_level.txt -> build/lib/bleach/_vendor/html5lib-1.1.dist-info
+  warning: build_py: byte-compiling is disabled, skipping.
+
+  installing to build/bdist.macosx-26-arm64/wheel
+  running install
+  running install_lib
+  creating build/bdist.macosx-26-arm64/wheel
+  creating build/bdist.macosx-26-arm64/wheel/bleach
+  copying build/lib/bleach/linkifier.py -> build/bdist.macosx-26-arm64/wheel/./bleach
+  copying build/lib/bleach/html5lib_shim.py -> build/bdist.macosx-26-arm64/wheel/./bleach
+  copying build/lib/bleach/sanitizer.py -> build/bdist.macosx-26-arm64/wheel/./bleach
+  creating build/bdist.macosx-26-arm64/wheel/bleach/_vendor
+  copying build/lib/bleach/_vendor/vendor.txt -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor
+  copying build/lib/bleach/_vendor/__init__.py -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor
+  creating build/bdist.macosx-26-arm64/wheel/bleach/_vendor/html5lib
+  creating build/bdist.macosx-26-arm64/wheel/bleach/_vendor/html5lib/filters
+  copying build/lib/bleach/_vendor/html5lib/filters/sanitizer.py -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib/filters
+  copying build/lib/bleach/_vendor/html5lib/filters/inject_meta_charset.py -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib/filters
+  copying build/lib/bleach/_vendor/html5lib/filters/__init__.py -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib/filters
+  copying build/lib/bleach/_vendor/html5lib/filters/base.py -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib/filters
+  copying build/lib/bleach/_vendor/html5lib/filters/alphabeticalattributes.py -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib/filters
+  copying build/lib/bleach/_vendor/html5lib/filters/optionaltags.py -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib/filters
+  copying build/lib/bleach/_vendor/html5lib/filters/lint.py -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib/filters
+  copying build/lib/bleach/_vendor/html5lib/filters/whitespace.py -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib/filters
+  creating build/bdist.macosx-26-arm64/wheel/bleach/_vendor/html5lib/treewalkers
+  copying build/lib/bleach/_vendor/html5lib/treewalkers/etree_lxml.py -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib/treewalkers
+  copying build/lib/bleach/_vendor/html5lib/treewalkers/__init__.py -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib/treewalkers
+  copying build/lib/bleach/_vendor/html5lib/treewalkers/etree.py -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib/treewalkers
+  copying build/lib/bleach/_vendor/html5lib/treewalkers/genshi.py -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib/treewalkers
+  copying build/lib/bleach/_vendor/html5lib/treewalkers/base.py -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib/treewalkers
+  copying build/lib/bleach/_vendor/html5lib/treewalkers/dom.py -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib/treewalkers
+  creating build/bdist.macosx-26-arm64/wheel/bleach/_vendor/html5lib/treebuilders
+  copying build/lib/bleach/_vendor/html5lib/treebuilders/etree_lxml.py -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib/treebuilders
+  copying build/lib/bleach/_vendor/html5lib/treebuilders/__init__.py -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib/treebuilders
+  copying build/lib/bleach/_vendor/html5lib/treebuilders/etree.py -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib/treebuilders
+  copying build/lib/bleach/_vendor/html5lib/treebuilders/base.py -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib/treebuilders
+  copying build/lib/bleach/_vendor/html5lib/treebuilders/dom.py -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib/treebuilders
+  copying build/lib/bleach/_vendor/html5lib/_inputstream.py -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib
+  copying build/lib/bleach/_vendor/html5lib/_ihatexml.py -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib
+  copying build/lib/bleach/_vendor/html5lib/constants.py -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib
+  copying build/lib/bleach/_vendor/html5lib/html5parser.py -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib
+  copying build/lib/bleach/_vendor/html5lib/__init__.py -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib
+  creating build/bdist.macosx-26-arm64/wheel/bleach/_vendor/html5lib/_trie
+  copying build/lib/bleach/_vendor/html5lib/_trie/_base.py -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib/_trie
+  copying build/lib/bleach/_vendor/html5lib/_trie/__init__.py -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib/_trie
+  copying build/lib/bleach/_vendor/html5lib/_trie/py.py -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib/_trie
+  creating build/bdist.macosx-26-arm64/wheel/bleach/_vendor/html5lib/treeadapters
+  copying build/lib/bleach/_vendor/html5lib/treeadapters/sax.py -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib/treeadapters
+  copying build/lib/bleach/_vendor/html5lib/treeadapters/__init__.py -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib/treeadapters
+  copying build/lib/bleach/_vendor/html5lib/treeadapters/genshi.py -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib/treeadapters
+  copying build/lib/bleach/_vendor/html5lib/serializer.py -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib
+  copying build/lib/bleach/_vendor/html5lib/_tokenizer.py -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib
+  copying build/lib/bleach/_vendor/html5lib/_utils.py -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib
+  copying build/lib/bleach/_vendor/vendor_install.sh -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor
+  creating build/bdist.macosx-26-arm64/wheel/bleach/_vendor/html5lib-1.1.dist-info
+  copying build/lib/bleach/_vendor/html5lib-1.1.dist-info/RECORD -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib-1.1.dist-info
+  copying build/lib/bleach/_vendor/html5lib-1.1.dist-info/LICENSE -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib-1.1.dist-info
+  copying build/lib/bleach/_vendor/html5lib-1.1.dist-info/WHEEL -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib-1.1.dist-info
+  copying build/lib/bleach/_vendor/html5lib-1.1.dist-info/AUTHORS.rst -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib-1.1.dist-info
+  copying build/lib/bleach/_vendor/html5lib-1.1.dist-info/top_level.txt -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib-1.1.dist-info
+  copying build/lib/bleach/_vendor/html5lib-1.1.dist-info/REQUESTED -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib-1.1.dist-info
+  copying build/lib/bleach/_vendor/html5lib-1.1.dist-info/INSTALLER -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib-1.1.dist-info
+  copying build/lib/bleach/_vendor/html5lib-1.1.dist-info/METADATA -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor/html5lib-1.1.dist-info
+  copying build/lib/bleach/_vendor/parse.py -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor
+  copying build/lib/bleach/_vendor/README.rst -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor
+  copying build/lib/bleach/_vendor/parse.py.SHA256SUM -> build/bdist.macosx-26-arm64/wheel/./bleach/_vendor
+  copying build/lib/bleach/__init__.py -> build/bdist.macosx-26-arm64/wheel/./bleach
+  copying build/lib/bleach/callbacks.py -> build/bdist.macosx-26-arm64/wheel/./bleach
+  copying build/lib/bleach/css_sanitizer.py -> build/bdist.macosx-26-arm64/wheel/./bleach
+  copying build/lib/bleach/parse_shim.py -> build/bdist.macosx-26-arm64/wheel/./bleach
+  warning: install_lib: byte-compiling is disabled, skipping.
+
+  running install_egg_info
+  Copying bleach.egg-info to build/bdist.macosx-26-arm64/wheel/./bleach-5.0.1-py3.10.egg-info
+  running install_scripts
+  creating build/bdist.macosx-26-arm64/wheel/bleach-5.0.1.dist-info/WHEEL
+  creating '/Users/nikitabelonogov/Library/Caches/Homebrew/pip_cache/wheels/f2/60/27/5fc9cae11e4cc18fb9c61101814785036e6bdfb356d6b00548/tmpvp1zvztd/.tmp-qyw4pgot/bleach-5.0.1-py3-none-any.whl' and adding 'build/bdist.macosx-26-arm64/wheel' to it
+  adding 'bleach/__init__.py'
+  adding 'bleach/callbacks.py'
+  adding 'bleach/css_sanitizer.py'
+  adding 'bleach/html5lib_shim.py'
+  adding 'bleach/linkifier.py'
+  adding 'bleach/parse_shim.py'
+  adding 'bleach/sanitizer.py'
+  adding 'bleach/_vendor/README.rst'
+  adding 'bleach/_vendor/__init__.py'
+  adding 'bleach/_vendor/parse.py'
+  adding 'bleach/_vendor/parse.py.SHA256SUM'
+  adding 'bleach/_vendor/vendor.txt'
+  adding 'bleach/_vendor/vendor_install.sh'
+  adding 'bleach/_vendor/html5lib/__init__.py'
+  adding 'bleach/_vendor/html5lib/_ihatexml.py'
+  adding 'bleach/_vendor/html5lib/_inputstream.py'
+  adding 'bleach/_vendor/html5lib/_tokenizer.py'
+  adding 'bleach/_vendor/html5lib/_utils.py'
+  adding 'bleach/_vendor/html5lib/constants.py'
+  adding 'bleach/_vendor/html5lib/html5parser.py'
+  adding 'bleach/_vendor/html5lib/serializer.py'
+  adding 'bleach/_vendor/html5lib/_trie/__init__.py'
+  adding 'bleach/_vendor/html5lib/_trie/_base.py'
+  adding 'bleach/_vendor/html5lib/_trie/py.py'
+  adding 'bleach/_vendor/html5lib/filters/__init__.py'
+  adding 'bleach/_vendor/html5lib/filters/alphabeticalattributes.py'
+  adding 'bleach/_vendor/html5lib/filters/base.py'
+  adding 'bleach/_vendor/html5lib/filters/inject_meta_charset.py'
+  adding 'bleach/_vendor/html5lib/filters/lint.py'
+  adding 'bleach/_vendor/html5lib/filters/optionaltags.py'
+  adding 'bleach/_vendor/html5lib/filters/sanitizer.py'
+  adding 'bleach/_vendor/html5lib/filters/whitespace.py'
+  adding 'bleach/_vendor/html5lib/treeadapters/__init__.py'
+  adding 'bleach/_vendor/html5lib/treeadapters/genshi.py'
+  adding 'bleach/_vendor/html5lib/treeadapters/sax.py'
+  adding 'bleach/_vendor/html5lib/treebuilders/__init__.py'
+  adding 'bleach/_vendor/html5lib/treebuilders/base.py'
+  adding 'bleach/_vendor/html5lib/treebuilders/dom.py'
+  adding 'bleach/_vendor/html5lib/treebuilders/etree.py'
+  adding 'bleach/_vendor/html5lib/treebuilders/etree_lxml.py'
+  adding 'bleach/_vendor/html5lib/treewalkers/__init__.py'
+  adding 'bleach/_vendor/html5lib/treewalkers/base.py'
+  adding 'bleach/_vendor/html5lib/treewalkers/dom.py'
+  adding 'bleach/_vendor/html5lib/treewalkers/etree.py'
+  adding 'bleach/_vendor/html5lib/treewalkers/etree_lxml.py'
+  adding 'bleach/_vendor/html5lib/treewalkers/genshi.py'
+  adding 'bleach-5.0.1.dist-info/licenses/LICENSE'
+  adding 'bleach-5.0.1.dist-info/METADATA'
+  adding 'bleach-5.0.1.dist-info/WHEEL'
+  adding 'bleach-5.0.1.dist-info/top_level.txt'
+  adding 'bleach/_vendor/html5lib-1.1.dist-info/AUTHORS.rst'
+  adding 'bleach/_vendor/html5lib-1.1.dist-info/INSTALLER'
+  adding 'bleach/_vendor/html5lib-1.1.dist-info/LICENSE'
+  adding 'bleach/_vendor/html5lib-1.1.dist-info/METADATA'
+  adding 'bleach/_vendor/html5lib-1.1.dist-info/RECORD'
+  adding 'bleach/_vendor/html5lib-1.1.dist-info/REQUESTED'
+  adding 'bleach/_vendor/html5lib-1.1.dist-info/WHEEL'
+  adding 'bleach/_vendor/html5lib-1.1.dist-info/top_level.txt'
+  adding 'bleach-5.0.1.dist-info/RECORD'
+  removing build/bdist.macosx-26-arm64/wheel
+  Building wheel for bleach (pyproject.toml): finished with status 'done'
+  Created wheel for bleach: filename=bleach-5.0.1-py3-none-any.whl size=160970 sha256=567eef44e715a18d105ab08f2408beb82c146e0a72043c88ddb82054fedebb8a
+  Stored in directory: /Users/nikitabelonogov/Library/Caches/Homebrew/pip_cache/wheels/f2/60/27/5fc9cae11e4cc18fb9c61101814785036e6bdfb356d6b00548
+Successfully built bleach
+Installing collected packages: bleach
+Successfully installed bleach-5.0.1
+
+[notice] A new release of pip is available: 26.0 -> 26.0.1
+[notice] To update, run: /opt/homebrew/Cellar/label-studio/1.22.0/libexec/bin/python -m pip install --upgrade pip

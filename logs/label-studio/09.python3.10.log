@@ -1,0 +1,374 @@
+2026-02-05 07:11:16 +0000
+
+python3.10
+-m
+pip
+--python=/opt/homebrew/Cellar/label-studio/1.22.0/libexec/bin/python
+install
+--verbose
+--no-deps
+--no-binary=:all:
+--ignore-installed
+--no-compile
+/private/tmp/label-studio--azure-core-20260205-63897-3ravaz/azure_core-1.37.0
+
+Using pip 26.0 from /opt/homebrew/lib/python3.10/site-packages/pip (python 3.10)
+Processing ./.
+  Installing build dependencies: started
+  Running command installing build dependencies
+  Using pip 26.0 from /opt/homebrew/lib/python3.10/site-packages/pip (python 3.10)
+  Collecting setuptools>=40.8.0
+    Using cached setuptools-80.10.2-py3-none-any.whl
+  Installing collected packages: setuptools
+  Successfully installed setuptools-80.10.2
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Running command Getting requirements to build wheel
+  /private/tmp/pip-build-env-o13h680w/overlay/lib/python3.10/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+  !!
+
+          ********************************************************************************
+          Please consider removing the following classifiers in favor of a SPDX license expression:
+
+          License :: OSI Approved :: MIT License
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    self._finalize_license_expression()
+  running egg_info
+  writing azure_core.egg-info/PKG-INFO
+  writing dependency_links to azure_core.egg-info/dependency_links.txt
+  writing requirements to azure_core.egg-info/requires.txt
+  writing top-level names to azure_core.egg-info/top_level.txt
+  reading manifest file 'azure_core.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE'
+  writing manifest file 'azure_core.egg-info/SOURCES.txt'
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  /private/tmp/pip-build-env-o13h680w/overlay/lib/python3.10/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+  !!
+
+          ********************************************************************************
+          Please consider removing the following classifiers in favor of a SPDX license expression:
+
+          License :: OSI Approved :: MIT License
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    self._finalize_license_expression()
+  running dist_info
+  creating /private/tmp/pip-modern-metadata-8s53oiow/azure_core.egg-info
+  writing /private/tmp/pip-modern-metadata-8s53oiow/azure_core.egg-info/PKG-INFO
+  writing dependency_links to /private/tmp/pip-modern-metadata-8s53oiow/azure_core.egg-info/dependency_links.txt
+  writing requirements to /private/tmp/pip-modern-metadata-8s53oiow/azure_core.egg-info/requires.txt
+  writing top-level names to /private/tmp/pip-modern-metadata-8s53oiow/azure_core.egg-info/top_level.txt
+  writing manifest file '/private/tmp/pip-modern-metadata-8s53oiow/azure_core.egg-info/SOURCES.txt'
+  reading manifest file '/private/tmp/pip-modern-metadata-8s53oiow/azure_core.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE'
+  writing manifest file '/private/tmp/pip-modern-metadata-8s53oiow/azure_core.egg-info/SOURCES.txt'
+  creating '/private/tmp/pip-modern-metadata-8s53oiow/azure_core-1.37.0.dist-info'
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: azure-core
+  Building wheel for azure-core (pyproject.toml): started
+  Running command Building wheel for azure-core (pyproject.toml)
+  /private/tmp/pip-build-env-o13h680w/overlay/lib/python3.10/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+  !!
+
+          ********************************************************************************
+          Please consider removing the following classifiers in favor of a SPDX license expression:
+
+          License :: OSI Approved :: MIT License
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    self._finalize_license_expression()
+  running bdist_wheel
+  running build
+  running build_py
+  creating build/lib/azure/core
+  copying azure/core/configuration.py -> build/lib/azure/core
+  copying azure/core/async_paging.py -> build/lib/azure/core
+  copying azure/core/instrumentation.py -> build/lib/azure/core
+  copying azure/core/_match_conditions.py -> build/lib/azure/core
+  copying azure/core/_pipeline_client_async.py -> build/lib/azure/core
+  copying azure/core/_version.py -> build/lib/azure/core
+  copying azure/core/credentials.py -> build/lib/azure/core
+  copying azure/core/_azure_clouds.py -> build/lib/azure/core
+  copying azure/core/__init__.py -> build/lib/azure/core
+  copying azure/core/_enum_meta.py -> build/lib/azure/core
+  copying azure/core/credentials_async.py -> build/lib/azure/core
+  copying azure/core/settings.py -> build/lib/azure/core
+  copying azure/core/exceptions.py -> build/lib/azure/core
+  copying azure/core/_pipeline_client.py -> build/lib/azure/core
+  copying azure/core/paging.py -> build/lib/azure/core
+  copying azure/core/serialization.py -> build/lib/azure/core
+  copying azure/core/messaging.py -> build/lib/azure/core
+  creating build/lib/azure/core/pipeline
+  copying azure/core/pipeline/_base.py -> build/lib/azure/core/pipeline
+  copying azure/core/pipeline/_tools_async.py -> build/lib/azure/core/pipeline
+  copying azure/core/pipeline/_tools.py -> build/lib/azure/core/pipeline
+  copying azure/core/pipeline/_base_async.py -> build/lib/azure/core/pipeline
+  copying azure/core/pipeline/__init__.py -> build/lib/azure/core/pipeline
+  creating build/lib/azure/core/tracing
+  copying azure/core/tracing/_abstract_span.py -> build/lib/azure/core/tracing
+  copying azure/core/tracing/decorator.py -> build/lib/azure/core/tracing
+  copying azure/core/tracing/decorator_async.py -> build/lib/azure/core/tracing
+  copying azure/core/tracing/__init__.py -> build/lib/azure/core/tracing
+  copying azure/core/tracing/opentelemetry.py -> build/lib/azure/core/tracing
+  copying azure/core/tracing/common.py -> build/lib/azure/core/tracing
+  copying azure/core/tracing/_models.py -> build/lib/azure/core/tracing
+  creating build/lib/azure/core/polling
+  copying azure/core/polling/base_polling.py -> build/lib/azure/core/polling
+  copying azure/core/polling/__init__.py -> build/lib/azure/core/polling
+  copying azure/core/polling/_poller.py -> build/lib/azure/core/polling
+  copying azure/core/polling/_async_poller.py -> build/lib/azure/core/polling
+  copying azure/core/polling/async_base_polling.py -> build/lib/azure/core/polling
+  creating build/lib/azure/core/utils
+  copying azure/core/utils/_pipeline_transport_rest_shared_async.py -> build/lib/azure/core/utils
+  copying azure/core/utils/_pipeline_transport_rest_shared.py -> build/lib/azure/core/utils
+  copying azure/core/utils/__init__.py -> build/lib/azure/core/utils
+  copying azure/core/utils/_connection_string_parser.py -> build/lib/azure/core/utils
+  copying azure/core/utils/_messaging_shared.py -> build/lib/azure/core/utils
+  copying azure/core/utils/_utils.py -> build/lib/azure/core/utils
+  creating build/lib/azure/core/rest
+  copying azure/core/rest/_aiohttp.py -> build/lib/azure/core/rest
+  copying azure/core/rest/_rest_py3.py -> build/lib/azure/core/rest
+  copying azure/core/rest/_requests_trio.py -> build/lib/azure/core/rest
+  copying azure/core/rest/_http_response_impl.py -> build/lib/azure/core/rest
+  copying azure/core/rest/__init__.py -> build/lib/azure/core/rest
+  copying azure/core/rest/_requests_basic.py -> build/lib/azure/core/rest
+  copying azure/core/rest/_http_response_impl_async.py -> build/lib/azure/core/rest
+  copying azure/core/rest/_requests_asyncio.py -> build/lib/azure/core/rest
+  copying azure/core/rest/_helpers.py -> build/lib/azure/core/rest
+  creating build/lib/azure/core/pipeline/transport
+  copying azure/core/pipeline/transport/_base.py -> build/lib/azure/core/pipeline/transport
+  copying azure/core/pipeline/transport/_aiohttp.py -> build/lib/azure/core/pipeline/transport
+  copying azure/core/pipeline/transport/_base_requests_async.py -> build/lib/azure/core/pipeline/transport
+  copying azure/core/pipeline/transport/_requests_trio.py -> build/lib/azure/core/pipeline/transport
+  copying azure/core/pipeline/transport/_base_async.py -> build/lib/azure/core/pipeline/transport
+  copying azure/core/pipeline/transport/__init__.py -> build/lib/azure/core/pipeline/transport
+  copying azure/core/pipeline/transport/_bigger_block_size_http_adapters.py -> build/lib/azure/core/pipeline/transport
+  copying azure/core/pipeline/transport/_requests_basic.py -> build/lib/azure/core/pipeline/transport
+  copying azure/core/pipeline/transport/_requests_asyncio.py -> build/lib/azure/core/pipeline/transport
+  creating build/lib/azure/core/pipeline/policies
+  copying azure/core/pipeline/policies/_base.py -> build/lib/azure/core/pipeline/policies
+  copying azure/core/pipeline/policies/_distributed_tracing.py -> build/lib/azure/core/pipeline/policies
+  copying azure/core/pipeline/policies/_base_async.py -> build/lib/azure/core/pipeline/policies
+  copying azure/core/pipeline/policies/_redirect_async.py -> build/lib/azure/core/pipeline/policies
+  copying azure/core/pipeline/policies/_retry_async.py -> build/lib/azure/core/pipeline/policies
+  copying azure/core/pipeline/policies/__init__.py -> build/lib/azure/core/pipeline/policies
+  copying azure/core/pipeline/policies/_custom_hook.py -> build/lib/azure/core/pipeline/policies
+  copying azure/core/pipeline/policies/_authentication_async.py -> build/lib/azure/core/pipeline/policies
+  copying azure/core/pipeline/policies/_redirect.py -> build/lib/azure/core/pipeline/policies
+  copying azure/core/pipeline/policies/_authentication.py -> build/lib/azure/core/pipeline/policies
+  copying azure/core/pipeline/policies/_universal.py -> build/lib/azure/core/pipeline/policies
+  copying azure/core/pipeline/policies/_sensitive_header_cleanup_policy.py -> build/lib/azure/core/pipeline/policies
+  copying azure/core/pipeline/policies/_retry.py -> build/lib/azure/core/pipeline/policies
+  copying azure/core/pipeline/policies/_utils.py -> build/lib/azure/core/pipeline/policies
+  creating build/lib/azure/core/tracing/ext
+  copying azure/core/tracing/ext/__init__.py -> build/lib/azure/core/tracing/ext
+  running egg_info
+  writing azure_core.egg-info/PKG-INFO
+  writing dependency_links to azure_core.egg-info/dependency_links.txt
+  writing requirements to azure_core.egg-info/requires.txt
+  writing top-level names to azure_core.egg-info/top_level.txt
+  reading manifest file 'azure_core.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE'
+  writing manifest file 'azure_core.egg-info/SOURCES.txt'
+  copying azure/core/py.typed -> build/lib/azure/core
+  warning: build_py: byte-compiling is disabled, skipping.
+
+  installing to build/bdist.macosx-26-arm64/wheel
+  running install
+  running install_lib
+  creating build/bdist.macosx-26-arm64/wheel
+  creating build/bdist.macosx-26-arm64/wheel/azure
+  creating build/bdist.macosx-26-arm64/wheel/azure/core
+  copying build/lib/azure/core/configuration.py -> build/bdist.macosx-26-arm64/wheel/./azure/core
+  creating build/bdist.macosx-26-arm64/wheel/azure/core/pipeline
+  copying build/lib/azure/core/pipeline/_base.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/pipeline
+  creating build/bdist.macosx-26-arm64/wheel/azure/core/pipeline/transport
+  copying build/lib/azure/core/pipeline/transport/_base.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/pipeline/transport
+  copying build/lib/azure/core/pipeline/transport/_aiohttp.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/pipeline/transport
+  copying build/lib/azure/core/pipeline/transport/_base_requests_async.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/pipeline/transport
+  copying build/lib/azure/core/pipeline/transport/_requests_trio.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/pipeline/transport
+  copying build/lib/azure/core/pipeline/transport/_base_async.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/pipeline/transport
+  copying build/lib/azure/core/pipeline/transport/__init__.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/pipeline/transport
+  copying build/lib/azure/core/pipeline/transport/_bigger_block_size_http_adapters.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/pipeline/transport
+  copying build/lib/azure/core/pipeline/transport/_requests_basic.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/pipeline/transport
+  copying build/lib/azure/core/pipeline/transport/_requests_asyncio.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/pipeline/transport
+  copying build/lib/azure/core/pipeline/_tools_async.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/pipeline
+  copying build/lib/azure/core/pipeline/_tools.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/pipeline
+  copying build/lib/azure/core/pipeline/_base_async.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/pipeline
+  copying build/lib/azure/core/pipeline/__init__.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/pipeline
+  creating build/bdist.macosx-26-arm64/wheel/azure/core/pipeline/policies
+  copying build/lib/azure/core/pipeline/policies/_base.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/pipeline/policies
+  copying build/lib/azure/core/pipeline/policies/_distributed_tracing.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/pipeline/policies
+  copying build/lib/azure/core/pipeline/policies/_base_async.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/pipeline/policies
+  copying build/lib/azure/core/pipeline/policies/_redirect_async.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/pipeline/policies
+  copying build/lib/azure/core/pipeline/policies/_retry_async.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/pipeline/policies
+  copying build/lib/azure/core/pipeline/policies/__init__.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/pipeline/policies
+  copying build/lib/azure/core/pipeline/policies/_custom_hook.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/pipeline/policies
+  copying build/lib/azure/core/pipeline/policies/_authentication_async.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/pipeline/policies
+  copying build/lib/azure/core/pipeline/policies/_redirect.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/pipeline/policies
+  copying build/lib/azure/core/pipeline/policies/_authentication.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/pipeline/policies
+  copying build/lib/azure/core/pipeline/policies/_universal.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/pipeline/policies
+  copying build/lib/azure/core/pipeline/policies/_sensitive_header_cleanup_policy.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/pipeline/policies
+  copying build/lib/azure/core/pipeline/policies/_retry.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/pipeline/policies
+  copying build/lib/azure/core/pipeline/policies/_utils.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/pipeline/policies
+  creating build/bdist.macosx-26-arm64/wheel/azure/core/tracing
+  copying build/lib/azure/core/tracing/_abstract_span.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/tracing
+  copying build/lib/azure/core/tracing/decorator.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/tracing
+  copying build/lib/azure/core/tracing/decorator_async.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/tracing
+  creating build/bdist.macosx-26-arm64/wheel/azure/core/tracing/ext
+  copying build/lib/azure/core/tracing/ext/__init__.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/tracing/ext
+  copying build/lib/azure/core/tracing/__init__.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/tracing
+  copying build/lib/azure/core/tracing/opentelemetry.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/tracing
+  copying build/lib/azure/core/tracing/common.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/tracing
+  copying build/lib/azure/core/tracing/_models.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/tracing
+  copying build/lib/azure/core/async_paging.py -> build/bdist.macosx-26-arm64/wheel/./azure/core
+  copying build/lib/azure/core/instrumentation.py -> build/bdist.macosx-26-arm64/wheel/./azure/core
+  copying build/lib/azure/core/_match_conditions.py -> build/bdist.macosx-26-arm64/wheel/./azure/core
+  creating build/bdist.macosx-26-arm64/wheel/azure/core/polling
+  copying build/lib/azure/core/polling/base_polling.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/polling
+  copying build/lib/azure/core/polling/__init__.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/polling
+  copying build/lib/azure/core/polling/_poller.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/polling
+  copying build/lib/azure/core/polling/_async_poller.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/polling
+  copying build/lib/azure/core/polling/async_base_polling.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/polling
+  copying build/lib/azure/core/_pipeline_client_async.py -> build/bdist.macosx-26-arm64/wheel/./azure/core
+  copying build/lib/azure/core/_version.py -> build/bdist.macosx-26-arm64/wheel/./azure/core
+  copying build/lib/azure/core/credentials.py -> build/bdist.macosx-26-arm64/wheel/./azure/core
+  copying build/lib/azure/core/_azure_clouds.py -> build/bdist.macosx-26-arm64/wheel/./azure/core
+  copying build/lib/azure/core/__init__.py -> build/bdist.macosx-26-arm64/wheel/./azure/core
+  creating build/bdist.macosx-26-arm64/wheel/azure/core/utils
+  copying build/lib/azure/core/utils/_pipeline_transport_rest_shared_async.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/utils
+  copying build/lib/azure/core/utils/_pipeline_transport_rest_shared.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/utils
+  copying build/lib/azure/core/utils/__init__.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/utils
+  copying build/lib/azure/core/utils/_connection_string_parser.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/utils
+  copying build/lib/azure/core/utils/_messaging_shared.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/utils
+  copying build/lib/azure/core/utils/_utils.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/utils
+  copying build/lib/azure/core/_enum_meta.py -> build/bdist.macosx-26-arm64/wheel/./azure/core
+  copying build/lib/azure/core/credentials_async.py -> build/bdist.macosx-26-arm64/wheel/./azure/core
+  copying build/lib/azure/core/settings.py -> build/bdist.macosx-26-arm64/wheel/./azure/core
+  copying build/lib/azure/core/py.typed -> build/bdist.macosx-26-arm64/wheel/./azure/core
+  copying build/lib/azure/core/exceptions.py -> build/bdist.macosx-26-arm64/wheel/./azure/core
+  copying build/lib/azure/core/_pipeline_client.py -> build/bdist.macosx-26-arm64/wheel/./azure/core
+  copying build/lib/azure/core/paging.py -> build/bdist.macosx-26-arm64/wheel/./azure/core
+  copying build/lib/azure/core/serialization.py -> build/bdist.macosx-26-arm64/wheel/./azure/core
+  creating build/bdist.macosx-26-arm64/wheel/azure/core/rest
+  copying build/lib/azure/core/rest/_aiohttp.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/rest
+  copying build/lib/azure/core/rest/_rest_py3.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/rest
+  copying build/lib/azure/core/rest/_requests_trio.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/rest
+  copying build/lib/azure/core/rest/_http_response_impl.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/rest
+  copying build/lib/azure/core/rest/__init__.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/rest
+  copying build/lib/azure/core/rest/_requests_basic.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/rest
+  copying build/lib/azure/core/rest/_http_response_impl_async.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/rest
+  copying build/lib/azure/core/rest/_requests_asyncio.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/rest
+  copying build/lib/azure/core/rest/_helpers.py -> build/bdist.macosx-26-arm64/wheel/./azure/core/rest
+  copying build/lib/azure/core/messaging.py -> build/bdist.macosx-26-arm64/wheel/./azure/core
+  warning: install_lib: byte-compiling is disabled, skipping.
+
+  running install_egg_info
+  Copying azure_core.egg-info to build/bdist.macosx-26-arm64/wheel/./azure_core-1.37.0-py3.10.egg-info
+  running install_scripts
+  creating build/bdist.macosx-26-arm64/wheel/azure_core-1.37.0.dist-info/WHEEL
+  creating '/Users/nikitabelonogov/Library/Caches/Homebrew/pip_cache/wheels/0e/a9/16/047afd51bf1eb80f0b7ee8fc3beccd8da78bd073c07c092c03/tmpkbg83_lf/.tmp-ugn7ji66/azure_core-1.37.0-py3-none-any.whl' and adding 'build/bdist.macosx-26-arm64/wheel' to it
+  adding 'azure/core/__init__.py'
+  adding 'azure/core/_azure_clouds.py'
+  adding 'azure/core/_enum_meta.py'
+  adding 'azure/core/_match_conditions.py'
+  adding 'azure/core/_pipeline_client.py'
+  adding 'azure/core/_pipeline_client_async.py'
+  adding 'azure/core/_version.py'
+  adding 'azure/core/async_paging.py'
+  adding 'azure/core/configuration.py'
+  adding 'azure/core/credentials.py'
+  adding 'azure/core/credentials_async.py'
+  adding 'azure/core/exceptions.py'
+  adding 'azure/core/instrumentation.py'
+  adding 'azure/core/messaging.py'
+  adding 'azure/core/paging.py'
+  adding 'azure/core/py.typed'
+  adding 'azure/core/serialization.py'
+  adding 'azure/core/settings.py'
+  adding 'azure/core/pipeline/__init__.py'
+  adding 'azure/core/pipeline/_base.py'
+  adding 'azure/core/pipeline/_base_async.py'
+  adding 'azure/core/pipeline/_tools.py'
+  adding 'azure/core/pipeline/_tools_async.py'
+  adding 'azure/core/pipeline/policies/__init__.py'
+  adding 'azure/core/pipeline/policies/_authentication.py'
+  adding 'azure/core/pipeline/policies/_authentication_async.py'
+  adding 'azure/core/pipeline/policies/_base.py'
+  adding 'azure/core/pipeline/policies/_base_async.py'
+  adding 'azure/core/pipeline/policies/_custom_hook.py'
+  adding 'azure/core/pipeline/policies/_distributed_tracing.py'
+  adding 'azure/core/pipeline/policies/_redirect.py'
+  adding 'azure/core/pipeline/policies/_redirect_async.py'
+  adding 'azure/core/pipeline/policies/_retry.py'
+  adding 'azure/core/pipeline/policies/_retry_async.py'
+  adding 'azure/core/pipeline/policies/_sensitive_header_cleanup_policy.py'
+  adding 'azure/core/pipeline/policies/_universal.py'
+  adding 'azure/core/pipeline/policies/_utils.py'
+  adding 'azure/core/pipeline/transport/__init__.py'
+  adding 'azure/core/pipeline/transport/_aiohttp.py'
+  adding 'azure/core/pipeline/transport/_base.py'
+  adding 'azure/core/pipeline/transport/_base_async.py'
+  adding 'azure/core/pipeline/transport/_base_requests_async.py'
+  adding 'azure/core/pipeline/transport/_bigger_block_size_http_adapters.py'
+  adding 'azure/core/pipeline/transport/_requests_asyncio.py'
+  adding 'azure/core/pipeline/transport/_requests_basic.py'
+  adding 'azure/core/pipeline/transport/_requests_trio.py'
+  adding 'azure/core/polling/__init__.py'
+  adding 'azure/core/polling/_async_poller.py'
+  adding 'azure/core/polling/_poller.py'
+  adding 'azure/core/polling/async_base_polling.py'
+  adding 'azure/core/polling/base_polling.py'
+  adding 'azure/core/rest/__init__.py'
+  adding 'azure/core/rest/_aiohttp.py'
+  adding 'azure/core/rest/_helpers.py'
+  adding 'azure/core/rest/_http_response_impl.py'
+  adding 'azure/core/rest/_http_response_impl_async.py'
+  adding 'azure/core/rest/_requests_asyncio.py'
+  adding 'azure/core/rest/_requests_basic.py'
+  adding 'azure/core/rest/_requests_trio.py'
+  adding 'azure/core/rest/_rest_py3.py'
+  adding 'azure/core/tracing/__init__.py'
+  adding 'azure/core/tracing/_abstract_span.py'
+  adding 'azure/core/tracing/_models.py'
+  adding 'azure/core/tracing/common.py'
+  adding 'azure/core/tracing/decorator.py'
+  adding 'azure/core/tracing/decorator_async.py'
+  adding 'azure/core/tracing/opentelemetry.py'
+  adding 'azure/core/tracing/ext/__init__.py'
+  adding 'azure/core/utils/__init__.py'
+  adding 'azure/core/utils/_connection_string_parser.py'
+  adding 'azure/core/utils/_messaging_shared.py'
+  adding 'azure/core/utils/_pipeline_transport_rest_shared.py'
+  adding 'azure/core/utils/_pipeline_transport_rest_shared_async.py'
+  adding 'azure/core/utils/_utils.py'
+  adding 'azure_core-1.37.0.dist-info/licenses/LICENSE'
+  adding 'azure_core-1.37.0.dist-info/METADATA'
+  adding 'azure_core-1.37.0.dist-info/WHEEL'
+  adding 'azure_core-1.37.0.dist-info/top_level.txt'
+  adding 'azure_core-1.37.0.dist-info/RECORD'
+  removing build/bdist.macosx-26-arm64/wheel
+  Building wheel for azure-core (pyproject.toml): finished with status 'done'
+  Created wheel for azure-core: filename=azure_core-1.37.0-py3-none-any.whl size=214003 sha256=f8a80c3d389d5174fac73ab0c96a6eceb8e089098a29548c7ab2ae6d3391e2ce
+  Stored in directory: /Users/nikitabelonogov/Library/Caches/Homebrew/pip_cache/wheels/0e/a9/16/047afd51bf1eb80f0b7ee8fc3beccd8da78bd073c07c092c03
+Successfully built azure-core
+Installing collected packages: azure-core
+Successfully installed azure-core-1.37.0
+
+[notice] A new release of pip is available: 26.0 -> 26.0.1
+[notice] To update, run: /opt/homebrew/Cellar/label-studio/1.22.0/libexec/bin/python -m pip install --upgrade pip

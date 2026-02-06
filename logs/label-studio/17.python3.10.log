@@ -1,0 +1,177 @@
+2026-02-05 07:11:43 +0000
+
+python3.10
+-m
+pip
+--python=/opt/homebrew/Cellar/label-studio/1.22.0/libexec/bin/python
+install
+--verbose
+--no-deps
+--no-binary=:all:
+--ignore-installed
+--no-compile
+/private/tmp/label-studio--cffi-20260205-63897-savobo/cffi-2.0.0
+
+Using pip 26.0 from /opt/homebrew/lib/python3.10/site-packages/pip (python 3.10)
+Processing ./.
+  Installing build dependencies: started
+  Running command installing build dependencies
+  Using pip 26.0 from /opt/homebrew/lib/python3.10/site-packages/pip (python 3.10)
+  Collecting setuptools>=66.1
+    Using cached setuptools-80.10.2-py3-none-any.whl
+  Installing collected packages: setuptools
+  Successfully installed setuptools-80.10.2
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Running command Getting requirements to build wheel
+  running egg_info
+  writing src/cffi.egg-info/PKG-INFO
+  writing dependency_links to src/cffi.egg-info/dependency_links.txt
+  writing entry points to src/cffi.egg-info/entry_points.txt
+  writing requirements to src/cffi.egg-info/requires.txt
+  writing top-level names to src/cffi.egg-info/top_level.txt
+  reading manifest file 'src/cffi.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE'
+  adding license file 'AUTHORS'
+  writing manifest file 'src/cffi.egg-info/SOURCES.txt'
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  running dist_info
+  creating /private/tmp/pip-modern-metadata-x3_cc0ia/cffi.egg-info
+  writing /private/tmp/pip-modern-metadata-x3_cc0ia/cffi.egg-info/PKG-INFO
+  writing dependency_links to /private/tmp/pip-modern-metadata-x3_cc0ia/cffi.egg-info/dependency_links.txt
+  writing entry points to /private/tmp/pip-modern-metadata-x3_cc0ia/cffi.egg-info/entry_points.txt
+  writing requirements to /private/tmp/pip-modern-metadata-x3_cc0ia/cffi.egg-info/requires.txt
+  writing top-level names to /private/tmp/pip-modern-metadata-x3_cc0ia/cffi.egg-info/top_level.txt
+  writing manifest file '/private/tmp/pip-modern-metadata-x3_cc0ia/cffi.egg-info/SOURCES.txt'
+  reading manifest file '/private/tmp/pip-modern-metadata-x3_cc0ia/cffi.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE'
+  adding license file 'AUTHORS'
+  writing manifest file '/private/tmp/pip-modern-metadata-x3_cc0ia/cffi.egg-info/SOURCES.txt'
+  creating '/private/tmp/pip-modern-metadata-x3_cc0ia/cffi-2.0.0.dist-info'
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: cffi
+  Building wheel for cffi (pyproject.toml): started
+  Running command Building wheel for cffi (pyproject.toml)
+  running bdist_wheel
+  running build
+  running build_py
+  creating build/lib.macosx-26-arm64-cpython-310/cffi
+  copying src/cffi/_imp_emulation.py -> build/lib.macosx-26-arm64-cpython-310/cffi
+  copying src/cffi/backend_ctypes.py -> build/lib.macosx-26-arm64-cpython-310/cffi
+  copying src/cffi/error.py -> build/lib.macosx-26-arm64-cpython-310/cffi
+  copying src/cffi/setuptools_ext.py -> build/lib.macosx-26-arm64-cpython-310/cffi
+  copying src/cffi/_shimmed_dist_utils.py -> build/lib.macosx-26-arm64-cpython-310/cffi
+  copying src/cffi/__init__.py -> build/lib.macosx-26-arm64-cpython-310/cffi
+  copying src/cffi/cffi_opcode.py -> build/lib.macosx-26-arm64-cpython-310/cffi
+  copying src/cffi/vengine_gen.py -> build/lib.macosx-26-arm64-cpython-310/cffi
+  copying src/cffi/pkgconfig.py -> build/lib.macosx-26-arm64-cpython-310/cffi
+  copying src/cffi/model.py -> build/lib.macosx-26-arm64-cpython-310/cffi
+  copying src/cffi/ffiplatform.py -> build/lib.macosx-26-arm64-cpython-310/cffi
+  copying src/cffi/api.py -> build/lib.macosx-26-arm64-cpython-310/cffi
+  copying src/cffi/vengine_cpy.py -> build/lib.macosx-26-arm64-cpython-310/cffi
+  copying src/cffi/commontypes.py -> build/lib.macosx-26-arm64-cpython-310/cffi
+  copying src/cffi/lock.py -> build/lib.macosx-26-arm64-cpython-310/cffi
+  copying src/cffi/recompiler.py -> build/lib.macosx-26-arm64-cpython-310/cffi
+  copying src/cffi/cparser.py -> build/lib.macosx-26-arm64-cpython-310/cffi
+  copying src/cffi/verifier.py -> build/lib.macosx-26-arm64-cpython-310/cffi
+  running egg_info
+  writing src/cffi.egg-info/PKG-INFO
+  writing dependency_links to src/cffi.egg-info/dependency_links.txt
+  writing entry points to src/cffi.egg-info/entry_points.txt
+  writing requirements to src/cffi.egg-info/requires.txt
+  writing top-level names to src/cffi.egg-info/top_level.txt
+  reading manifest file 'src/cffi.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE'
+  adding license file 'AUTHORS'
+  writing manifest file 'src/cffi.egg-info/SOURCES.txt'
+  copying src/cffi/_cffi_errors.h -> build/lib.macosx-26-arm64-cpython-310/cffi
+  copying src/cffi/_cffi_include.h -> build/lib.macosx-26-arm64-cpython-310/cffi
+  copying src/cffi/_embedding.h -> build/lib.macosx-26-arm64-cpython-310/cffi
+  copying src/cffi/parse_c_type.h -> build/lib.macosx-26-arm64-cpython-310/cffi
+  warning: build_py: byte-compiling is disabled, skipping.
+
+  running build_ext
+  building '_cffi_backend' extension
+  creating build/temp.macosx-26-arm64-cpython-310/src/c
+  clang -Wno-unused-result -Wsign-compare -Wunreachable-code -fno-common -dynamic -DNDEBUG -g -fwrapv -O3 -Wall -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk -DFFI_BUILDING=1 -DUSE__THREAD -DHAVE_SYNC_SYNCHRONIZE -I/Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk/usr/include/ffi -I/opt/homebrew/Cellar/label-studio/1.22.0/libexec/include -I/opt/homebrew/opt/python@3.10/Frameworks/Python.framework/Versions/3.10/include/python3.10 -c src/c/_cffi_backend.c -o build/temp.macosx-26-arm64-cpython-310/src/c/_cffi_backend.o -iwithsysroot/usr/include/ffi
+  clang -bundle -undefined dynamic_lookup -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX26.sdk build/temp.macosx-26-arm64-cpython-310/src/c/_cffi_backend.o -lffi -o build/lib.macosx-26-arm64-cpython-310/_cffi_backend.cpython-310-darwin.so
+  installing to build/bdist.macosx-26-arm64/wheel
+  running install
+  running install_lib
+  creating build/bdist.macosx-26-arm64/wheel
+  copying build/lib.macosx-26-arm64-cpython-310/_cffi_backend.cpython-310-darwin.so -> build/bdist.macosx-26-arm64/wheel/.
+  creating build/bdist.macosx-26-arm64/wheel/cffi
+  copying build/lib.macosx-26-arm64-cpython-310/cffi/_cffi_include.h -> build/bdist.macosx-26-arm64/wheel/./cffi
+  copying build/lib.macosx-26-arm64-cpython-310/cffi/_imp_emulation.py -> build/bdist.macosx-26-arm64/wheel/./cffi
+  copying build/lib.macosx-26-arm64-cpython-310/cffi/backend_ctypes.py -> build/bdist.macosx-26-arm64/wheel/./cffi
+  copying build/lib.macosx-26-arm64-cpython-310/cffi/error.py -> build/bdist.macosx-26-arm64/wheel/./cffi
+  copying build/lib.macosx-26-arm64-cpython-310/cffi/setuptools_ext.py -> build/bdist.macosx-26-arm64/wheel/./cffi
+  copying build/lib.macosx-26-arm64-cpython-310/cffi/_shimmed_dist_utils.py -> build/bdist.macosx-26-arm64/wheel/./cffi
+  copying build/lib.macosx-26-arm64-cpython-310/cffi/_cffi_errors.h -> build/bdist.macosx-26-arm64/wheel/./cffi
+  copying build/lib.macosx-26-arm64-cpython-310/cffi/__init__.py -> build/bdist.macosx-26-arm64/wheel/./cffi
+  copying build/lib.macosx-26-arm64-cpython-310/cffi/cffi_opcode.py -> build/bdist.macosx-26-arm64/wheel/./cffi
+  copying build/lib.macosx-26-arm64-cpython-310/cffi/vengine_gen.py -> build/bdist.macosx-26-arm64/wheel/./cffi
+  copying build/lib.macosx-26-arm64-cpython-310/cffi/pkgconfig.py -> build/bdist.macosx-26-arm64/wheel/./cffi
+  copying build/lib.macosx-26-arm64-cpython-310/cffi/model.py -> build/bdist.macosx-26-arm64/wheel/./cffi
+  copying build/lib.macosx-26-arm64-cpython-310/cffi/ffiplatform.py -> build/bdist.macosx-26-arm64/wheel/./cffi
+  copying build/lib.macosx-26-arm64-cpython-310/cffi/api.py -> build/bdist.macosx-26-arm64/wheel/./cffi
+  copying build/lib.macosx-26-arm64-cpython-310/cffi/vengine_cpy.py -> build/bdist.macosx-26-arm64/wheel/./cffi
+  copying build/lib.macosx-26-arm64-cpython-310/cffi/_embedding.h -> build/bdist.macosx-26-arm64/wheel/./cffi
+  copying build/lib.macosx-26-arm64-cpython-310/cffi/commontypes.py -> build/bdist.macosx-26-arm64/wheel/./cffi
+  copying build/lib.macosx-26-arm64-cpython-310/cffi/lock.py -> build/bdist.macosx-26-arm64/wheel/./cffi
+  copying build/lib.macosx-26-arm64-cpython-310/cffi/recompiler.py -> build/bdist.macosx-26-arm64/wheel/./cffi
+  copying build/lib.macosx-26-arm64-cpython-310/cffi/cparser.py -> build/bdist.macosx-26-arm64/wheel/./cffi
+  copying build/lib.macosx-26-arm64-cpython-310/cffi/verifier.py -> build/bdist.macosx-26-arm64/wheel/./cffi
+  copying build/lib.macosx-26-arm64-cpython-310/cffi/parse_c_type.h -> build/bdist.macosx-26-arm64/wheel/./cffi
+  warning: install_lib: byte-compiling is disabled, skipping.
+
+  running install_egg_info
+  Copying src/cffi.egg-info to build/bdist.macosx-26-arm64/wheel/./cffi-2.0.0-py3.10.egg-info
+  running install_scripts
+  creating build/bdist.macosx-26-arm64/wheel/cffi-2.0.0.dist-info/WHEEL
+  creating '/Users/nikitabelonogov/Library/Caches/Homebrew/pip_cache/wheels/f2/a6/b6/02be7cd01e4c43f90aec804125d1af3645caff687a56c0af49/tmpqke3dcas/.tmp-2u54q3dm/cffi-2.0.0-cp310-cp310-macosx_26_0_arm64.whl' and adding 'build/bdist.macosx-26-arm64/wheel' to it
+  adding '_cffi_backend.cpython-310-darwin.so'
+  adding 'cffi/__init__.py'
+  adding 'cffi/_cffi_errors.h'
+  adding 'cffi/_cffi_include.h'
+  adding 'cffi/_embedding.h'
+  adding 'cffi/_imp_emulation.py'
+  adding 'cffi/_shimmed_dist_utils.py'
+  adding 'cffi/api.py'
+  adding 'cffi/backend_ctypes.py'
+  adding 'cffi/cffi_opcode.py'
+  adding 'cffi/commontypes.py'
+  adding 'cffi/cparser.py'
+  adding 'cffi/error.py'
+  adding 'cffi/ffiplatform.py'
+  adding 'cffi/lock.py'
+  adding 'cffi/model.py'
+  adding 'cffi/parse_c_type.h'
+  adding 'cffi/pkgconfig.py'
+  adding 'cffi/recompiler.py'
+  adding 'cffi/setuptools_ext.py'
+  adding 'cffi/vengine_cpy.py'
+  adding 'cffi/vengine_gen.py'
+  adding 'cffi/verifier.py'
+  adding 'cffi-2.0.0.dist-info/licenses/AUTHORS'
+  adding 'cffi-2.0.0.dist-info/licenses/LICENSE'
+  adding 'cffi-2.0.0.dist-info/METADATA'
+  adding 'cffi-2.0.0.dist-info/WHEEL'
+  adding 'cffi-2.0.0.dist-info/entry_points.txt'
+  adding 'cffi-2.0.0.dist-info/top_level.txt'
+  adding 'cffi-2.0.0.dist-info/RECORD'
+  removing build/bdist.macosx-26-arm64/wheel
+  Building wheel for cffi (pyproject.toml): finished with status 'done'
+  Created wheel for cffi: filename=cffi-2.0.0-cp310-cp310-macosx_26_0_arm64.whl size=167700 sha256=b966adcb358ff035c7f0df41343f812a84e58abbfc840df61711c6dec62c3ace
+  Stored in directory: /Users/nikitabelonogov/Library/Caches/Homebrew/pip_cache/wheels/f2/a6/b6/02be7cd01e4c43f90aec804125d1af3645caff687a56c0af49
+Successfully built cffi
+Installing collected packages: cffi
+Successfully installed cffi-2.0.0
+
+[notice] A new release of pip is available: 26.0 -> 26.0.1
+[notice] To update, run: /opt/homebrew/Cellar/label-studio/1.22.0/libexec/bin/python -m pip install --upgrade pip

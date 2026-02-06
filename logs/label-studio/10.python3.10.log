@@ -1,0 +1,422 @@
+2026-02-05 07:11:18 +0000
+
+python3.10
+-m
+pip
+--python=/opt/homebrew/Cellar/label-studio/1.22.0/libexec/bin/python
+install
+--verbose
+--no-deps
+--no-binary=:all:
+--ignore-installed
+--no-compile
+/private/tmp/label-studio--azure-storage-blob-20260205-63897-a4mnd4/azure_storage_blob-12.27.1
+
+Using pip 26.0 from /opt/homebrew/lib/python3.10/site-packages/pip (python 3.10)
+Processing ./.
+  Installing build dependencies: started
+  Running command installing build dependencies
+  Using pip 26.0 from /opt/homebrew/lib/python3.10/site-packages/pip (python 3.10)
+  Collecting setuptools>=40.8.0
+    Using cached setuptools-80.10.2-py3-none-any.whl
+  Installing collected packages: setuptools
+  Successfully installed setuptools-80.10.2
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Running command Getting requirements to build wheel
+  /private/tmp/pip-build-env-fw9tlwpj/overlay/lib/python3.10/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+  !!
+
+          ********************************************************************************
+          Please consider removing the following classifiers in favor of a SPDX license expression:
+
+          License :: OSI Approved :: MIT License
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    self._finalize_license_expression()
+  running egg_info
+  writing azure_storage_blob.egg-info/PKG-INFO
+  writing dependency_links to azure_storage_blob.egg-info/dependency_links.txt
+  writing requirements to azure_storage_blob.egg-info/requires.txt
+  writing top-level names to azure_storage_blob.egg-info/top_level.txt
+  reading manifest file 'azure_storage_blob.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE'
+  writing manifest file 'azure_storage_blob.egg-info/SOURCES.txt'
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  /private/tmp/pip-build-env-fw9tlwpj/overlay/lib/python3.10/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+  !!
+
+          ********************************************************************************
+          Please consider removing the following classifiers in favor of a SPDX license expression:
+
+          License :: OSI Approved :: MIT License
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    self._finalize_license_expression()
+  running dist_info
+  creating /private/tmp/pip-modern-metadata-wj4vh2wz/azure_storage_blob.egg-info
+  writing /private/tmp/pip-modern-metadata-wj4vh2wz/azure_storage_blob.egg-info/PKG-INFO
+  writing dependency_links to /private/tmp/pip-modern-metadata-wj4vh2wz/azure_storage_blob.egg-info/dependency_links.txt
+  writing requirements to /private/tmp/pip-modern-metadata-wj4vh2wz/azure_storage_blob.egg-info/requires.txt
+  writing top-level names to /private/tmp/pip-modern-metadata-wj4vh2wz/azure_storage_blob.egg-info/top_level.txt
+  writing manifest file '/private/tmp/pip-modern-metadata-wj4vh2wz/azure_storage_blob.egg-info/SOURCES.txt'
+  reading manifest file '/private/tmp/pip-modern-metadata-wj4vh2wz/azure_storage_blob.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE'
+  writing manifest file '/private/tmp/pip-modern-metadata-wj4vh2wz/azure_storage_blob.egg-info/SOURCES.txt'
+  creating '/private/tmp/pip-modern-metadata-wj4vh2wz/azure_storage_blob-12.27.1.dist-info'
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: azure-storage-blob
+  Building wheel for azure-storage-blob (pyproject.toml): started
+  Running command Building wheel for azure-storage-blob (pyproject.toml)
+  /private/tmp/pip-build-env-fw9tlwpj/overlay/lib/python3.10/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+  !!
+
+          ********************************************************************************
+          Please consider removing the following classifiers in favor of a SPDX license expression:
+
+          License :: OSI Approved :: MIT License
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    self._finalize_license_expression()
+  running bdist_wheel
+  running build
+  running build_py
+  creating build/lib/azure/storage/blob
+  copying azure/storage/blob/_container_client.py -> build/lib/azure/storage/blob
+  copying azure/storage/blob/_upload_helpers.py -> build/lib/azure/storage/blob
+  copying azure/storage/blob/_version.py -> build/lib/azure/storage/blob
+  copying azure/storage/blob/_quick_query_helper.py -> build/lib/azure/storage/blob
+  copying azure/storage/blob/_encryption.py -> build/lib/azure/storage/blob
+  copying azure/storage/blob/_blob_service_client.py -> build/lib/azure/storage/blob
+  copying azure/storage/blob/_serialize.py -> build/lib/azure/storage/blob
+  copying azure/storage/blob/__init__.py -> build/lib/azure/storage/blob
+  copying azure/storage/blob/_download.py -> build/lib/azure/storage/blob
+  copying azure/storage/blob/_shared_access_signature.py -> build/lib/azure/storage/blob
+  copying azure/storage/blob/_container_client_helpers.py -> build/lib/azure/storage/blob
+  copying azure/storage/blob/_lease.py -> build/lib/azure/storage/blob
+  copying azure/storage/blob/_deserialize.py -> build/lib/azure/storage/blob
+  copying azure/storage/blob/_models.py -> build/lib/azure/storage/blob
+  copying azure/storage/blob/_blob_client_helpers.py -> build/lib/azure/storage/blob
+  copying azure/storage/blob/_blob_service_client_helpers.py -> build/lib/azure/storage/blob
+  copying azure/storage/blob/_blob_client.py -> build/lib/azure/storage/blob
+  copying azure/storage/blob/_list_blobs_helper.py -> build/lib/azure/storage/blob
+  creating build/lib/azure/storage/blob/aio
+  copying azure/storage/blob/aio/_upload_helpers.py -> build/lib/azure/storage/blob/aio
+  copying azure/storage/blob/aio/_lease_async.py -> build/lib/azure/storage/blob/aio
+  copying azure/storage/blob/aio/__init__.py -> build/lib/azure/storage/blob/aio
+  copying azure/storage/blob/aio/_encryption_async.py -> build/lib/azure/storage/blob/aio
+  copying azure/storage/blob/aio/_container_client_async.py -> build/lib/azure/storage/blob/aio
+  copying azure/storage/blob/aio/_quick_query_helper_async.py -> build/lib/azure/storage/blob/aio
+  copying azure/storage/blob/aio/_blob_service_client_async.py -> build/lib/azure/storage/blob/aio
+  copying azure/storage/blob/aio/_blob_client_async.py -> build/lib/azure/storage/blob/aio
+  copying azure/storage/blob/aio/_models.py -> build/lib/azure/storage/blob/aio
+  copying azure/storage/blob/aio/_download_async.py -> build/lib/azure/storage/blob/aio
+  copying azure/storage/blob/aio/_list_blobs_helper.py -> build/lib/azure/storage/blob/aio
+  creating build/lib/azure/storage/blob/_shared
+  copying azure/storage/blob/_shared/models.py -> build/lib/azure/storage/blob/_shared
+  copying azure/storage/blob/_shared/response_handlers.py -> build/lib/azure/storage/blob/_shared
+  copying azure/storage/blob/_shared/base_client.py -> build/lib/azure/storage/blob/_shared
+  copying azure/storage/blob/_shared/request_handlers.py -> build/lib/azure/storage/blob/_shared
+  copying azure/storage/blob/_shared/constants.py -> build/lib/azure/storage/blob/_shared
+  copying azure/storage/blob/_shared/__init__.py -> build/lib/azure/storage/blob/_shared
+  copying azure/storage/blob/_shared/shared_access_signature.py -> build/lib/azure/storage/blob/_shared
+  copying azure/storage/blob/_shared/policies_async.py -> build/lib/azure/storage/blob/_shared
+  copying azure/storage/blob/_shared/parser.py -> build/lib/azure/storage/blob/_shared
+  copying azure/storage/blob/_shared/authentication.py -> build/lib/azure/storage/blob/_shared
+  copying azure/storage/blob/_shared/uploads.py -> build/lib/azure/storage/blob/_shared
+  copying azure/storage/blob/_shared/uploads_async.py -> build/lib/azure/storage/blob/_shared
+  copying azure/storage/blob/_shared/base_client_async.py -> build/lib/azure/storage/blob/_shared
+  copying azure/storage/blob/_shared/policies.py -> build/lib/azure/storage/blob/_shared
+  creating build/lib/azure/storage/blob/_generated
+  copying azure/storage/blob/_generated/__init__.py -> build/lib/azure/storage/blob/_generated
+  copying azure/storage/blob/_generated/_patch.py -> build/lib/azure/storage/blob/_generated
+  copying azure/storage/blob/_generated/_azure_blob_storage.py -> build/lib/azure/storage/blob/_generated
+  copying azure/storage/blob/_generated/_configuration.py -> build/lib/azure/storage/blob/_generated
+  creating build/lib/azure/storage/blob/_shared/avro
+  copying azure/storage/blob/_shared/avro/avro_io_async.py -> build/lib/azure/storage/blob/_shared/avro
+  copying azure/storage/blob/_shared/avro/datafile.py -> build/lib/azure/storage/blob/_shared/avro
+  copying azure/storage/blob/_shared/avro/__init__.py -> build/lib/azure/storage/blob/_shared/avro
+  copying azure/storage/blob/_shared/avro/avro_io.py -> build/lib/azure/storage/blob/_shared/avro
+  copying azure/storage/blob/_shared/avro/schema.py -> build/lib/azure/storage/blob/_shared/avro
+  copying azure/storage/blob/_shared/avro/datafile_async.py -> build/lib/azure/storage/blob/_shared/avro
+  creating build/lib/azure/storage/blob/_generated/_utils
+  copying azure/storage/blob/_generated/_utils/__init__.py -> build/lib/azure/storage/blob/_generated/_utils
+  copying azure/storage/blob/_generated/_utils/serialization.py -> build/lib/azure/storage/blob/_generated/_utils
+  creating build/lib/azure/storage/blob/_generated/aio
+  copying azure/storage/blob/_generated/aio/__init__.py -> build/lib/azure/storage/blob/_generated/aio
+  copying azure/storage/blob/_generated/aio/_patch.py -> build/lib/azure/storage/blob/_generated/aio
+  copying azure/storage/blob/_generated/aio/_azure_blob_storage.py -> build/lib/azure/storage/blob/_generated/aio
+  copying azure/storage/blob/_generated/aio/_configuration.py -> build/lib/azure/storage/blob/_generated/aio
+  creating build/lib/azure/storage/blob/_generated/models
+  copying azure/storage/blob/_generated/models/__init__.py -> build/lib/azure/storage/blob/_generated/models
+  copying azure/storage/blob/_generated/models/_patch.py -> build/lib/azure/storage/blob/_generated/models
+  copying azure/storage/blob/_generated/models/_azure_blob_storage_enums.py -> build/lib/azure/storage/blob/_generated/models
+  copying azure/storage/blob/_generated/models/_models_py3.py -> build/lib/azure/storage/blob/_generated/models
+  creating build/lib/azure/storage/blob/_generated/operations
+  copying azure/storage/blob/_generated/operations/_append_blob_operations.py -> build/lib/azure/storage/blob/_generated/operations
+  copying azure/storage/blob/_generated/operations/_service_operations.py -> build/lib/azure/storage/blob/_generated/operations
+  copying azure/storage/blob/_generated/operations/_container_operations.py -> build/lib/azure/storage/blob/_generated/operations
+  copying azure/storage/blob/_generated/operations/_blob_operations.py -> build/lib/azure/storage/blob/_generated/operations
+  copying azure/storage/blob/_generated/operations/_block_blob_operations.py -> build/lib/azure/storage/blob/_generated/operations
+  copying azure/storage/blob/_generated/operations/__init__.py -> build/lib/azure/storage/blob/_generated/operations
+  copying azure/storage/blob/_generated/operations/_patch.py -> build/lib/azure/storage/blob/_generated/operations
+  copying azure/storage/blob/_generated/operations/_page_blob_operations.py -> build/lib/azure/storage/blob/_generated/operations
+  creating build/lib/azure/storage/blob/_generated/aio/operations
+  copying azure/storage/blob/_generated/aio/operations/_append_blob_operations.py -> build/lib/azure/storage/blob/_generated/aio/operations
+  copying azure/storage/blob/_generated/aio/operations/_service_operations.py -> build/lib/azure/storage/blob/_generated/aio/operations
+  copying azure/storage/blob/_generated/aio/operations/_container_operations.py -> build/lib/azure/storage/blob/_generated/aio/operations
+  copying azure/storage/blob/_generated/aio/operations/_blob_operations.py -> build/lib/azure/storage/blob/_generated/aio/operations
+  copying azure/storage/blob/_generated/aio/operations/_block_blob_operations.py -> build/lib/azure/storage/blob/_generated/aio/operations
+  copying azure/storage/blob/_generated/aio/operations/__init__.py -> build/lib/azure/storage/blob/_generated/aio/operations
+  copying azure/storage/blob/_generated/aio/operations/_patch.py -> build/lib/azure/storage/blob/_generated/aio/operations
+  copying azure/storage/blob/_generated/aio/operations/_page_blob_operations.py -> build/lib/azure/storage/blob/_generated/aio/operations
+  running egg_info
+  writing azure_storage_blob.egg-info/PKG-INFO
+  writing dependency_links to azure_storage_blob.egg-info/dependency_links.txt
+  writing requirements to azure_storage_blob.egg-info/requires.txt
+  writing top-level names to azure_storage_blob.egg-info/top_level.txt
+  reading manifest file 'azure_storage_blob.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE'
+  writing manifest file 'azure_storage_blob.egg-info/SOURCES.txt'
+  copying azure/storage/blob/_blob_client.pyi -> build/lib/azure/storage/blob
+  copying azure/storage/blob/_blob_service_client.pyi -> build/lib/azure/storage/blob
+  copying azure/storage/blob/_container_client.pyi -> build/lib/azure/storage/blob
+  copying azure/storage/blob/_lease.pyi -> build/lib/azure/storage/blob
+  copying azure/storage/blob/py.typed -> build/lib/azure/storage/blob
+  copying azure/storage/blob/aio/_blob_client_async.pyi -> build/lib/azure/storage/blob/aio
+  copying azure/storage/blob/aio/_blob_service_client_async.pyi -> build/lib/azure/storage/blob/aio
+  copying azure/storage/blob/aio/_container_client_async.pyi -> build/lib/azure/storage/blob/aio
+  copying azure/storage/blob/aio/_lease_async.pyi -> build/lib/azure/storage/blob/aio
+  copying azure/storage/blob/_generated/py.typed -> build/lib/azure/storage/blob/_generated
+  warning: build_py: byte-compiling is disabled, skipping.
+
+  installing to build/bdist.macosx-26-arm64/wheel
+  running install
+  running install_lib
+  creating build/bdist.macosx-26-arm64/wheel
+  creating build/bdist.macosx-26-arm64/wheel/azure
+  creating build/bdist.macosx-26-arm64/wheel/azure/storage
+  creating build/bdist.macosx-26-arm64/wheel/azure/storage/blob
+  copying build/lib/azure/storage/blob/_container_client.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob
+  copying build/lib/azure/storage/blob/_lease.pyi -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob
+  copying build/lib/azure/storage/blob/_blob_client.pyi -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob
+  copying build/lib/azure/storage/blob/_upload_helpers.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob
+  copying build/lib/azure/storage/blob/_version.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob
+  copying build/lib/azure/storage/blob/_quick_query_helper.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob
+  copying build/lib/azure/storage/blob/_encryption.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob
+  copying build/lib/azure/storage/blob/_blob_service_client.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob
+  copying build/lib/azure/storage/blob/_serialize.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob
+  copying build/lib/azure/storage/blob/__init__.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob
+  creating build/bdist.macosx-26-arm64/wheel/azure/storage/blob/aio
+  copying build/lib/azure/storage/blob/aio/_blob_service_client_async.pyi -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/aio
+  copying build/lib/azure/storage/blob/aio/_upload_helpers.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/aio
+  copying build/lib/azure/storage/blob/aio/_lease_async.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/aio
+  copying build/lib/azure/storage/blob/aio/__init__.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/aio
+  copying build/lib/azure/storage/blob/aio/_lease_async.pyi -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/aio
+  copying build/lib/azure/storage/blob/aio/_encryption_async.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/aio
+  copying build/lib/azure/storage/blob/aio/_container_client_async.pyi -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/aio
+  copying build/lib/azure/storage/blob/aio/_container_client_async.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/aio
+  copying build/lib/azure/storage/blob/aio/_quick_query_helper_async.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/aio
+  copying build/lib/azure/storage/blob/aio/_blob_service_client_async.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/aio
+  copying build/lib/azure/storage/blob/aio/_blob_client_async.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/aio
+  copying build/lib/azure/storage/blob/aio/_models.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/aio
+  copying build/lib/azure/storage/blob/aio/_blob_client_async.pyi -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/aio
+  copying build/lib/azure/storage/blob/aio/_download_async.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/aio
+  copying build/lib/azure/storage/blob/aio/_list_blobs_helper.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/aio
+  copying build/lib/azure/storage/blob/_download.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob
+  copying build/lib/azure/storage/blob/_container_client.pyi -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob
+  copying build/lib/azure/storage/blob/_shared_access_signature.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob
+  copying build/lib/azure/storage/blob/_container_client_helpers.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob
+  copying build/lib/azure/storage/blob/_lease.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob
+  copying build/lib/azure/storage/blob/_blob_service_client.pyi -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob
+  copying build/lib/azure/storage/blob/py.typed -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob
+  creating build/bdist.macosx-26-arm64/wheel/azure/storage/blob/_shared
+  copying build/lib/azure/storage/blob/_shared/models.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_shared
+  copying build/lib/azure/storage/blob/_shared/response_handlers.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_shared
+  copying build/lib/azure/storage/blob/_shared/base_client.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_shared
+  copying build/lib/azure/storage/blob/_shared/request_handlers.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_shared
+  copying build/lib/azure/storage/blob/_shared/constants.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_shared
+  copying build/lib/azure/storage/blob/_shared/__init__.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_shared
+  copying build/lib/azure/storage/blob/_shared/shared_access_signature.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_shared
+  copying build/lib/azure/storage/blob/_shared/policies_async.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_shared
+  copying build/lib/azure/storage/blob/_shared/parser.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_shared
+  creating build/bdist.macosx-26-arm64/wheel/azure/storage/blob/_shared/avro
+  copying build/lib/azure/storage/blob/_shared/avro/avro_io_async.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_shared/avro
+  copying build/lib/azure/storage/blob/_shared/avro/datafile.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_shared/avro
+  copying build/lib/azure/storage/blob/_shared/avro/__init__.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_shared/avro
+  copying build/lib/azure/storage/blob/_shared/avro/avro_io.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_shared/avro
+  copying build/lib/azure/storage/blob/_shared/avro/schema.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_shared/avro
+  copying build/lib/azure/storage/blob/_shared/avro/datafile_async.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_shared/avro
+  copying build/lib/azure/storage/blob/_shared/authentication.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_shared
+  copying build/lib/azure/storage/blob/_shared/uploads.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_shared
+  copying build/lib/azure/storage/blob/_shared/uploads_async.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_shared
+  copying build/lib/azure/storage/blob/_shared/base_client_async.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_shared
+  copying build/lib/azure/storage/blob/_shared/policies.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_shared
+  copying build/lib/azure/storage/blob/_deserialize.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob
+  copying build/lib/azure/storage/blob/_models.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob
+  copying build/lib/azure/storage/blob/_blob_client_helpers.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob
+  copying build/lib/azure/storage/blob/_blob_service_client_helpers.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob
+  copying build/lib/azure/storage/blob/_blob_client.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob
+  creating build/bdist.macosx-26-arm64/wheel/azure/storage/blob/_generated
+  creating build/bdist.macosx-26-arm64/wheel/azure/storage/blob/_generated/_utils
+  copying build/lib/azure/storage/blob/_generated/_utils/__init__.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_generated/_utils
+  copying build/lib/azure/storage/blob/_generated/_utils/serialization.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_generated/_utils
+  copying build/lib/azure/storage/blob/_generated/__init__.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_generated
+  creating build/bdist.macosx-26-arm64/wheel/azure/storage/blob/_generated/aio
+  copying build/lib/azure/storage/blob/_generated/aio/__init__.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_generated/aio
+  copying build/lib/azure/storage/blob/_generated/aio/_patch.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_generated/aio
+  creating build/bdist.macosx-26-arm64/wheel/azure/storage/blob/_generated/aio/operations
+  copying build/lib/azure/storage/blob/_generated/aio/operations/_append_blob_operations.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_generated/aio/operations
+  copying build/lib/azure/storage/blob/_generated/aio/operations/_service_operations.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_generated/aio/operations
+  copying build/lib/azure/storage/blob/_generated/aio/operations/_container_operations.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_generated/aio/operations
+  copying build/lib/azure/storage/blob/_generated/aio/operations/_blob_operations.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_generated/aio/operations
+  copying build/lib/azure/storage/blob/_generated/aio/operations/_block_blob_operations.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_generated/aio/operations
+  copying build/lib/azure/storage/blob/_generated/aio/operations/__init__.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_generated/aio/operations
+  copying build/lib/azure/storage/blob/_generated/aio/operations/_patch.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_generated/aio/operations
+  copying build/lib/azure/storage/blob/_generated/aio/operations/_page_blob_operations.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_generated/aio/operations
+  copying build/lib/azure/storage/blob/_generated/aio/_azure_blob_storage.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_generated/aio
+  copying build/lib/azure/storage/blob/_generated/aio/_configuration.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_generated/aio
+  copying build/lib/azure/storage/blob/_generated/_patch.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_generated
+  creating build/bdist.macosx-26-arm64/wheel/azure/storage/blob/_generated/models
+  copying build/lib/azure/storage/blob/_generated/models/__init__.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_generated/models
+  copying build/lib/azure/storage/blob/_generated/models/_patch.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_generated/models
+  copying build/lib/azure/storage/blob/_generated/models/_azure_blob_storage_enums.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_generated/models
+  copying build/lib/azure/storage/blob/_generated/models/_models_py3.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_generated/models
+  creating build/bdist.macosx-26-arm64/wheel/azure/storage/blob/_generated/operations
+  copying build/lib/azure/storage/blob/_generated/operations/_append_blob_operations.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_generated/operations
+  copying build/lib/azure/storage/blob/_generated/operations/_service_operations.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_generated/operations
+  copying build/lib/azure/storage/blob/_generated/operations/_container_operations.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_generated/operations
+  copying build/lib/azure/storage/blob/_generated/operations/_blob_operations.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_generated/operations
+  copying build/lib/azure/storage/blob/_generated/operations/_block_blob_operations.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_generated/operations
+  copying build/lib/azure/storage/blob/_generated/operations/__init__.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_generated/operations
+  copying build/lib/azure/storage/blob/_generated/operations/_patch.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_generated/operations
+  copying build/lib/azure/storage/blob/_generated/operations/_page_blob_operations.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_generated/operations
+  copying build/lib/azure/storage/blob/_generated/py.typed -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_generated
+  copying build/lib/azure/storage/blob/_generated/_azure_blob_storage.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_generated
+  copying build/lib/azure/storage/blob/_generated/_configuration.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob/_generated
+  copying build/lib/azure/storage/blob/_list_blobs_helper.py -> build/bdist.macosx-26-arm64/wheel/./azure/storage/blob
+  warning: install_lib: byte-compiling is disabled, skipping.
+
+  running install_egg_info
+  Copying azure_storage_blob.egg-info to build/bdist.macosx-26-arm64/wheel/./azure_storage_blob-12.27.1-py3.10.egg-info
+  running install_scripts
+  creating build/bdist.macosx-26-arm64/wheel/azure_storage_blob-12.27.1.dist-info/WHEEL
+  creating '/Users/nikitabelonogov/Library/Caches/Homebrew/pip_cache/wheels/93/81/aa/a920d316c1e198838f568a600ab0a70681a2bbbb8dd0d574b4/tmpqvu2pu9p/.tmp-hsq2vh72/azure_storage_blob-12.27.1-py3-none-any.whl' and adding 'build/bdist.macosx-26-arm64/wheel' to it
+  adding 'azure/storage/blob/__init__.py'
+  adding 'azure/storage/blob/_blob_client.py'
+  adding 'azure/storage/blob/_blob_client.pyi'
+  adding 'azure/storage/blob/_blob_client_helpers.py'
+  adding 'azure/storage/blob/_blob_service_client.py'
+  adding 'azure/storage/blob/_blob_service_client.pyi'
+  adding 'azure/storage/blob/_blob_service_client_helpers.py'
+  adding 'azure/storage/blob/_container_client.py'
+  adding 'azure/storage/blob/_container_client.pyi'
+  adding 'azure/storage/blob/_container_client_helpers.py'
+  adding 'azure/storage/blob/_deserialize.py'
+  adding 'azure/storage/blob/_download.py'
+  adding 'azure/storage/blob/_encryption.py'
+  adding 'azure/storage/blob/_lease.py'
+  adding 'azure/storage/blob/_lease.pyi'
+  adding 'azure/storage/blob/_list_blobs_helper.py'
+  adding 'azure/storage/blob/_models.py'
+  adding 'azure/storage/blob/_quick_query_helper.py'
+  adding 'azure/storage/blob/_serialize.py'
+  adding 'azure/storage/blob/_shared_access_signature.py'
+  adding 'azure/storage/blob/_upload_helpers.py'
+  adding 'azure/storage/blob/_version.py'
+  adding 'azure/storage/blob/py.typed'
+  adding 'azure/storage/blob/_generated/__init__.py'
+  adding 'azure/storage/blob/_generated/_azure_blob_storage.py'
+  adding 'azure/storage/blob/_generated/_configuration.py'
+  adding 'azure/storage/blob/_generated/_patch.py'
+  adding 'azure/storage/blob/_generated/py.typed'
+  adding 'azure/storage/blob/_generated/_utils/__init__.py'
+  adding 'azure/storage/blob/_generated/_utils/serialization.py'
+  adding 'azure/storage/blob/_generated/aio/__init__.py'
+  adding 'azure/storage/blob/_generated/aio/_azure_blob_storage.py'
+  adding 'azure/storage/blob/_generated/aio/_configuration.py'
+  adding 'azure/storage/blob/_generated/aio/_patch.py'
+  adding 'azure/storage/blob/_generated/aio/operations/__init__.py'
+  adding 'azure/storage/blob/_generated/aio/operations/_append_blob_operations.py'
+  adding 'azure/storage/blob/_generated/aio/operations/_blob_operations.py'
+  adding 'azure/storage/blob/_generated/aio/operations/_block_blob_operations.py'
+  adding 'azure/storage/blob/_generated/aio/operations/_container_operations.py'
+  adding 'azure/storage/blob/_generated/aio/operations/_page_blob_operations.py'
+  adding 'azure/storage/blob/_generated/aio/operations/_patch.py'
+  adding 'azure/storage/blob/_generated/aio/operations/_service_operations.py'
+  adding 'azure/storage/blob/_generated/models/__init__.py'
+  adding 'azure/storage/blob/_generated/models/_azure_blob_storage_enums.py'
+  adding 'azure/storage/blob/_generated/models/_models_py3.py'
+  adding 'azure/storage/blob/_generated/models/_patch.py'
+  adding 'azure/storage/blob/_generated/operations/__init__.py'
+  adding 'azure/storage/blob/_generated/operations/_append_blob_operations.py'
+  adding 'azure/storage/blob/_generated/operations/_blob_operations.py'
+  adding 'azure/storage/blob/_generated/operations/_block_blob_operations.py'
+  adding 'azure/storage/blob/_generated/operations/_container_operations.py'
+  adding 'azure/storage/blob/_generated/operations/_page_blob_operations.py'
+  adding 'azure/storage/blob/_generated/operations/_patch.py'
+  adding 'azure/storage/blob/_generated/operations/_service_operations.py'
+  adding 'azure/storage/blob/_shared/__init__.py'
+  adding 'azure/storage/blob/_shared/authentication.py'
+  adding 'azure/storage/blob/_shared/base_client.py'
+  adding 'azure/storage/blob/_shared/base_client_async.py'
+  adding 'azure/storage/blob/_shared/constants.py'
+  adding 'azure/storage/blob/_shared/models.py'
+  adding 'azure/storage/blob/_shared/parser.py'
+  adding 'azure/storage/blob/_shared/policies.py'
+  adding 'azure/storage/blob/_shared/policies_async.py'
+  adding 'azure/storage/blob/_shared/request_handlers.py'
+  adding 'azure/storage/blob/_shared/response_handlers.py'
+  adding 'azure/storage/blob/_shared/shared_access_signature.py'
+  adding 'azure/storage/blob/_shared/uploads.py'
+  adding 'azure/storage/blob/_shared/uploads_async.py'
+  adding 'azure/storage/blob/_shared/avro/__init__.py'
+  adding 'azure/storage/blob/_shared/avro/avro_io.py'
+  adding 'azure/storage/blob/_shared/avro/avro_io_async.py'
+  adding 'azure/storage/blob/_shared/avro/datafile.py'
+  adding 'azure/storage/blob/_shared/avro/datafile_async.py'
+  adding 'azure/storage/blob/_shared/avro/schema.py'
+  adding 'azure/storage/blob/aio/__init__.py'
+  adding 'azure/storage/blob/aio/_blob_client_async.py'
+  adding 'azure/storage/blob/aio/_blob_client_async.pyi'
+  adding 'azure/storage/blob/aio/_blob_service_client_async.py'
+  adding 'azure/storage/blob/aio/_blob_service_client_async.pyi'
+  adding 'azure/storage/blob/aio/_container_client_async.py'
+  adding 'azure/storage/blob/aio/_container_client_async.pyi'
+  adding 'azure/storage/blob/aio/_download_async.py'
+  adding 'azure/storage/blob/aio/_encryption_async.py'
+  adding 'azure/storage/blob/aio/_lease_async.py'
+  adding 'azure/storage/blob/aio/_lease_async.pyi'
+  adding 'azure/storage/blob/aio/_list_blobs_helper.py'
+  adding 'azure/storage/blob/aio/_models.py'
+  adding 'azure/storage/blob/aio/_quick_query_helper_async.py'
+  adding 'azure/storage/blob/aio/_upload_helpers.py'
+  adding 'azure_storage_blob-12.27.1.dist-info/licenses/LICENSE'
+  adding 'azure_storage_blob-12.27.1.dist-info/METADATA'
+  adding 'azure_storage_blob-12.27.1.dist-info/WHEEL'
+  adding 'azure_storage_blob-12.27.1.dist-info/top_level.txt'
+  adding 'azure_storage_blob-12.27.1.dist-info/RECORD'
+  removing build/bdist.macosx-26-arm64/wheel
+  Building wheel for azure-storage-blob (pyproject.toml): finished with status 'done'
+  Created wheel for azure-storage-blob: filename=azure_storage_blob-12.27.1-py3-none-any.whl size=428955 sha256=a30f83ced283d7214a95abc61424e6e04cdc6d1921a24e786d55a832e730dc7b
+  Stored in directory: /Users/nikitabelonogov/Library/Caches/Homebrew/pip_cache/wheels/93/81/aa/a920d316c1e198838f568a600ab0a70681a2bbbb8dd0d574b4
+Successfully built azure-storage-blob
+Installing collected packages: azure-storage-blob
+Successfully installed azure-storage-blob-12.27.1
+
+[notice] A new release of pip is available: 26.0 -> 26.0.1
+[notice] To update, run: /opt/homebrew/Cellar/label-studio/1.22.0/libexec/bin/python -m pip install --upgrade pip

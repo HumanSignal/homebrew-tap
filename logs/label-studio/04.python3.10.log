@@ -1,0 +1,182 @@
+2026-02-05 07:11:02 +0000
+
+python3.10
+-m
+pip
+--python=/opt/homebrew/Cellar/label-studio/1.22.0/libexec/bin/python
+install
+--verbose
+--no-deps
+--no-binary=:all:
+--ignore-installed
+--no-compile
+/private/tmp/label-studio--appdirs-20260205-63897-ef9uy9/appdirs-1.4.4
+
+Using pip 26.0 from /opt/homebrew/lib/python3.10/site-packages/pip (python 3.10)
+Processing ./.
+  Installing build dependencies: started
+  Running command installing build dependencies
+  Using pip 26.0 from /opt/homebrew/lib/python3.10/site-packages/pip (python 3.10)
+  Collecting setuptools>=40.8.0
+    Using cached setuptools-80.10.2-py3-none-any.whl
+  Installing collected packages: setuptools
+  ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+  twisted 25.5.0 requires attrs>=22.2.0, which is not installed.
+  Successfully installed setuptools-80.10.2
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Running command Getting requirements to build wheel
+  /private/tmp/pip-build-env-zc1sh6is/overlay/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'test_suite'
+    warnings.warn(msg)
+  /private/tmp/pip-build-env-zc1sh6is/overlay/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+    warnings.warn(msg)
+  /private/tmp/pip-build-env-zc1sh6is/overlay/lib/python3.10/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+  !!
+
+          ********************************************************************************
+          Please consider removing the following classifiers in favor of a SPDX license expression:
+
+          License :: OSI Approved :: MIT License
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    self._finalize_license_expression()
+  running egg_info
+  writing appdirs.egg-info/PKG-INFO
+  writing dependency_links to appdirs.egg-info/dependency_links.txt
+  writing top-level names to appdirs.egg-info/top_level.txt
+  reading manifest file 'appdirs.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE.txt'
+  writing manifest file 'appdirs.egg-info/SOURCES.txt'
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  /private/tmp/pip-build-env-zc1sh6is/overlay/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'test_suite'
+    warnings.warn(msg)
+  /private/tmp/pip-build-env-zc1sh6is/overlay/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+    warnings.warn(msg)
+  /private/tmp/pip-build-env-zc1sh6is/overlay/lib/python3.10/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+  !!
+
+          ********************************************************************************
+          Please consider removing the following classifiers in favor of a SPDX license expression:
+
+          License :: OSI Approved :: MIT License
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    self._finalize_license_expression()
+  running dist_info
+  creating /private/tmp/pip-modern-metadata-jim98hu2/appdirs.egg-info
+  writing /private/tmp/pip-modern-metadata-jim98hu2/appdirs.egg-info/PKG-INFO
+  writing dependency_links to /private/tmp/pip-modern-metadata-jim98hu2/appdirs.egg-info/dependency_links.txt
+  writing top-level names to /private/tmp/pip-modern-metadata-jim98hu2/appdirs.egg-info/top_level.txt
+  writing manifest file '/private/tmp/pip-modern-metadata-jim98hu2/appdirs.egg-info/SOURCES.txt'
+  reading manifest file '/private/tmp/pip-modern-metadata-jim98hu2/appdirs.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE.txt'
+  writing manifest file '/private/tmp/pip-modern-metadata-jim98hu2/appdirs.egg-info/SOURCES.txt'
+  creating '/private/tmp/pip-modern-metadata-jim98hu2/appdirs-1.4.4.dist-info'
+  The [wheel] section is deprecated. Use [bdist_wheel] instead.
+  /private/tmp/pip-build-env-zc1sh6is/overlay/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:135: SetuptoolsDeprecationWarning: bdist_wheel.universal is deprecated
+  !!
+
+          ********************************************************************************
+          With Python 2.7 end-of-life, support for building universal wheels
+          (i.e., wheels that support both Python 2 and Python 3)
+          is being obviated.
+          Please discontinue using this option, or if you still need it,
+          file an issue with pypa/setuptools describing your use case.
+
+          This deprecation is overdue, please update your project and remove deprecated
+          calls to avoid build errors in the future.
+          ********************************************************************************
+
+  !!
+    self.finalize_options()
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: appdirs
+  Building wheel for appdirs (pyproject.toml): started
+  Running command Building wheel for appdirs (pyproject.toml)
+  /private/tmp/pip-build-env-zc1sh6is/overlay/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'test_suite'
+    warnings.warn(msg)
+  /private/tmp/pip-build-env-zc1sh6is/overlay/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+    warnings.warn(msg)
+  /private/tmp/pip-build-env-zc1sh6is/overlay/lib/python3.10/site-packages/setuptools/dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+  !!
+
+          ********************************************************************************
+          Please consider removing the following classifiers in favor of a SPDX license expression:
+
+          License :: OSI Approved :: MIT License
+
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+
+  !!
+    self._finalize_license_expression()
+  running bdist_wheel
+  The [wheel] section is deprecated. Use [bdist_wheel] instead.
+  /private/tmp/pip-build-env-zc1sh6is/overlay/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:135: SetuptoolsDeprecationWarning: bdist_wheel.universal is deprecated
+  !!
+
+          ********************************************************************************
+          With Python 2.7 end-of-life, support for building universal wheels
+          (i.e., wheels that support both Python 2 and Python 3)
+          is being obviated.
+          Please discontinue using this option, or if you still need it,
+          file an issue with pypa/setuptools describing your use case.
+
+          This deprecation is overdue, please update your project and remove deprecated
+          calls to avoid build errors in the future.
+          ********************************************************************************
+
+  !!
+    self.finalize_options()
+  running build
+  running build_py
+  creating build/lib
+  copying appdirs.py -> build/lib
+  warning: build_py: byte-compiling is disabled, skipping.
+
+  installing to build/bdist.macosx-26-arm64/wheel
+  running install
+  running install_lib
+  creating build/bdist.macosx-26-arm64/wheel
+  copying build/lib/appdirs.py -> build/bdist.macosx-26-arm64/wheel/.
+  warning: install_lib: byte-compiling is disabled, skipping.
+
+  running install_egg_info
+  running egg_info
+  writing appdirs.egg-info/PKG-INFO
+  writing dependency_links to appdirs.egg-info/dependency_links.txt
+  writing top-level names to appdirs.egg-info/top_level.txt
+  reading manifest file 'appdirs.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  adding license file 'LICENSE.txt'
+  writing manifest file 'appdirs.egg-info/SOURCES.txt'
+  Copying appdirs.egg-info to build/bdist.macosx-26-arm64/wheel/./appdirs-1.4.4-py3.10.egg-info
+  running install_scripts
+  creating build/bdist.macosx-26-arm64/wheel/appdirs-1.4.4.dist-info/WHEEL
+  creating '/Users/nikitabelonogov/Library/Caches/Homebrew/pip_cache/wheels/59/49/4b/855fa8896f1fe92d25e97c3cc4060ca3de560df4300a04e29d/tmptimrmary/.tmp-w4_hh9i7/appdirs-1.4.4-py2.py3-none-any.whl' and adding 'build/bdist.macosx-26-arm64/wheel' to it
+  adding 'appdirs.py'
+  adding 'appdirs-1.4.4.dist-info/licenses/LICENSE.txt'
+  adding 'appdirs-1.4.4.dist-info/METADATA'
+  adding 'appdirs-1.4.4.dist-info/WHEEL'
+  adding 'appdirs-1.4.4.dist-info/top_level.txt'
+  adding 'appdirs-1.4.4.dist-info/RECORD'
+  removing build/bdist.macosx-26-arm64/wheel
+  Building wheel for appdirs (pyproject.toml): finished with status 'done'
+  Created wheel for appdirs: filename=appdirs-1.4.4-py2.py3-none-any.whl size=9652 sha256=8b4d7fec9ab5cdf9744aaab24a7a71ec2b16ee99bd707fc9bfc66d3e8273bf58
+  Stored in directory: /Users/nikitabelonogov/Library/Caches/Homebrew/pip_cache/wheels/59/49/4b/855fa8896f1fe92d25e97c3cc4060ca3de560df4300a04e29d
+Successfully built appdirs
+Installing collected packages: appdirs
+Successfully installed appdirs-1.4.4
+
+[notice] A new release of pip is available: 26.0 -> 26.0.1
+[notice] To update, run: /opt/homebrew/Cellar/label-studio/1.22.0/libexec/bin/python -m pip install --upgrade pip

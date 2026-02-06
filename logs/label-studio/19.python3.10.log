@@ -1,0 +1,42 @@
+2026-02-05 07:11:49 +0000
+
+python3.10
+-m
+pip
+--python=/opt/homebrew/Cellar/label-studio/1.22.0/libexec/bin/python
+install
+--verbose
+--no-deps
+--no-binary=:all:
+--ignore-installed
+--no-compile
+/private/tmp/label-studio--click-20260205-63897-lmmlp2/click-8.3.1
+
+Using pip 26.0 from /opt/homebrew/lib/python3.10/site-packages/pip (python 3.10)
+Processing ./.
+  Installing build dependencies: started
+  Running command installing build dependencies
+  Using pip 26.0 from /opt/homebrew/lib/python3.10/site-packages/pip (python 3.10)
+  Collecting flit_core<4,>=3.11
+    Using cached flit_core-3.12.0-py3-none-any.whl
+  Installing collected packages: flit_core
+  Successfully installed flit_core-3.12.0
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Running command Getting requirements to build wheel
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Running command Preparing metadata (pyproject.toml)
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Building wheels for collected packages: click
+  Building wheel for click (pyproject.toml): started
+  Running command Building wheel for click (pyproject.toml)
+  Building wheel for click (pyproject.toml): finished with status 'done'
+  Created wheel for click: filename=click-8.3.1-py3-none-any.whl size=108274 sha256=d19e0ce0a2a31fb622ce737dc93c3b66353b2200a4ef18f9d234161ddd17f2f4
+  Stored in directory: /Users/nikitabelonogov/Library/Caches/Homebrew/pip_cache/wheels/f1/ec/4d/63fd4b2e7a73462789a3c5dc3af0577aa9a305674d85b3d179
+Successfully built click
+Installing collected packages: click
+Successfully installed click-8.3.1
+
+[notice] A new release of pip is available: 26.0 -> 26.0.1
+[notice] To update, run: /opt/homebrew/Cellar/label-studio/1.22.0/libexec/bin/python -m pip install --upgrade pip
