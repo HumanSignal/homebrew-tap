@@ -14,10 +14,10 @@ class LabelStudio < Formula
     sha256 ventura:       "deb442029400c58c00b8d83ba182571433fb74478ece0ab407bffddf7b51151b"
   end
 
-  depends_on "postgresql@14"
-  depends_on "python@3.10" # Apple's Python distribution does not include pip
   depends_on "pkg-config" => :build
   depends_on "rust" => :build
+  depends_on "postgresql@14"
+  depends_on "python@3.10" # Apple's Python distribution does not include pip
 
   uses_from_macos "libxml2"
   uses_from_macos "libxslt"
