@@ -22,9 +22,9 @@ class LabelStudio < Formula
 
     # Remove problematic dylibs with flat namespace from opencv-python-headless
     # These specific libs (libb2, libtheoradec, libtheoraenc) are not critical for label-studio
-    rm_f Dir[libexec/"lib/python3.10/site-packages/cv2/.dylibs/libb2*.dylib"]
-    rm_f Dir[libexec/"lib/python3.10/site-packages/cv2/.dylibs/libtheoradec*.dylib"]
-    rm_f Dir[libexec/"lib/python3.10/site-packages/cv2/.dylibs/libtheoraenc*.dylib"]
+    Dir[libexec/"lib/python3.10/site-packages/cv2/.dylibs/libb2*.dylib"].each { |f| rm f }
+    Dir[libexec/"lib/python3.10/site-packages/cv2/.dylibs/libtheoradec*.dylib"].each { |f| rm f }
+    Dir[libexec/"lib/python3.10/site-packages/cv2/.dylibs/libtheoraenc*.dylib"].each { |f| rm f }
   end
 
   test do
