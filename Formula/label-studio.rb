@@ -16,6 +16,8 @@ class LabelStudio < Formula
 
   depends_on "postgresql@14"
   depends_on "python@3.10" # Apple's Python distribution does not include pip
+  depends_on "pkg-config" => :build
+  depends_on "rust" => :build
 
   uses_from_macos "libxml2"
   uses_from_macos "libxslt"
