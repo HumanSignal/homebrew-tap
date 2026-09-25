@@ -19,8 +19,7 @@ class LabelStudio < Formula
   DELETABLE_LOAD_COMMANDS = [:LC_SOURCE_VERSION, :LC_FUNCTION_STARTS, :LC_DATA_IN_CODE].freeze
 
   def install
-    python3 = "python3.10"
-    venv = virtualenv_create(libexec, python3, system_site_packages: true, without_pip: false)
+    venv = virtualenv_create(libexec, "python3.10", system_site_packages: true, without_pip: false)
     system libexec/"bin/pip", "install", "--verbose", "--upgrade", "pip==22.3.1"
     system libexec/"bin/pip", "install", "--verbose", "--ignore-installed", buildpath
     system libexec/"bin/pip", "uninstall", "-y", "label-studio"
